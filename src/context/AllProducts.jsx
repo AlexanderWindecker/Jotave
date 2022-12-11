@@ -1,15 +1,20 @@
 import { createContext, useState, useEffect } from 'react';
-import { getAllItem } from '../Api/getAllItem';
+import getItems from '../services/MockAPI';
 
 export const AllProducts = createContext({});
 
 const AllProductsProvider = ({ children }) => {
   const [item, setItem] = useState([]);
   const [dataFiltered, setDataFiltered] = useState([]);
-
+  console.log({ dataFiltered });
+  //   console.log({ item });
   useEffect(() => {
-    const products = getAllItem();
-    products.then(setItem).catch(console.log);
+    getItems()
+      .then(response => {
+        setItem(response);
+        setDataFiltered(response);
+      })
+      .catch(console.log);
   }, []);
 
   return (

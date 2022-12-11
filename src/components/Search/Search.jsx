@@ -3,39 +3,21 @@ import { AllProducts } from '../../context/AllProducts';
 
 export default function Search() {
   const inputRef = useRef();
-
-  const { item, dataFiltered, setDataFiltered } = useContext(AllProducts);
-  console.log(dataFiltered);
+  const { item, setDataFiltered } = useContext(AllProducts);
 
   //funcion busqueda
-  const searcher = e => {
-    // console.log(inputRef?.current?.value);
+  const searcher = () => {
+    const inputValue = inputRef?.current?.value;
+    const valoresFiltrado = item.filter(data =>
+      data.title
+        .toLowerCase()
+        .includes(inputRef?.current?.value.toLocaleLowerCase())
+    );
 
-    if (inputRef?.current?.value !== '') {
-      const valoresFiltrado = item.filter(data =>
-        data.title
-          .toLowerCase()
-          .includes(inputRef?.current?.value.toLocaleLowerCase())
-      );
-      setDataFiltered(valoresFiltrado);
-    } else {
-      setDataFiltered(item);
-    }
-
-    // console.log(e.target.value);
+    inputValue.length > 0
+      ? setDataFiltered(valoresFiltrado)
+      : setDataFiltered(item);
   };
-
-  //funcion busqueda
-
-  //metodo filtrado
-
-  // const results = !search
-  //   ? data
-  //   : data.filter(data =>
-  //       data.title.toLowerCase().includes(search.toLocaleLowerCase())
-  //     );
-
-  //metodo filtrado
 
   return (
     <form>
