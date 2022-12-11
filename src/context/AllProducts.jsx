@@ -6,8 +6,6 @@ export const AllProducts = createContext({});
 const AllProductsProvider = ({ children }) => {
   const [item, setItem] = useState([]);
   const [dataFiltered, setDataFiltered] = useState([]);
-  console.log({ dataFiltered });
-  //   console.log({ item });
   useEffect(() => {
     getItems()
       .then(response => {
