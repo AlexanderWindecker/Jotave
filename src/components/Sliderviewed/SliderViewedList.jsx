@@ -14,7 +14,11 @@ export default function SliderViewedList({ data }) {
     <>
       <div className='text-center mt-4 mb-4'>
         <div className='div-linea'></div>{' '}
-        <h3 className=''>Productos Mas Vistos</h3>
+        <h3 className=''>
+          {data.length <= 0
+            ? 'Ningun producto con ese nombre 😭'
+            : 'Productos Mas Vistos'}
+        </h3>
         <div className='div-linea'></div>
       </div>
 
@@ -45,23 +49,27 @@ export default function SliderViewedList({ data }) {
         modules={[Pagination, Navigation]}
         className='mySwiper'
       >
-        {data.map((item, index) => {
-          return (
-            <SwiperSlide key={index}>
-              <div className='container'>
-                <SliderViewed
-                  key={item.id}
-                  id={item.id}
-                  price={item.price}
-                  title={item.title}
-                  img={item.img}
-                  category={item.category}
-                  stock={item.stock}
-                />
-              </div>
-            </SwiperSlide>
-          );
-        })}
+        {data.length <= 0 ? (
+          <h2 style={{ textAlign: 'center' }}>Cargando...</h2>
+        ) : (
+          data.map(item => {
+            return (
+              <SwiperSlide key={item.id}>
+                <div className='container'>
+                  <SliderViewed
+                    key={item.id}
+                    id={item.id}
+                    price={item.price}
+                    title={item.title}
+                    img={item.img}
+                    category={item.category}
+                    stock={item.stock}
+                  />
+                </div>
+              </SwiperSlide>
+            );
+          })
+        )}
       </Swiper>
     </>
   );
