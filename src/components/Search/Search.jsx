@@ -1,55 +1,51 @@
-import React, { useState } from "react";
+import React, { useContext, useRef } from 'react';
+import { AllProducts } from '../../context/AllProducts';
+
 export default function Search() {
+  const inputRef = useRef();
 
-
-  let [data, setData] = useState([]);
-  
-
-
-  const [search, setSearch] = useState("");
+  const { item, dataFiltered, setDataFiltered } = useContext(AllProducts);
+  console.log(dataFiltered);
 
   //funcion busqueda
-  const searcher = (e) => {
-    setSearch(e.target.value);
-    console.log(e.target.value);
-  };
-  //funcion busqueda
+  const searcher = e => {
+    // console.log(inputRef?.current?.value);
 
-  //metodo filtrado
-
-  const results = !search
-    ? data
-    : data.filter((data) =>
-        data.title.toLowerCase().includes(search.toLocaleLowerCase())
+    if (inputRef?.current?.value !== '') {
+      const valoresFiltrado = item.filter(data =>
+        data.title
+          .toLowerCase()
+          .includes(inputRef?.current?.value.toLocaleLowerCase())
       );
+      setDataFiltered(valoresFiltrado);
+    } else {
+      setDataFiltered(item);
+    }
+
+    // console.log(e.target.value);
+  };
+
+  //funcion busqueda
 
   //metodo filtrado
 
+  // const results = !search
+  //   ? data
+  //   : data.filter(data =>
+  //       data.title.toLowerCase().includes(search.toLocaleLowerCase())
+  //     );
 
-
+  //metodo filtrado
 
   return (
     <form>
       <input
-        type="text"
-        value={search}
+        ref={inputRef}
+        type='text'
         onChange={searcher}
-        placeholder="Search"
-        className="form-control"
+        placeholder='Search'
+        className='form-control'
       />
-      {results.map((item) => {
-        return (
-          <>
-            key={item.id}
-            id={item.id}
-            price={item.price}
-            title={item.title}
-            img={item.img}
-            category={item.category}
-            stock={item.stock}
-          </>
-        );
-      })}{" "}
     </form>
   );
 }

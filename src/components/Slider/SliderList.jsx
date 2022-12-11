@@ -1,21 +1,21 @@
-import React from "react";
-import Slider from "./Slider";
-import "./SliderList.css";
+import React from 'react';
+import Slider from './Slider';
+import './SliderList.css';
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper';
 
 export default function SliderList({ data }) {
   return (
     <>
-      <div className="text-center mt-4">
-        <div className="div-linea"></div>{" "}
-        <h3 className="">Productos Destacados</h3>
-        <div className="div-linea"></div>
+      <div className='text-center mt-4'>
+        <div className='div-linea'></div>{' '}
+        <h3 className=''>Productos Destacados</h3>
+        <div className='div-linea'></div>
       </div>
       <Swiper
         slidesPerView={1}
@@ -42,12 +42,12 @@ export default function SliderList({ data }) {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className='mySwiper'
       >
-        {data.map((item) => {
+        {data?.map(item => {
           return (
-            <SwiperSlide>
-              <div className="container">
+            <SwiperSlide key={item?.id}>
+              <div className='container'>
                 <Slider
                   key={item.id}
                   id={item.id}
@@ -62,7 +62,7 @@ export default function SliderList({ data }) {
           );
         })}
       </Swiper>
-      <span className="mb-5 bg-primary"></span>
+      <span className='mb-5 bg-primary'></span>
     </>
   );
 }

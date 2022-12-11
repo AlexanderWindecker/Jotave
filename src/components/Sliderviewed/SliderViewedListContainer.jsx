@@ -1,20 +1,21 @@
-import React, { useEffect, useState } from "react";
-import getItemsSliderDos from "../../services/MockViewed";
-import SliderViewedList from "./SliderViewedList";
+import React, { useContext, useEffect, useState } from 'react';
+import { AllProducts } from '../../context/AllProducts';
+import getItemsSliderDos from '../../services/MockViewed';
+import SliderViewedList from './SliderViewedList';
 
 function SliderViewedListContainer() {
   let [data, setData] = useState([]);
+  const { dataFiltered } = useContext(AllProducts);
 
   useEffect(() => {
-    getItemsSliderDos().then((respuestaDatos) => setData(respuestaDatos));
+    getItemsSliderDos().then(respuestaDatos => setData(respuestaDatos));
   }, []);
 
   return (
     <div>
-      <div className="">
-        
+      <div className=''>
         <div>
-          <SliderViewedList data={data} />
+          <SliderViewedList data={dataFiltered} />
         </div>
       </div>
     </div>

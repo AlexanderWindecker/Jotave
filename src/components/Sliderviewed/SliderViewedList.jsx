@@ -1,28 +1,29 @@
-import React from "react";
-import SliderViewed from "./SliderViewed";
-import "./SliderViewed.css"
+import React from 'react';
+import SliderViewed from './SliderViewed';
+import './SliderViewed.css';
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import {Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper';
 
 export default function SliderViewedList({ data }) {
   return (
     <>
-      <div className="text-center mt-4 mb-4">
-       <div className="div-linea"></div> <h3 className="">Productos Mas Vistos</h3><div className="div-linea"></div>
-        
+      <div className='text-center mt-4 mb-4'>
+        <div className='div-linea'></div>{' '}
+        <h3 className=''>Productos Mas Vistos</h3>
+        <div className='div-linea'></div>
       </div>
-      
-      <Swiper 
+
+      <Swiper
         slidesPerView={1}
         spaceBetween={4}
         slidesPerGroup={1}
         loop={true}
-        loopFillGroupWithBlank={true}        
+        loopFillGroupWithBlank={true}
         pagination={{
           clickable: true,
         }}
@@ -41,23 +42,22 @@ export default function SliderViewedList({ data }) {
           },
         }}
         navigation={true}
-        modules={[ Pagination, Navigation]}
-        className="mySwiper"
+        modules={[Pagination, Navigation]}
+        className='mySwiper'
       >
-        {data.map((item) => {
+        {data.map((item, index) => {
           return (
-            <SwiperSlide>
-              <div className="container">                
-                  <SliderViewed
-                    key={item.id}
-                    id={item.id}
-                    price={item.price}
-                    title={item.title}
-                    img={item.img}
-                    category={item.category}
-                    stock={item.stock}
-                  />
-                
+            <SwiperSlide key={index}>
+              <div className='container'>
+                <SliderViewed
+                  key={item.id}
+                  id={item.id}
+                  price={item.price}
+                  title={item.title}
+                  img={item.img}
+                  category={item.category}
+                  stock={item.stock}
+                />
               </div>
             </SwiperSlide>
           );
@@ -66,4 +66,3 @@ export default function SliderViewedList({ data }) {
     </>
   );
 }
-
