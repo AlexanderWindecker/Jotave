@@ -1,56 +1,51 @@
-
-
 .logonavbar {
     width: 100px;
     height: 80px;
-    left:-20px
-    
- 
+    left: -20px
 }
 
-a.navbar-brand{
+a.navbar-brand {
     margin-left: 2rem;
 }
- nav {
-    background: rgb(113,194,31);
-    background: linear-gradient(90deg, rgba(113,194,31,1) 0%, rgba(249,177,18,1) 35%, rgba(249,246,18,1) 100%);
-    font-family: 'Roboto Serif', serif;
-    
+
+nav {
+    background: rgb(113, 194, 31);
+    background: linear-gradient(90deg, rgba(113, 194, 31, 1) 0%, rgba(249, 177, 18, 1) 35%, rgba(249, 246, 18, 1) 100%);
+    /* font-family: 'Roboto Serif', serif; */
+
 }
+
 span {
     font-size: 18px;
     color: rgb(10, 10, 10);
-    font-family: 'Roboto Serif', serif;
+    /* font-family: 'Roboto Serif', serif; */
     text-align: center;
 
 }
+
 .dropdown-item {
     text-align: center;
- 
+
 }
+
 .dropdown-menu li {
-   position: relative;
+    position: relative;
 }
+
 .dropdown-menu .submenu {
     display: none;
     position: absolute;
     left: 50%;
     top: 20px;
 }
+
 .dropdown-menu>li:hover>.submenu {
     display: block;
 }
- @media only screen and  (max-width:575px )   {
+
+@media only screen and (max-width:575px) {
     .navbar navbar-expand-lg navbar-light bg-light {
-        display:none
-    
+        display: none
     }
 
 }
-  
-
-    
- 
-
-
-        

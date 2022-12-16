@@ -127,33 +127,29 @@ function NavBar() {
                       <span> Climatización &raquo;</span>
                     </Link>
 
-                    <ul className="dropdown-menu submenu">
-                      <li>
-                        <Link className="dropdown-item" to="/categoria/aire">
-                          <i className="bi bi-caret-right-fill"></i>
-                          <span>Aire Acondicionado</span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="dropdown-item"
-                          to="/categoria/ventilacion"
-                        >
-                          <i className="bi bi-caret-right-fill"></i>
-                          <span> Ventiladores</span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="dropdown-item"
-                          to="/categoria/calefaccion"
-                        >
-                          <i className="bi bi-caret-right-fill"></i>
-                          <span>Calefactores</span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
+          <ul className="dropdown-menu submenu">
+          <li><Link className="dropdown-item" to="/categoria/aire"><span>Aire Acondicionado</span><i className="bi bi-caret-down-fill"></i></Link></li>
+          <li><Link className="dropdown-item" to="/categoria/ventilacion"><span> Ventiladores</span><i className="bi bi-caret-down-fill"></i></Link></li>
+          <li><Link className="dropdown-item" to="/categoria/calefaccion"><span>Calefactores</span><i className="bi bi-caret-down-fill"></i></Link></li>
+          </ul>
+             </li>
+           <li><Link className="dropdown-item" to="/categoria/heladeras y freezer"><span>Heladeras & Freezer</span><i className="bi bi-caret-down-fill"></i></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/termotanques"><span>Termotanques & Calefones</span></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/lavarropas"><span>Lavarropas & Secarropas</span></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/cocinas y hornos"><span>Cocinas & Hornos</span><i className="bi bi-caret-down-fill"></i></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/pequeños hogar"><span>Pequeños Hogar</span><i className="bi bi-caret-down-fill"></i></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/pequeños cocina"><span>Pequeños Cocina</span><i className="bi bi-caret-down-fill"></i></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/cuidado personal"><span>Cuidado personal</span></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/informatica"><span>Informática</span><i className="bi bi-caret-down-fill"></i></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/jardin"><span>Jardín</span><i className="bi bi-caret-down-fill"></i></Link></li>
+   
+        </ul>
+     </li>
+   </ul>
+   <form className=" mx-auto mt-10">
+ 
+         <input className="form-row mt-sm-2 p-1"  type="search" placeholder="Buscar"></input>
+         <button className="btn btn-outline-success my-sm-o p-1 mb-1" type="submit"><i className="bi bi-search"></i></button>
 
                   <li className="nav-item dropdown">
                     <Link
