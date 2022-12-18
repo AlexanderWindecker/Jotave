@@ -8,10 +8,10 @@ function InfoWsp() {
   return (
     <div className="container div-info ">
       <div className="d-flex justify-content-center">
-        <a href="https://wa.me/5491168020921?text=Hola,%20quer%C3%ADa%20saber%20el%20precio%20de%20este%20articulo.">
+        <a href="https://wa.me/5491168557663?text=Hola,%20%C2%BFPuedes%20informarme%20sobre%20un%20producto?" target="_blank" rel="noreferrer">
         <img
           className="img-fluid"
-          src="https://i.ibb.co/XpMYTxP/Fondo-Whatsapp.gif"
+          src="https://i.ibb.co/S5Y6vSP/Fondo-Whatsapp.gif"
           alt="banner-whatsapp"
         /> 
         </a>
