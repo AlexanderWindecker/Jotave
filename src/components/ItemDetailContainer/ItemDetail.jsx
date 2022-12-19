@@ -1,11 +1,10 @@
 import React from "react";
 import "./ItemDetail.css";
-import { Link } from "react-router-dom";
 
 function ItemDetail({ data }) {
   return (
     <>
-      <div className="container">
+      {/* <div className="container">
         <ul className="navbar d-flex flex-row bd-highlight mb-3">
           <li className="nav-item active p-2 bd-highlight">
             <Link className="nav-item" aria-current="page" to="/">
@@ -23,7 +22,7 @@ function ItemDetail({ data }) {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="container card mt-5 d-flex p-1">
         <div className="row g-0">
           {/* imagen */}
@@ -37,8 +36,10 @@ function ItemDetail({ data }) {
           {/* info */}
           <div className="card-body col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <h2 className="card-title fs-1 text-uppercase">{data.title} </h2>
-            <p className="card-text">Descripcion</p>
-            <p className="card-text">{data.detail} </p>
+            <p className="card-text text-uppercase">{data.detail} </p>
+            <div className="">
+              <p>Codigo: {data.codigo} </p>
+            </div>
           </div>
           <span className="stock p-2">
             <i className="fa fa-pen"> </i>En Stock
@@ -55,7 +56,7 @@ function ItemDetail({ data }) {
         </div>
       </div>
 
-      <table class="table container mt-5">
+      {/* <table class="table container mt-5">
         <thead>
           <tr>
             <th scope="col">Caracteristicas</th>
@@ -84,7 +85,7 @@ function ItemDetail({ data }) {
             <td>{data.Codigo} </td>
           </tr>
         </tbody>
-      </table>
+      </table> */}
     </>
   );
 }
