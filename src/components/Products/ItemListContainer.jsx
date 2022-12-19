@@ -40,7 +40,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/Audio">
+                  <Link className="dropdown-item" to="/categoria/audio">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Audio</span>
                   </Link>

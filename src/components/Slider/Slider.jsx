@@ -10,10 +10,10 @@ export default function Slider(props) {
   return (
     <div className="card-count ">
       <div className="card-img">
-        <img src={img} alt={title} />
+        <img className="img" src={img} alt={title} />
       </div>
-      <div className="card-detail ">
-        <h4 className="card-title mt-5 text-uppercase">{title} </h4>
+      <div className="card-detail mt-2">
+        <h4 className="titulo text-uppercase">{title} </h4>
         <p>{detail} </p>
         <Link to={urlDetalle}>
           <button className="button_info mt-5">+ Info</button>

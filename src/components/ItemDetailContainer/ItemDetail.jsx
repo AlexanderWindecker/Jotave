@@ -37,6 +37,10 @@ function ItemDetail({ data }) {
           <div className="card-body col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <h2 className="card-title fs-1 text-uppercase">{data.title} </h2>
             <p className="card-text text-uppercase">{data.detail} </p>
+            <span></span>
+            <p>{data.detail2} </p>
+            <span></span>
+            <p>{data.detail3} </p>
             <div className="">
               <p>Codigo: {data.codigo} </p>
             </div>
