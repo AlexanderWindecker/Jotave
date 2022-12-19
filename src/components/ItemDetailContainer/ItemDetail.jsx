@@ -52,10 +52,13 @@ function ItemDetail({ data }) {
         <div className="d-flex mt-5 justify-content-around">
           <div className="recommend ">
             <p>Recomendado por</p>
-            <h3>Jotave</h3>
+            <img
+                  src="https://i.ibb.co/brV3x78/LogoNg.png"
+                  className="logofooter"
+                />
           </div>
           <div className="action">
-            <button type="button">Link a wsp</button>
+          <a href="https://wa.me/5491168557663?text=Hola,%20%C2%BFPuedes%20informarme%20sobre%20un%20producto?"> <button type="button">Consultar</button></a>
           </div>
         </div>
       </div>

@@ -34,7 +34,6 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/ayuda" element={<Ayuda />} />
-
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Whatsap />
