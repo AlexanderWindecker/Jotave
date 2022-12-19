@@ -44,7 +44,7 @@ span {
     display: block;
 }
 
-@media only screen and (max-width:575px) {
+@media only screen and (max-width:480px) {
     .navbar navbar-expand-lg navbar-light bg-light {
         display: none
     }

@@ -49,3 +49,17 @@
   }
 
    */
+   .dropdown-item {
+    display: flex;
+    flex-direction: column;
+   }
+
+
+
+
+@media only screen and (max-width:480px) {
+    .form-control {
+       width: 62%;
+
+ }
+};

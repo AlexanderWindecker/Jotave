@@ -3,6 +3,7 @@ import ItemList from "./ItemList";
 import getItems, { getItemsByCategory } from "../../services/MockAPI";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import './Item.css'
 
 
 
@@ -289,7 +290,7 @@ function ItemListContainer() {
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
-                  <Link className="dropdown-item" to="/categoria/afeitadora">
+                  <Link className="dropdown-menu" to="/categoria/afeitadora">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Afeitadora</span>
                   </Link>

@@ -29,7 +29,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<ComponentGeneral />} />
         <Route path="/SliderDetail/:id" element={<SliderDetailContainer />} />
         <Route path="/SliderViewedDetail/:id" element={<SliderViewedDetailContainer />}
         />

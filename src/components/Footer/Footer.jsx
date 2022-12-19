@@ -27,7 +27,7 @@ const Footer = () => {
  
      <a href="wa.me/message/X4ZZ4IV3BEKVB1" className="me-4 link-secondary"><i className="bi bi-whatsapp"></i></a>
  
-     <a href="wa.me/message/X4ZZ4IV3BEKVB1" className="me-4 link-secondary"><i className="bi bi-whatsapp"></i></a>
+   
 
  
 
