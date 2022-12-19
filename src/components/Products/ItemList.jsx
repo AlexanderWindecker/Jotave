@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Item from "./Item";
-import './Item.css'
 
 export default function ItemList({ data }) {
 

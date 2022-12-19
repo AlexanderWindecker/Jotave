@@ -1,31 +1,42 @@
-img{
-    width: 30%;
-    
+img {
+  width: 30%;
 }
-h1{
-    padding: 100px;
+h1 {
+  padding: 100px;
 }
 
 .btn {
-    text-decoration: transparent;
-    border: 2px solid black;
-    padding: 5px 5px;
-    width: 150px;
+  text-decoration: transparent;
+  border: 2px solid black;
+  padding: 5px 5px;
+  width: 150px;
 }
 
 .btn:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 .img-nosotros {
-    width: 500px;
-    height: 250px;
-    border-radius: 50%;
-    margin-bottom: 50px;
-    
-   
+  width: 550px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 50px;
 }
 
 .container-fluid {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 320px) {
+  .img-nosotros {
+    width: 250px;
+    height: 150px;
+  }
+
+  h2 {
+    overflow-x: 60;
+    overflow-y: -65;
+    scale: 0.8;
+    rotate: 360;
+    }
 }

@@ -3,21 +3,15 @@ import ItemList from "./ItemList";
 import getItems, { getItemsByCategory } from "../../services/MockAPI";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import './Item.css'
-
-
-
 
 function ItemListContainer() {
   let [data, setData] = useState([]);
 
   const { cat } = useParams();
 
-
   useEffect(() => {
     if (cat === undefined) {
       getItems().then((respuestaDatos) => setData(respuestaDatos));
-     
     } else {
       getItemsByCategory(cat).then((respuestaDatos) => setData(respuestaDatos));
     }
@@ -46,7 +40,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/Audio">
+                  <Link className="dropdown-item" to="/categoria/audio">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Audio</span>
                   </Link>
@@ -290,7 +284,7 @@ function ItemListContainer() {
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
-                  <Link className="dropdown-menu" to="/categoria/afeitadora">
+                  <Link className="dropdown-item" to="/categoria/afeitadora">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Afeitadora</span>
                   </Link>
@@ -305,7 +299,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/Depiladora">
+                  <Link className="dropdown-item" to="/categoria/depiladora">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Depiladora</span>
                   </Link>
@@ -355,7 +349,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/Tablets">
+                  <Link className="dropdown-item" to="/categoria/tablets">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Tablets</span>
                   </Link>
