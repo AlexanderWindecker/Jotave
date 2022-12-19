@@ -13,11 +13,9 @@ function ItemListContainer() {
 
   const { cat } = useParams();
 
-
   useEffect(() => {
     if (cat === undefined) {
       getItems().then((respuestaDatos) => setData(respuestaDatos));
-     
     } else {
       getItemsByCategory(cat).then((respuestaDatos) => setData(respuestaDatos));
     }
@@ -290,7 +288,7 @@ function ItemListContainer() {
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
-                  <Link className="dropdown-menu" to="/categoria/afeitadora">
+                  <Link className="dropdown-item" to="/categoria/afeitadora">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Afeitadora</span>
                   </Link>

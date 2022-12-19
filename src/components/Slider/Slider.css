@@ -1,4 +1,4 @@
-/* .card-img {
+.card-img {
   width: 100%;
   height: 300px;
   margin-top: 15px;
@@ -7,11 +7,6 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-}
-
-.card-detail {
-  text-align: center;
-  padding: 12px 8px;
 }
 
 .card-count {
@@ -25,7 +20,6 @@
   overflow: hidden;
   transition: all 0.2s ease-in;
   cursor: pointer;
-  justify-content: end;
 }
 
 .card-count:hover {
@@ -34,7 +28,7 @@
 }
 
 .button_info {
-  background-color: green;
+  background-color: orange;
   border: none;
   margin: 20px auto;
   width: 112px;
@@ -42,10 +36,10 @@
   cursor: pointer;
 }
 
-.card-detail:nth-child(3) {
-  position: relative ;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+.div-linea {
+  border-top: 1px solid black;
+  height: 2px;
+  max-width: 200px;
+  padding: 0;
+  margin: 20px auto 0 auto;
 }
- */

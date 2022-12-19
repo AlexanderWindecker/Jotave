@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light  ">
-        <div className="container d-flex justify-content-between">
+        <div className="container ">
           <div className="container d-flex justify-content-around">
             <Link className="navbar-brand" to="/">
               <img
@@ -26,23 +26,7 @@ function NavBar() {
               <span className="navbar-toggler-icon"></span>
             </button>
           </div>
-          {/* <div className="container">
-            <form className="d-flex ">
-              <input
-                className="form-control"
-                type="search"
-                placeholder="Buscar"
-              ></input>
-              <button
-                className="btn btn-outline-success"
-                type="submit"
-              >
-                <i className="bi bi-search"></i>
-              </button>
-            </form>
-          </div> */}
-           
-          <div className="container"></div>
+
           <div
             className="container collapse navbar-collapse"
             id="navbarSupportedContent"
@@ -53,6 +37,7 @@ function NavBar() {
                   Inicio
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link className="nav-link" to="/nosotros">
                   Nosotros
@@ -82,7 +67,8 @@ function NavBar() {
                     </Link>
                   </li>
                   <li className="dropdown-divider"></li>
-                  <li className="nav-item dropdown">
+
+                  <li className="nav-link dropdown">
                     <Link
                       className="nav-link dropdown-toogle"
                       to="/categoria/Smarts, audio y video"
@@ -105,7 +91,10 @@ function NavBar() {
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" to="/categoria/monitores">
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/monitores"
+                        >
                           <i className="bi bi-caret-right-fill"></i>
                           <span>Monitores</span>
                         </Link>
@@ -369,7 +358,7 @@ function NavBar() {
                     <Link
                       className="nav-link dropdown-toogle"
                       data-bs-toggle="dropdown"
-                      aria-expanded="false"                     
+                      aria-expanded="false"
                     >
                       <span>Cuidado personal &raquo;</span>
                     </Link>
@@ -475,6 +464,30 @@ function NavBar() {
                         </Link>
                       </li>
                       <li>
+                        <Link className="dropdown-item" to="/categoria/piletas">
+                          <i className="bi bi-caret-right-fill"></i>
+                          <span>Piletas</span>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/cortadoras"
+                        >
+                          <i className="bi bi-caret-right-fill"></i>
+                          <span>Cortadoras de Pasto</span>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/hidrolavadoras"
+                        >
+                          <i className="bi bi-caret-right-fill"></i>
+                          <span>Hidrolavadoras</span>
+                        </Link>
+                      </li>
+                      <li>
                         <Link
                           className="dropdown-item"
                           to="/categoria/piletas"
@@ -548,10 +561,9 @@ function NavBar() {
                           <span>Parrillas</span>
                         </Link>
                       </li>
-
                     </ul>
                   </li>
-                  </ul>
+                </ul>
               </li>
             </ul>
           </div>
