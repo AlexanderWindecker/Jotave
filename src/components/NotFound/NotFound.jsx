@@ -6,7 +6,7 @@ export default function NotFound() {
     
    <>
     
-       <div className='error'>
+       <div className='error container'>
 
     
     <img src="https://i.ibb.co/2dtSwfx/error.png" alt="" className='imagen'/>

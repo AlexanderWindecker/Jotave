@@ -1,82 +1,93 @@
 import React from "react";
-import "./ItemDetail.css"
-import {Link} from "react-router-dom"
+import "./ItemDetail.css";
 
-function ItemDetail({data} ) {
+function ItemDetail({ data }) {
   return (
     <>
-    <main>
-    <div className="card">
-      <div className="card__title">
-        <div className="icon">
-          <Link to="#"><i className="fa fa-arrow-left"></i></Link>
+      {/* <div className="container">
+        <ul className="navbar d-flex flex-row bd-highlight mb-3">
+          <li className="nav-item active p-2 bd-highlight">
+            <Link className="nav-item" aria-current="page" to="/">
+              Inicio
+            </Link>
+          </li>
+          <li className="nav-item p-2 bd-highlight">
+            <Link className="nav-item" aria-current="page" to="/categoria">
+              {data.category}
+            </Link>
+          </li>
+          <li className="nav-item p-2 bd-highlight">
+            <Link className="nav-item" aria-current="page" to="/">
+              {data.title}
+            </Link>
+          </li>
+        </ul>
+      </div> */}
+      <div className="container card mt-5 d-flex p-1">
+        <div className="row g-0">
+          {/* imagen */}
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center">
+            <img
+              src={data.img}
+              className="img-fluid rounded-start image"
+              alt={data.title}
+            ></img>
+          </div>
+          {/* info */}
+          <div className="card-body col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h2 className="card-title fs-1 text-uppercase">{data.title} </h2>
+            <p className="card-text text-uppercase">{data.detail} </p>
+            <div className="">
+              <p>Codigo: {data.codigo} </p>
+            </div>
+          </div>
+          <span className="stock p-2">
+            <i className="fa fa-pen"> </i>En Stock
+          </span>
         </div>
-        <h3>{data.marca} </h3>
+        <div className="d-flex mt-5 justify-content-around">
+          <div className="recommend ">
+            <p>Recomendado por</p>
+            <h3>Jotave</h3>
+          </div>
+          <div className="action">
+            <button type="button">Link a wsp</button>
+          </div>
+        </div>
       </div>
-      <div className="card__body">
-        <div className="half">
-          <div className="featured_text">
-            <h1>{data.title} </h1>
-            <p className="sub">{data.marca}</p>
-            <p className="price"></p>
-          </div>
-          <div className="image">
-            <img src={data.img} alt={data.title}></img>
-          </div>
-        </div>
-        <div className="half">
-          <div className="description">
-            <p>{data.detail}</p>
-          </div>
-          <span className="stock"><i className="fa fa-pen"></i>En Stock</span>
-          <div className="reviews">
-            <ul className="stars">
-              <li><i className="fa fa-star"></i></li>
-              <li><i className="fa fa-star"></i></li>
-              <li><i className="fa fa-star"></i></li>
-              <li><i className="fa fa-star"></i></li>
-              <li><i className="fa fa-star-o"></i></li>
-            </ul>
-            <span>(64 reviews)</span>
-          </div>
-        </div>
-      </div>
-      <div className="card__footer">
-        <div className="recommend">
-          <p>Recomendado por</p>
-          <h3>Jotave</h3>
-        </div>
-        <div className="action">
-          <button type="button">Link a wsp</button>
-        </div>
-      </div>
-    </div>
-  </main>
+
+      {/* <table class="table container mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Caracteristicas</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Marca</th>
+            <td>{data.marca}</td>
+          </tr>
+          <tr>
+            <th scope="row">Velocidades</th>
+            <td>{data.velocidades} </td>
+          </tr>
+          <tr>
+            <th scope="row">Audio</th>
+            <td>{data.Audio} </td>
+          </tr>
+          <tr>
+            <th scope="row">Conectividad</th>
+            <td>{data.Conectividad} </td>
+          </tr>
+          <tr>
+            <th scope="row">Codigo</th>
+            <td>{data.Codigo} </td>
+          </tr>
+        </tbody>
+      </table> */}
     </>
   );
 }
 
 export default ItemDetail;
-
-
-
-
-/* <div classNameName="container div-card card mt-3">
-      <div classNameName="row g-0">
-        <div classNameName="col-md-4">
-          <img
-            src={data.img}
-            classNameName="img-fluid rounded-start mt-3"
-            alt="card img"
-          ></img>
-        </div>
-        <div classNameName="col-md-8">
-          <div classNameName="card-body ">
-            <h3 classNameName="card-tittle text-center">{data.title}</h3>
-            <p classNameName="card-text text-center">{data.detail} </p>            
-            <p classNameName="text-center">Stock disponible!</p> 
-            <p classNameName="text-center">Lo Quiero link wsp</p>
-          </div>
-        </div>
-      </div>
-    </div> */

@@ -3,6 +3,7 @@ import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
 import { getItemsSingle } from "../../services/MockAPI";
 
+
 function ItemDetailContainer() {
     let [data, setData] = useState({});
 
@@ -19,6 +20,7 @@ function ItemDetailContainer() {
   return (
     <div>
       <ItemDetail data={data}/>
+      
     </div>
   );
 }

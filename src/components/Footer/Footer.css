@@ -1,6 +1,5 @@
-.div-footer{
-    margin-top: 300px;
-}
+
+
 .link {
     display: flex;
     flex-direction: column;
@@ -19,3 +18,4 @@
 .enlace {
     text-decoration: none;
 }
+
