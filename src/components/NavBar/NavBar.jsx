@@ -488,10 +488,7 @@ function NavBar() {
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          className="dropdown-item"
-                          to="/categoria/piletas"
-                        >
+                        <Link className="dropdown-item" to="/categoria/piletas">
                           <i className="bi bi-caret-right-fill"></i>
                           <span>Piletas</span>
                         </Link>

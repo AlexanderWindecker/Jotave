@@ -72,4 +72,15 @@
         flex-direction: column;
     }
 
+
+.nav-link{
+  color: black
+}
+
+.logofooter {
+  height: 50px;
+  width: 100px;
+}
+
+
 }

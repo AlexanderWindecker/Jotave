@@ -3,10 +3,6 @@ import ItemList from "./ItemList";
 import getItems, { getItemsByCategory } from "../../services/MockAPI";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import './Item.css'
-
-
-
 
 function ItemListContainer() {
   let [data, setData] = useState([]);
@@ -44,7 +40,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/Audio">
+                  <Link className="dropdown-item" to="/categoria/audio">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Audio</span>
                   </Link>
@@ -303,7 +299,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/Depiladora">
+                  <Link className="dropdown-item" to="/categoria/depiladora">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Depiladora</span>
                   </Link>
@@ -353,7 +349,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/Tablets">
+                  <Link className="dropdown-item" to="/categoria/tablets">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Tablets</span>
                   </Link>

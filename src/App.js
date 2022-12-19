@@ -15,7 +15,7 @@ import { Ayuda } from "./components/Ayuda/Ayuda";
 import Whatsap from "./components/Whatsap/Whatsap";
 
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 
 function App() {
