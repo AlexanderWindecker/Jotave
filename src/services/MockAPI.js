@@ -123,7 +123,6 @@ const data = [
 
   {
     id: 8,
-
     img: "https://i.ibb.co/N6LrtJg/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.jpg",
     title: "Ventilador 18'' 3 en 1 STAR TRAK",
     price: "$00,00",
@@ -1748,3 +1747,5 @@ export function getItemsByCategory(cat) {
     }, 2000);
   });
 }
+
+
