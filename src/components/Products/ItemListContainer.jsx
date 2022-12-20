@@ -3,6 +3,7 @@ import ItemList from "./ItemList";
 import getItems, { getItemsByCategory } from "../../services/MockAPI";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import "./Item.css";
 
 function ItemListContainer() {
   let [data, setData] = useState([]);
@@ -20,7 +21,7 @@ function ItemListContainer() {
   return (
     <div>
       <div className="d-flex bd-highlight">
-        <div className="p-2 bd-highlight mt-5">
+        <div className="p-2 bd-highlight mt-5 nav-vertical">
           <ul className="nav flex-column">
             <h2 className="text-center">Categorias</h2>
             <li className="nav-link dropend">

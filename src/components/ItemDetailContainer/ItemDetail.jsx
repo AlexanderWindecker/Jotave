@@ -4,25 +4,7 @@ import "./ItemDetail.css";
 function ItemDetail({ data }) {
   return (
     <>
-      {/* <div className="container">
-        <ul className="navbar d-flex flex-row bd-highlight mb-3">
-          <li className="nav-item active p-2 bd-highlight">
-            <Link className="nav-item" aria-current="page" to="/">
-              Inicio
-            </Link>
-          </li>
-          <li className="nav-item p-2 bd-highlight">
-            <Link className="nav-item" aria-current="page" to="/categoria">
-              {data.category}
-            </Link>
-          </li>
-          <li className="nav-item p-2 bd-highlight">
-            <Link className="nav-item" aria-current="page" to="/">
-              {data.title}
-            </Link>
-          </li>
-        </ul>
-      </div> */}
+    
       <div className="container card mt-5 d-flex p-1">
         <div className="row g-0">
           {/* imagen */}

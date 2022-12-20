@@ -39,7 +39,7 @@
   margin: 20px auto;
   width: 112px;
   height: 36px;
-  cursor: pointer;
+  
 }
 
 .div-linea {
@@ -59,12 +59,6 @@
   color: black;
 }
 
-/* .card-detail:nth-child(3) {
-    position: relative ;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  } */
 
   @media only screen and (max-width:575px) {
     .card-count {
