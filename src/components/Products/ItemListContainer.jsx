@@ -21,8 +21,8 @@ function ItemListContainer() {
   return (
     <div>
       <div className="d-flex bd-highlight">
-        <div className="p-2 bd-highlight mt-5 nav-vertical">
-          <ul className="nav flex-column">
+        <div className="mt-5 nav-vertical">
+          <ul className=" flex-column nav-vertical">
             <h2 className="text-center">Categorias</h2>
             <li className="nav-link dropend">
               <Link
@@ -386,7 +386,10 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/hidrolavadoras">
+                  <Link
+                    className="dropdown-item"
+                    to="/categoria/hidrolavadoras"
+                  >
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Hidrolavadoras</span>
                   </Link>
@@ -428,10 +431,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/categoria/parrillas"
-                  >
+                  <Link className="dropdown-item" to="/categoria/parrillas">
                     <i className="bi bi-caret-right-fill"></i>
                     <span>Parrillas</span>
                   </Link>
@@ -440,12 +440,9 @@ function ItemListContainer() {
             </li>
           </ul>
         </div>
-        <div className=" p-2 flex-grow-1 bd-highlight">
-          <div className="row">
-            <span></span>
-            <div>
-              <ItemList data={data} />
-            </div>
+        <div className=" d-flex justify-content-center ">
+          <div>
+            <ItemList data={data} />
           </div>
         </div>
       </div>
