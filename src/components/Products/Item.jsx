@@ -15,7 +15,7 @@ export default function Item(props) {
       <div className="border-bottom border-2 mt-4"></div>
       <div className="card-detail mt-2">
         <Link className="nav-link " to={urlDetalle}>
-          <h4 className=" nav-item text-uppercase ">{title} </h4>
+          <h3 className=" nav-item text-uppercase fs-6 letra-titulo">{title} </h3>
         </Link>
         
       </div>

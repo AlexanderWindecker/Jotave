@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 import "./Footer.css";
 
 const Footer = () => {
@@ -55,8 +54,8 @@ const Footer = () => {
               <div className="col-md-3 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mt-0 mb-3">Contacto</h6>
                 <p>
-                  <i className="bi bi-house me-3 text-secondary"></i>Ituzaingo - Buenos Aires,
-                  Argentina
+                  <i className="bi bi-house me-3 text-secondary"></i>Ituzaingo -
+                  Buenos Aires, Argentina
                 </p>
                 <p>
                   <i className="bi bi-envelope me-3 text-secondary"></i>
@@ -93,7 +92,7 @@ const Footer = () => {
                     <i className="bi bi-phone me-3 text-secondary"></i> + 54 9
                     11 2506 - 2551
                   </a>
-                </p>
+                </p>                
               </div>
             </div>
           </div>
