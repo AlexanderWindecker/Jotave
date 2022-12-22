@@ -67,7 +67,8 @@ function NavBar() {
                     </Link>
                   </li>
                   <li className="dropdown-divider"></li>
-                  <li className="nav-item dropdown">
+
+                  <li className="nav-link dropdown">
                     <Link
                       className="nav-link dropdown-toogle"
                       to="/categoria/Smarts, audio y video"
