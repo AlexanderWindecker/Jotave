@@ -1,15 +1,19 @@
+.dropdown-item {
+  display: flex;
+  flex-direction: column;
+}
 
-   .dropdown-item {
-    display: flex;
-    flex-direction: column;
-   }
+@media screen and (max-width: 700px) {
+  .form-control {
+    width: 100%;
+  }
+  .nav-vertical {
+    display: none;
+  }
+}
 
 
-
-
-@media only screen and (max-width:480px) {
-    .form-control {
-       width: 62%;
-
- }
-};
+.form-control{
+   width: 300px;
+   
+}

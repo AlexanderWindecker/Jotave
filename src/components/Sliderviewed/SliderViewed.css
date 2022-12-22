@@ -17,7 +17,7 @@
 
 .card-count {
   margin: 10px 15px;
-  min-height: 600px;
+  min-height: 500px;
   width: 18rem;
   height: 600px;
   border-radius: 4px;
@@ -33,13 +33,15 @@
   
 }
 
+
+
 .button_info {
   background-color: orange;
   border: none;
   margin: 20px auto;
   width: 112px;
   height: 36px;
-  cursor: pointer;
+  
 }
 
 .div-linea {
@@ -59,12 +61,6 @@
   color: black;
 }
 
-/* .card-detail:nth-child(3) {
-    position: relative ;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  } */
 
   @media only screen and (max-width:575px) {
     .card-count {

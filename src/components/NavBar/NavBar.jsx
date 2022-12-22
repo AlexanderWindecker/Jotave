@@ -501,16 +501,7 @@ function NavBar() {
                           <i className="bi bi-caret-right-fill"></i>
                           <span>Cortadoras de Pasto</span>
                         </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="dropdown-item"
-                          to="/categoria/hidrolavadoras"
-                        >
-                          <i className="bi bi-caret-right-fill"></i>
-                          <span>Hidrolavadoras</span>
-                        </Link>
-                      </li>
+                      </li>                      
                       <li>
                         <Link
                           className="dropdown-item"

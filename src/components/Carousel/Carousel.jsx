@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./Carousel.css"
 
 function Carousel() {
   return (
-    <div className="mt-">
+   
       <div
         id="carouselExampleIndicators"
         className="carousel slide"
@@ -63,7 +63,7 @@ function Carousel() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+  
   );
 }
 
