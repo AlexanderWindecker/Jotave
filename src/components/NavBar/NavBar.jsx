@@ -77,7 +77,7 @@ function NavBar() {
                     >
                       <span> Smarts, Audio y Video &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link className="dropdown-item" to="/categoria/imagen">
                           <i className="bi bi-caret-right-fill"></i>
@@ -110,7 +110,7 @@ function NavBar() {
                     >
                       <span> Climatización &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link className="dropdown-item" to="/categoria/aire">
                           <i className="bi bi-caret-right-fill"></i>
@@ -146,7 +146,7 @@ function NavBar() {
                     >
                       <span>Heladeras y Freezer &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
@@ -172,7 +172,7 @@ function NavBar() {
                     >
                       <span>Termotanques y Calefones &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
@@ -201,7 +201,7 @@ function NavBar() {
                     >
                       <span>Cocinas y Hornos &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link className="dropdown-item" to="/categoria/cocinas">
                           <i className="bi bi-caret-right-fill"></i>
@@ -224,7 +224,7 @@ function NavBar() {
                     >
                       <span>Pequeños Hogar &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
@@ -253,7 +253,7 @@ function NavBar() {
                     >
                       <span>Pequeños Cocina &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
@@ -336,7 +336,7 @@ function NavBar() {
                     >
                       <span>Celulares &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
@@ -362,7 +362,7 @@ function NavBar() {
                     >
                       <span>Cuidado personal &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
@@ -418,7 +418,7 @@ function NavBar() {
                     >
                       <span>Informática &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
@@ -453,7 +453,7 @@ function NavBar() {
                     >
                       <span>Jardín &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
@@ -521,7 +521,7 @@ function NavBar() {
                     >
                       <span>Muebles &raquo;</span>
                     </Link>
-                    <ul className="dropdown-menu submenu">
+                    <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link
                           className="dropdown-item"
