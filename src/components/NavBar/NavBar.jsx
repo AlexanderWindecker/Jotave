@@ -15,7 +15,7 @@ function NavBar() {
               />
             </Link>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -31,26 +31,26 @@ function NavBar() {
             className="container collapse navbar-collapse"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-0 ">
               <li className="nav-item active">
-                <Link className="nav-link" aria-current="page" to="/">
+                <Link className="nav-link fs-4" aria-current="page" to="/">
                   Inicio
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/nosotros">
+                <Link className="nav-link fs-4" to="/nosotros">
                   Nosotros
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contacto">
+                <Link className="nav-link fs-4" to="/contacto">
                   Contacto
                 </Link>
               </li>
               <li className="nav-item dropdown">
                 <Link
-                  className="nav-link dropdown-toggle"
+                  className="nav-link fs-4 dropdown-toggle"
                   to="#"
                   id="navbarDropdown"
                   role="button"
@@ -59,7 +59,7 @@ function NavBar() {
                 >
                   Productos
                 </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu ul-color " aria-labelledby="navbarDropdown">
                   <li>
                     <Link className="dropdown-item" to="/todos">
                       {" "}

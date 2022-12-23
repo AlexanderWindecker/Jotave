@@ -113,7 +113,7 @@ h1 {
 }
 .telephone_check {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   color: blue;
 }
 .telephone_text {

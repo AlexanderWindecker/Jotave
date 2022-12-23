@@ -47,7 +47,7 @@ export default function SliderViewedList({ data }) {
         {data.map((item) => {
           return (
             <SwiperSlide key={item?.id}>
-              <div className="container mt-5">                
+              <div className="container mt-5 d-flex justify-content-center">                
                   <SliderViewed
                     key={item.id}
                     id={item.id}

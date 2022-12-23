@@ -37,6 +37,7 @@ function ItemDetail({ data }) {
             <img
                   src="https://i.ibb.co/brV3x78/LogoNg.png"
                   className="logofooter"
+                  alt="jotave "
                 />
           </div>
           <div className="action">

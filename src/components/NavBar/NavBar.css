@@ -12,14 +12,18 @@ a.navbar-brand {
 nav {
     background: rgb(113, 194, 31);
     background: linear-gradient(90deg, rgba(113, 194, 31, 1) 0%, rgba(249, 177, 18, 1) 35%, rgba(249, 246, 18, 1) 100%);
-    /* font-family: 'Roboto Serif', serif; */
+   
 
+}
+
+.dropdown-menu{
+    background: rgb(113, 194, 31);
+    background: linear-gradient(90deg, rgba(113, 194, 31, 1) 0%, rgba(249, 177, 18, 1) 35%, rgba(249, 246, 18, 1) 100%);
 }
 
 span {
     font-size: 18px;
-    color: rgb(10, 10, 10);
-    /* font-family: 'Roboto Serif', serif; */
+    color: rgb(10, 10, 10);    
     text-align: center;
 
 }

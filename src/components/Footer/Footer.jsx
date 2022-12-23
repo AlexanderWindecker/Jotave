@@ -36,6 +36,7 @@ const Footer = () => {
                 <img
                   src="https://i.ibb.co/brV3x78/LogoNg.png"
                   className="logofooter"
+                  alt="Jotave"
                 />
 
                 <div className="link">
@@ -54,7 +55,7 @@ const Footer = () => {
               <div className="col-md-3 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mt-0 mb-3">Contacto</h6>
                 <p>
-                  <i className="bi bi-house me-3 text-secondary"></i>Famatina 1784,Ituzaingo -
+                  <i className="bi bi-house me-3 text-secondary"></i>Famatina 1784, Ituzaingo -
                   Buenos Aires, Argentina
                 </p>
                 <p>

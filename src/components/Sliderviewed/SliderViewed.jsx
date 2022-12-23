@@ -3,7 +3,7 @@ import "./SliderViewed.css";
 import { Link } from "react-router-dom";
 
 export default function SliderViewed(props) {
-  let { title, img, detail, id , category} = props;
+  let { title, img, id } = props;
 
   const urlDetalle = `/SliderViewedDetail/ ${id}-${title}`;
 
@@ -12,14 +12,13 @@ export default function SliderViewed(props) {
       <div className="card-img ">
         <img className="img " src={img} alt={title} />
       </div>
-      <div className="card-detail">
-        <h4>{title} </h4>
-        <p>{detail} </p>
-        <p>{category} </p>
-        <p>Consultar stock</p>
-        <Link to={urlDetalle}>
-          <button className="button_info">+ Info</button>
-          </Link>
+      <div className="border-bottom border-2 mt-4"></div>
+      <div className="card-detail mt-2">
+        <Link className="nav-link " to={urlDetalle}>
+          <h3 className=" nav-item text-uppercase fs-6 letra-titulo">
+            {title}{" "}
+          </h3>
+        </Link>
       </div>
     </div>
   );

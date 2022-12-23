@@ -2,6 +2,10 @@ body {
   background: #FFFF;
 }
 
+h3{
+  font-family: "helvetica", "sans-serif";
+}
+
 .App {
   text-align: center;
 }
