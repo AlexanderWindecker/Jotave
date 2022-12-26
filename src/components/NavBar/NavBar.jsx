@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+
 function NavBar() {
   return (
     <>
-      
+     
 
       <nav className="navbar navbar-expand-lg navbar-light  ">
         <div className="container ">
@@ -63,8 +64,8 @@ function NavBar() {
                 </Link>
                 <ul
                   className="dropdown-menu ul-color "
-                  aria-labelledby="navbarDropdown"
-                 >
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
                   <li>
                     <Link className="dropdown-item" to="/todos">
                       {" "}
@@ -73,9 +74,9 @@ function NavBar() {
                   </li>
                   <li className="dropdown-divider"></li>
 
-                  <li className="nav-link dropdown">
+                  <li className="nav-item dropdown">
                     <Link
-                      className="nav-link dropend"                      
+                      className="nav-link dropend"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >

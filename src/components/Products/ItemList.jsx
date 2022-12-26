@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Item from "./Item";
-import "./Item.css"
+import "./Item.css";
 
 export default function ItemList({ data }) {
   const [search, setSearch] = useState("");
@@ -23,32 +23,30 @@ export default function ItemList({ data }) {
   //metodo filtrado
 
   return (
-    <div className="container mt-5">
-      <div className=" d-flex justify-content-center g-1 row">
-        <div className="d-flex justify-content-center ">
-          <input
-            type="text"
-            value={search}
-            onChange={searcher}
-            placeholder="Buscar productos"
-            className="form-control"
-          />
-        </div>
-
-        {results.map((item) => {
-          return (
-            <Item
-              key={item.id}
-              id={item.id}
-              price={item.price}
-              title={item.title}
-              img={item.img}
-              category={item.category}
-              stock={item.stock}
-            />
-          );
-        })}
+    <div className="justify-content-center mt-5 m-0 row ">
+      <div className="d-flex justify-content-center  ">
+        <input
+          type="text"
+          value={search}
+          onChange={searcher}
+          placeholder="Buscar productos"
+          className="form-control"
+        />
       </div>
+
+      {results.map((item) => {
+        return (
+          <Item
+            key={item.id}
+            id={item.id}
+            price={item.price}
+            title={item.title}
+            img={item.img}
+            category={item.category}
+            stock={item.stock}
+          />
+        );
+      })}
     </div>
   );
 }

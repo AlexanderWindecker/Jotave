@@ -19,11 +19,12 @@ function ItemListContainer() {
   }, [cat]);
 
   return (
-    <div>
-      <div className="d-flex bd-highlight">
-        <div className="mt-5 nav-vertical">
-          <ul className=" flex-column nav-vertical">
+    <>
+      <div className="d-flex bd-highlight ">
+        <div className="container p-0 mt-5 nav-vertical bd-highlight">
+          <ul className=" flex-column nav-vertical m-0 p-1">
             <h2 className="text-center">Categorias</h2>
+            
             <li className="nav-link dropend">
               <Link
                 className="nav-link dropend"                
@@ -58,12 +59,11 @@ function ItemListContainer() {
             </li>
             <li className="nav-link dropend">
               <Link
-                className="nav-link dropdown-toogle"
-                to="/categoria/climatizacion"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                 className="nav-link dropend"                
+                 data-bs-toggle="dropdown"
+                 aria-expanded="false"
               >
-                <span> Climatización &raquo;</span>
+                <span>Climatización &raquo;</span>
               </Link>
 
               <ul className="dropdown-menu submenu">
@@ -77,7 +77,7 @@ function ItemListContainer() {
                 <li>
                   <Link className="dropdown-item" to="/categoria/ventilacion">
                     <i className="bi bi-caret-right-fill">
-                      <span> Ventiladores</span>
+                      <span>Ventiladores</span>
                     </i>
                   </Link>
                 </li>
@@ -92,8 +92,7 @@ function ItemListContainer() {
             </li>
             <li className="nav-link dropend">
               <Link
-                className="nav-link dropdown-toogle"
-                to="/categoria/climatizacion"
+                className="nav-link dropdown-toogle"                
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
@@ -479,13 +478,13 @@ function ItemListContainer() {
             </li>
           </ul>
         </div>
-        <div className=" d-flex justify-content-center ">
-          <div>
+        
+          
             <ItemList data={data} />
-          </div>
-        </div>
+          
+        
       </div>
-    </div>
+    </>
   );
 }
 

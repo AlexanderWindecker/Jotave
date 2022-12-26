@@ -1,6 +1,6 @@
 import React from "react";
 import SliderViewed from "./SliderViewed";
-import "./SliderViewed.css"
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

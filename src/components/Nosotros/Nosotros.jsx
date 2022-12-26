@@ -16,6 +16,8 @@ const Nosotros = () => {
         </motion.h1>
       </div>
 
+      
+
       <div className="container justify-center text-center">
         <div className="telephone_container">
           <section className="telephone">
@@ -65,6 +67,7 @@ const Nosotros = () => {
               </div>
             </div>
           </section>
+
           <div className="telephone_text">
             <p>
               Todo el universo de artículos del hogar en un solo lugar, con la
