@@ -10,7 +10,8 @@ h1 {
   justify-content: center;
   font-family: 'Nunito';
   font-size: 45px;
-  margin-top: -10px;
+  margin-top: -20px;
+  margin-bottom: 10px;
 }
 .telephone_container {
   display:flex;
@@ -119,23 +120,33 @@ h1 {
 .telephone_text {
   width: 30%;
   height: 50px;
-  margin-top: -500px;
+  margin-top: -550px;
   margin-right: 150px;
   font-family: 'Nunito';
   font-size: 20px;
  
 }
-/* @media screen and(min-width: 320px){
-  .telephone_container{
-    width: 70%;
-    height: auto;
+@media screen and (min-width:320px) and (max-width:480px){
  
-}.telephone_text{
-  width: 50%;
+  .titulo {
+    margin-left: -120px;
+  }
+  .contenedor  {
+    margin-left: -220px;
+  } 
+  .telephone_container{
+    width: 60%;
+    height:100%;
+    margin-left: 100px;
+ 
+ }.telephone_text{
+  width: 40%;
   height: 90%;
   margin-top: 40px;
   margin-left:80px;
-  float: none;
-}
+  float: none; 
+ 
+ 
+ }
 
-} */
+}  
