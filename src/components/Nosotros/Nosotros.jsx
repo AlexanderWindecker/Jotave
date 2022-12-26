@@ -15,6 +15,9 @@ const Nosotros = () => {
           Quienes somos
         </motion.h1>
       </div>
+
+     
+
       <div className="contenedor">
         <div className="container justify-center text-center">
           <div className="telephone_container">
@@ -63,29 +66,6 @@ const Nosotros = () => {
                   </div>
                   <div className=""></div>
                 </div>
-              </div>
-
-              <div className="telephone_main">
-                <p className="telephone_chat">
-                  <i className="bi bi-check"></i>Facilidad
-                </p>
-                <div className="telephone_check">
-                  <i className="bi bi-check2-all"></i>
-                </div>
-                <p className="telephone_chat">
-                  <i className="bi bi-check"></i> Efectividad
-                </p>
-                <div className="telephone_check">
-                  <i className="bi bi-check2-all"></i>
-                </div>
-
-                <p className="telephone_chat">
-                  <i className="bi bi-check"></i> Responsabilidad
-                </p>
-                <div className="telephone_check">
-                  <i className="bi bi-check2-all"></i>
-                </div>
-                <div className=""></div>
               </div>
             </section>
 
