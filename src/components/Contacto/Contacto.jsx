@@ -36,9 +36,10 @@ const Contacto = () => {
 initial={{x:"-100vw"}}
 transition={{delay:0.5, type:'spring'}} 
 whileHover={{scale:1, textShadow:'1px 1px 2px  grey'}}
+className="texto"
 >Para realizar la compra seguí los pasos:
 </motion.h6>
-      <div className='container justify-content-center text-center mt-10'>
+      <div className='container justify-content-center text-center mt-10 texto'>
 <div  className='texto'>
  
     
