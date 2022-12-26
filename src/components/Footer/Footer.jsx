@@ -6,7 +6,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <footer className="text-center text-lg-start bg-white text-muted div-footer">
+      <footer className="text-center text-lg-start bg-white text-muted div-footer footer">
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div className="container text-center text-md-start mt-5">
             <p>Comunicate con nosotros a traves de nuestras redes:</p>
