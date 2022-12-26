@@ -33,3 +33,10 @@ h6 {
        width: 60%;
     }
 }
+@media screen and (min-width:481px) and (max-width:768px){
+      .texto {
+           width: 60%;
+      }
+
+
+}

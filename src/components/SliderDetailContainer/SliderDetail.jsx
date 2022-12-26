@@ -25,7 +25,7 @@ function SliderDetail({ data }) {
             <div className="recommend">
               <p>Recomendado por</p>
               <img
-                  src="https://i.ibb.co/brV3x78/LogoNg.png"
+                  src="https://i.ibb.co/brV3x78/LogoNg.png" alt="logo"
                   className="logofooter"
                 />
             </div>

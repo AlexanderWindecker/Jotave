@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <img
-                  src="https://i.ibb.co/brV3x78/LogoNg.png"
+                  src="https://i.ibb.co/brV3x78/LogoNg.png" alt="logo"
                   className="logofooter"
                 />
 

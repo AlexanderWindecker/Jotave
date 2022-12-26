@@ -35,3 +35,9 @@ a {
     }
 
 } 
+@media (min-width: 481px) and (max-width: 768px) {
+    .footer{
+        width:80%;
+        margin-left: 85px;
+    }
+}
