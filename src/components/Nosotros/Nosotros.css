@@ -5,6 +5,39 @@ h1 {
   padding: 100px;
 }
 
+.div-movil{
+max-width: 320px;
+max-height: 580px;
+border-radius: 20px;
+border-bottom: 12px solid black;
+border-top: 12px solid black;
+border-left: 6px solid black;
+border-right: 6px solid black;
+}
+
+.div-nav{
+  background-image: linear-gradient(
+    90deg,
+    rgba(128, 105, 62, 1) 0%,
+    rgba(243, 181, 20, 1) 44%,
+    rgba(180, 199, 125, 1) 100%
+  );
+}
+
+.div-text{
+  font-family: "Nunito";
+
+}
+
+
+@media screen and (max-width: 850px){
+.div-movil{
+  display: none;
+}
+}
+
+
+/* YESI */
 .titulo {
   display: flex;
   justify-content: center;
@@ -20,20 +53,7 @@ h1 {
   margin-left: 40px;
   margin-top: -120px;
 }
-/* .btn {
-  text-decoration: transparent;
-  border: 2px solid black;
-  padding: 5px 5px;
-@ -16,27 +31,110 @@ h1 {
-  background-color: black;
-  color: white;
-}
-.img-nosotros {
-  width: 550px;
-  height: 250px;
-  border-radius: 50%;
-  margin-bottom: 50px;
- */
+
 
 .telephone {
   overflow: hidden;

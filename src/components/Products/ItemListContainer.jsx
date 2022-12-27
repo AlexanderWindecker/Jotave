@@ -31,13 +31,13 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span> Smarts, Audio y Video &raquo;</span>
+                <span> Tv´s, Audio y Video &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/imagen">
                     <i className="bi bi-caret-right-fill">
-                      <span>Smarts</span>
+                      <span>Tv´s</span>
                     </i>
                   </Link>
                 </li>
@@ -132,17 +132,34 @@ function ItemListContainer() {
                       <span>Termotanques</span>
                     </i>
                   </Link>
-                </li>
+                </li>                
+              </ul>
+            </li>
+            <li className="nav-link dropend">
+              <Link
+                className="nav-link dropdown-toogle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>Lavado &raquo;</span>
+              </Link>
+              <ul className="dropdown-menu submenu">
                 <li>
-                  <Link className="dropdown-item" to="/categoria/calefones">
+                  <Link className="dropdown-item" to="/categoria/lavarropa">
                     <i className="bi bi-caret-right-fill">
-                      <span>Calefones</span>
+                      <span>Lavarropas</span>
                     </i>
                   </Link>
                 </li>
+                <li>
+                  <Link className="dropdown-item" to="/categoria/secarropa">
+                    <i className="bi bi-caret-right-fill">
+                      <span>Secarropas</span>
+                    </i>
+                  </Link>
+                </li>                
               </ul>
             </li>
-
             <li className="nav-link dropend">
               <Link
                 className="nav-link dropdown-toogle"
@@ -166,6 +183,13 @@ function ItemListContainer() {
                     </i>
                   </Link>
                 </li>
+                <li>
+                  <Link className="dropdown-item" to="/categoria/microonda">
+                    <i className="bi bi-caret-right-fill">
+                      <span>Microondas</span>
+                    </i>
+                  </Link>
+                </li>
               </ul>
             </li>
             <li className="nav-link dropend">
@@ -176,14 +200,7 @@ function ItemListContainer() {
               >
                 <span>Pequeños Hogar &raquo;</span>
               </Link>
-              <ul className="dropdown-menu submenu">
-                <li>
-                  <Link className="dropdown-item" to="/categoria/planchas">
-                    <i className="bi bi-caret-right-fill">
-                      <span>Planchas</span>
-                    </i>
-                  </Link>
-                </li>
+              <ul className="dropdown-menu submenu">                
                 <li>
                   <Link className="dropdown-item" to="/categoria/aspiradoras">
                     <i className="bi bi-caret-right-fill">
@@ -204,29 +221,12 @@ function ItemListContainer() {
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
-                  <Link className="dropdown-item" to="/categoria/cafetera">
-                    <i className="bi bi-caret-right-fill">
-                      <span>Cafetera</span>
-                    </i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/categoria/pava electrica"
-                  >
-                    <i className="bi bi-caret-right-fill">
-                      <span>Pava Electrica</span>
-                    </i>
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/categoria/Batidora">
+                  <Link className="dropdown-item" to="/categoria/batidora">
                     <i className="bi bi-caret-right-fill">
                       <span>Batidora</span>
                     </i>
                   </Link>
-                </li>
+                </li>                              
                 <li>
                   <Link className="dropdown-item" to="/categoria/Licuadora">
                     <i className="bi bi-caret-right-fill">
@@ -247,24 +247,24 @@ function ItemListContainer() {
                 <li>
                   <Link
                     className="dropdown-item"
-                    to="/categoria/fabrica de pasta"
+                    to="/categoria/freidora"
                   >
                     <i className="bi bi-caret-right-fill">
-                      <span>Fabrica de Pasta</span>
+                      <span>Freidora</span>
                     </i>
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/horno de pan">
+                  <Link className="dropdown-item" to="/categoria/hornodepan">
                     <i className="bi bi-caret-right-fill">
                       <span>Horno de Pan</span>
                     </i>
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/vaporera">
+                  <Link className="dropdown-item" to="/categoria/otros">
                     <i className="bi bi-caret-right-fill">
-                      <span>Vaporera</span>
+                      <span>Otros</span>
                     </i>
                   </Link>
                 </li>
@@ -295,63 +295,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
               </ul>
-            </li>
-
-            <li className="nav-link dropend">
-              <Link
-                className="nav-link dropdown-toogle "
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <span>Cuidado personal &raquo;</span>
-              </Link>
-              <ul className="dropdown-menu submenu">
-                <li>
-                  <Link className="dropdown-item" to="/categoria/afeitadora">
-                    <i className="bi bi-caret-right-fill">
-                      <span>Afeitadora</span>
-                    </i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/categoria/Cortadora de Pelo"
-                  >
-                    <i className="bi bi-caret-right-fill">
-                      <span>Cortadora de Pelo</span>
-                    </i>
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/categoria/depiladora">
-                    <i className="bi bi-caret-right-fill">
-                      <span>Depiladora</span>
-                    </i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/categoria/Secadora de Pelo"
-                  >
-                    <i className="bi bi-caret-right-fill">
-                      <span>Secadora de Pelo</span>
-                    </i>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/categoria/Planchitas y rizadores"
-                  >
-                    <i className="bi bi-caret-right-fill">
-                      <span>Planchitas y Rizadores</span>
-                    </i>
-                  </Link>
-                </li>
-              </ul>
-            </li>
+            </li>           
             <li className="nav-link dropend">
               <Link
                 className="nav-link dropdown-toogle"
@@ -371,17 +315,17 @@ function ItemListContainer() {
                 <li>
                   <Link
                     className="dropdown-item"
-                    to="/categoria/consolas de juegos"
+                    to="/categoria/gabinete"
                   >
                     <i className="bi bi-caret-right-fill">
-                      <span>Consolas de Juegos</span>
+                      <span>Gabinetes</span>
                     </i>
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/categoria/tablets">
+                  <Link className="dropdown-item" to="/categoria/pc">
                     <i className="bi bi-caret-right-fill">
-                      <span>Tablets</span>
+                      <span>PC</span>
                     </i>
                   </Link>
                 </li>
@@ -405,6 +349,13 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
+                  <Link className="dropdown-item" to="/categoria/hidrolavadora">
+                    <i className="bi bi-caret-right-fill">
+                      <span>Hidrolavadoras</span>
+                    </i>
+                  </Link>
+                </li>
+                <li>
                   <Link className="dropdown-item" to="/categoria/piletas">
                     <i className="bi bi-caret-right-fill">
                       <span>Piletas</span>
@@ -421,20 +372,13 @@ function ItemListContainer() {
                 <li>
                   <Link
                     className="dropdown-item"
-                    to="/categoria/hidrolavadoras"
+                    to="/categoria/herramienta"
                   >
-                    <i className="bi bi-caret-right-fill">
-                      <span>Hidrolavadoras</span>
-                    </i>
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/categoria/herramientas">
                     <i className="bi bi-caret-right-fill">
                       <span>Herramientas</span>
                     </i>
                   </Link>
-                </li>
+                </li>                
               </ul>
             </li>
 

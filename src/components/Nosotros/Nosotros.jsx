@@ -16,9 +16,66 @@ const Nosotros = () => {
         </motion.h1>
       </div>
 
-      
+      <div className="container d-flex  ">
+        <div className="container div-movil g-0 col-sm-6 ">
+          <div className="container div-nav">
+            <div className="d-flex  justify-content-evenly ">
+              <img src="https://i.ibb.co/bvM0jYg/Logo-Blanco.png" alt="" />
+              <i className="bi bi-justify mt-2 p-2"></i>
+            </div>
+          </div>
+          <div className="d-flex justify-content-center mt-4">
+            <h4 className="">Grupo Jotave</h4>
+          </div>
+          <div className="container mt-4 ">
+            <p className="text-center m-3  telephone_chat ">
+              <i className="bi bi-check"></i>Facilidad
+            </p>
+            <div className="telephone_check me-4">
+              <i className="bi bi-check2-all"></i>
+            </div>
+          </div>
 
-      <div className="contenedor">
+          <div className="container mt-4 ">
+            <p className="text-center m-3  telephone_chat">
+              <i className="bi bi-check"></i>Efectividad
+            </p>
+            <div className="telephone_check me-4">
+              <i className="bi bi-check2-all"></i>
+            </div>
+          </div>
+          <div className="container mt-4 ">
+            <p className="text-center m-3  telephone_chat">
+              <i className="bi bi-check"></i>Responsabilidad
+            </p>
+            <div className="telephone_check me-4">
+              <i className="bi bi-check2-all"></i>
+            </div>
+          </div>
+        </div>
+
+        <div className="container col-sm-6">
+          <p className="text-center fs-4 p-3 div-text">
+            Todo el universo de artículos del hogar en un solo lugar, con la
+            mejor calidad, diseño y al mejor precio.
+            <br />
+            Somos una empresa que se dedica exclusivamente a la venta financiada
+            de electrodómesticos. Desde hace 5 años nos encontramos en el
+            mercado. Abastecemos y abarcamos la logística de distribución de más
+            de 50 localidades de la provincia de Buenos Aires.
+            <br />
+            Simplemente todo lo que necesitas para amueblar y decorar tu hogar a
+            un solo <span className="fw-bold">Click</span>. Hoy mediante nuestra tienda on-line podes ver nuestro
+            amplio catálogo de productos. Ademas de brindarte la atención
+            personalizada de nuestros asesores, que te guiaran durante todo el
+            proceso y orientaran de manera profesional para hacer de cada
+            espacio de tu hogar un lugar único. Encontrá en nosotros una nueva
+            experiencia de compra y una nueva forma de mejorar tu hogar.
+          </p>
+        </div>
+      </div>
+
+      {/* <div className="contenedor">
         <div className="container justify-center text-center">
           <div className="telephone_container">
             <section className="telephone">
@@ -92,7 +149,7 @@ const Nosotros = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

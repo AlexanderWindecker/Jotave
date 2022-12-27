@@ -244,7 +244,7 @@ const data = [
     img: "https://i.ibb.co/B2h9Vv3/Climatizador-Kanji-LRG04-11-CR-Frio-Calor.jpg",
     title: "Climatizador Kanji LRG04-11CR Frio Calor",
     price: "$00,00",
-    category: "calefaccion",
+    category: "aire",
     detail:
       "Sistema de climatización frío-calor. 8 litros. Control remoto. Amplitud Térmica 15°. Fácil Uso. 3 Modos. 3 Velocidades. Alto 70cm x Ancho 37cm x Largo 29cm. Color: Blanco. No es AireAcodicionado",
     detail2: "Caracteristicas",
@@ -296,7 +296,6 @@ const data = [
     detail5: " Consumo: A+",
     marca: "BRIKET",
     Modelo: "BK2F 2121",
-
     inverter: "No",
     tipo_energia: "A+",
     deshielo: "Manual",
@@ -723,8 +722,7 @@ const data = [
     detail5: "Capacidad 8kg ",
     detail6: "Automatico ",
     marca: "DREAN",
-    modelo: "8.12 ECO",
-    
+    modelo: "8.12 ECO",    
     centrifugado: "Sí",
     centrifugado_autoequilibrado: "Sí",        
     filtro: "Sí",
