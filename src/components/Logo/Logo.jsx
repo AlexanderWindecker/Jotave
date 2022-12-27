@@ -7,7 +7,7 @@ const Logo = () => {
 <div className="navbar navbar-expand-lg navbar-light bg-light">
   
      <Link className="navbar-brand" to="/">
-     <img src="https://i.ibb.co/bvM0jYg/Logo-Blanco.png" alt="logo"/>
+     <img src="https://i.ibb.co/brV3x78/LogoNg.png" alt="logo"/>
      </Link>
      
 </div>

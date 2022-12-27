@@ -24,10 +24,13 @@ function SliderDetail({ data }) {
         <div className="d-flex mt-5 justify-content-around">
             <div className="recommend">
               <p>Recomendado por</p>
-              <h3>Jotave</h3>
+              <img
+                  src="https://i.ibb.co/brV3x78/LogoNg.png" alt="logo"
+                  className="logofooter"
+                />
             </div>
             <div className="action">
-              <button type="button">Link a wsp</button>
+            <a href="https://wa.me/5491168557663?text=Hola,%20%C2%BFPuedes%20informarme%20sobre%20un%20producto?"> <button type="button">Consultar</button></a>
             </div>
           </div>
       
@@ -38,46 +41,3 @@ function SliderDetail({ data }) {
 
 export default SliderDetail;
 
-/* <main>
-        <div classNameName="card">
-          <div classNameName="card__title">
-            <div classNameName="icon">
-              <Link to="#">
-                <i classNameName="fa fa-arrow-left"></i>
-              </Link>
-            </div>
-            <h3> </h3>
-          </div>
-          <div classNameName="card__body">
-            <div classNameName="half">
-              <div classNameName="featured_text">
-                <h1>{data.title} </h1>
-
-                <h3 classNameName="sub">{data.marca} </h3>
-                <p classNameName="price"></p>
-              </div>
-              <div classNameName="image">
-                <img src={data.img} alt={data.title}></img>
-              </div>
-            </div>
-            <div classNameName="half">
-              <div classNameName="description">
-                <p>{data.detail} </p>
-              </div>
-              <span classNameName="stock">
-                <i classNameName="fa fa-pen"></i> En Stock
-              </span>
-              
-            </div>
-          </div>
-          <div classNameName="card__footer">
-            <div classNameName="recommend">
-              <p>Recomendado por</p>
-              <h3>Jotave</h3>
-            </div>
-            <div classNameName="action">
-              <button type="button">Link a wsp</button>
-            </div>
-          </div>
-        </div>
-      </main> */

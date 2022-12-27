@@ -6,16 +6,17 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 import SliderViewedDetailContainer from "./components/SliderViewedDetailContainer/SliderViewedDetailContainer";
 import SliderDetailContainer from "./components/SliderDetailContainer/SliderDetailContainer";
 import NotFound from "./components/NotFound/NotFound";
-/* import ComponentGeneral from "./components/ComponentGeneral/ComponentGeneral"; */
 import { Nosotros } from "./components/Nosotros/Nosotros";
 import { Contacto } from "./components/Contacto/Contacto";
-
 import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Ayuda } from "./components/Ayuda/Ayuda";
-import { Table } from "./components/Table/Table";
+import Whatsap from "./components/Whatsap/Whatsap";
+
+
+
+
 
 function App() {
   return (
@@ -36,10 +37,9 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/ayuda" element={<Ayuda />} />
-
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Table />
+        <Whatsap />
         <Footer />
       </BrowserRouter>
     </>

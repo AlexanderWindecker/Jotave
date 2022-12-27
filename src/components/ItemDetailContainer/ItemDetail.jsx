@@ -4,25 +4,7 @@ import "./ItemDetail.css";
 function ItemDetail({ data }) {
   return (
     <>
-      {/* <div className="container">
-        <ul className="navbar d-flex flex-row bd-highlight mb-3">
-          <li className="nav-item active p-2 bd-highlight">
-            <Link className="nav-item" aria-current="page" to="/">
-              Inicio
-            </Link>
-          </li>
-          <li className="nav-item p-2 bd-highlight">
-            <Link className="nav-item" aria-current="page" to="/categoria">
-              {data.category}
-            </Link>
-          </li>
-          <li className="nav-item p-2 bd-highlight">
-            <Link className="nav-item" aria-current="page" to="/">
-              {data.title}
-            </Link>
-          </li>
-        </ul>
-      </div> */}
+    
       <div className="container card mt-5 d-flex p-1">
         <div className="row g-0">
           {/* imagen */}
@@ -36,7 +18,17 @@ function ItemDetail({ data }) {
           {/* info */}
           <div className="card-body col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <h2 className="card-title fs-1 text-uppercase">{data.title} </h2>
-            <p className="card-text text-uppercase">{data.detail} </p>
+            <p className="card-text ">{data.detail} </p>
+            <span></span>
+            <p>{data.detail2} </p>
+            <span></span>
+            <p>{data.detail3} </p>
+            <span></span>
+            <p>{data.detail4} </p>
+            <span></span>
+            <p>{data.detail5} </p>
+            <span></span>
+            <p>{data.detail6} </p>
             <div className="">
               <p>Codigo: {data.codigo} </p>
             </div>
@@ -48,10 +40,14 @@ function ItemDetail({ data }) {
         <div className="d-flex mt-5 justify-content-around">
           <div className="recommend ">
             <p>Recomendado por</p>
-            <h3>Jotave</h3>
+            <img
+                  src="https://i.ibb.co/brV3x78/LogoNg.png"
+                  className="logofooter"
+                  alt="jotave "
+                />
           </div>
           <div className="action">
-            <button type="button">Link a wsp</button>
+          <a href="https://wa.me/5491168557663?text=Hola,%20%C2%BFPuedes%20informarme%20sobre%20un%20producto?"> <button type="button">Consultar</button></a>
           </div>
         </div>
       </div>

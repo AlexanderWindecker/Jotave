@@ -1,22 +1,23 @@
 import React from "react";
-import "./SliderViewed.css";
+import "../Slider/Slider.css";
 import { Link } from "react-router-dom";
 
 export default function SliderViewed(props) {
-  let { title, img, detail, id } = props;
+  let { title, img, id } = props;
 
   const urlDetalle = `/SliderViewedDetail/ ${id}-${title}`;
 
   return (
-    <div className="card-count ">
+    <div className="card-count">
       <div className="card-img">
-        <img src={img} alt={title} />
+        <img className="img" src={img} alt={title} />
       </div>
-      <div className="card-detail ">
-        <h4 className="card-title mt-5 text-uppercase">{title} </h4>
-        <p>{detail} </p>
-        <Link  to={urlDetalle}>
-          <button className="button_info mt-5">+ Info</button>
+      <div className="border-bottom border-2 mt-4"></div>
+      <div className="card-detail mt-2">
+        <Link className="nav-link" to={urlDetalle}>
+          <h3 className=" nav-item text-center fs-5 letra-titulo">
+            {title}{" "}
+          </h3>
         </Link>
       </div>
     </div>

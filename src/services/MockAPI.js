@@ -1,7 +1,9 @@
 const data = [
   {
     id: 1,
+
     img: "https://i.ibb.co/s5TMzkV/Aire-acondicionado-Split-Kanji-2600w-f-c-26fkht81.webp",
+
     title: "Aire Acondicionado Split KANJI 2600w FC",
     price: "$00.00",
     category: "aire",
@@ -25,7 +27,9 @@ const data = [
   },
   {
     id: 2,
+
     img: "https://i.ibb.co/jyxRcQb/aire-acondicionado-split-hitachi-2600w-fc.webp",
+
     title: "Aire Acondicionado Split HITACHI 2600w FC",
     price: "$00,00",
     detail:
@@ -72,6 +76,7 @@ const data = [
   },
   {
     id: 4,
+
     img: "https://i.ibb.co/RbqmTWN/aire-acondicionado-inverter-greenstay-fc-3500.webp",
     title: "Aire acondicionado Inverter GREENSTAY 3500w FC",
     price: "$00,00",
@@ -87,7 +92,9 @@ const data = [
   },
   {
     id: 5,
+
     img: "https://i.ibb.co/6rzqwgT/aire-acondicionado-inverter-greenstay-fc-6900.webp",
+
     title: "Aire acondicionado Inverter GREENSTAY 6900w FC",
     price: "$00,00",
     detail:
@@ -110,7 +117,9 @@ const data = [
   },
   {
     id: 6,
+
     img: "https://i.ibb.co/98MvLP1/ventilador-vitta-18pulgadas-3-en-1-90w.webp",
+
     title: "Ventilador VITTA 18'' 3 en 1 90w",
     price: "$00,00",
     category: "ventilacion",
@@ -126,7 +135,9 @@ const data = [
   },
   {
     id: 7,
+
     img: "https://i.ibb.co/mCg2yCD/ventilador-industrial-vitta-30-Pulgadas-2-en-1.webp",
+
     title: "Ventilador Industrial Vitta 30'' 2 en 1",
     price: "$00,00",
     detail:
@@ -147,6 +158,7 @@ const data = [
     id: 8,
 
     img: "https://i.ibb.co/MfbHgQR/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.webp",
+
     title: "Ventilador 18'' 3 en 1 STAR TRAK",
     price: "$00,00",
     detail:
@@ -163,7 +175,9 @@ const data = [
   },
   {
     id: 9,
+
     img: "https://i.ibb.co/WBGtj3g/Ventilador-Pie-14-Pulgadas-Base-Pesada-STAR-TRAK.webp",
+
     title: "Ventilador Pie 14'' Base Pesada STAR TRAK",
     price: "$00,00",
     detail: "CARACTERÍSTICAS PRINCIPALES:",
@@ -183,7 +197,9 @@ const data = [
   },
   {
     id: 10,
+
     img: "https://i.ibb.co/jwRFj67/Ventilador-Pie-14-Pulgadas-STAR-TRAK-Multi.webp",
+
     title: "Ventilador Pie 14'' STAR TRAK Multi",
     price: "$00,00",
     detail: "CARACTERÍSTICAS PRINCIPALES:",
@@ -203,7 +219,9 @@ const data = [
   },
   {
     id: 11,
+
     img: "https://i.ibb.co/Zzrrzgj/Ventilador-20-Pulgadas-STAR-TRAK.webp",
+
     title: "Ventilador 20'' STAR TRAK",
     price: "$00,00",
     detail:
@@ -220,7 +238,9 @@ const data = [
   },
   {
     id: 12,
+
     img: "https://i.ibb.co/wdWmpWv/Climatizador-Philco-Portatil-7-L.webp",
+
     title: "Climatizador Philco Portatil 7L",
     price: "$00,00",
     detail:
@@ -241,10 +261,12 @@ const data = [
   },
   {
     id: 13,
+
     img: "https://i.ibb.co/yWrWZLk/Climatizador-Kanji-LRG04-11-CR-Frio-Calor.webp",
     title: "Climatizador Kanji LRG04-11CR Frio Calor",
     price: "$00,00",
-    category: "calefaccion",
+    category: "aire",
+
     detail:
       "Sistema de climatización frío-calor. 8 litros. Control remoto. Amplitud Térmica 15°. Fácil Uso. 3 Modos. 3 Velocidades. Alto 70cm x Ancho 37cm x Largo 29cm. Color: Blanco. No es AireAcodicionado",
     detail2: "Caracteristicas",
@@ -257,7 +279,9 @@ const data = [
   },
   {
     id: 14,
+
     img: "https://i.ibb.co/FVkcTQm/Heladera-Briket-322-L-BK2-F-1610-Blanca-Gris-Negro.webp",
+
     title: "Heladera Briket 322L BK2F 1610 Blanca-Gris-Negro",
     price: "$00,00",
     category: "heladera",
@@ -285,7 +309,9 @@ const data = [
   },
   {
     id: 15,
+
     img: "https://i.ibb.co/dbY7CSx/Heladera-Briket-476-L-BK2-F-2121-Gris.webp",
+
     title: "Heladera Briket 476L BK2F 2121 Gris",
     price: "$00,00",
     category: "heladera",
@@ -296,7 +322,6 @@ const data = [
     detail5: " Consumo: A+",
     marca: "BRIKET",
     Modelo: "BK2F 2121",
-
     inverter: "No",
     tipo_energia: "A+",
     deshielo: "Manual",
@@ -306,7 +331,9 @@ const data = [
   },
   {
     id: 16,
+
     img: "https://i.ibb.co/VHB5h2j/Heladera-SIAM-Top-Mount-370l-C-Disp-inox.webp",
+
     title: "Heladera SIAM Top Mount 370l C-Disp inox",
     price: "$00,00",
     category: "heladera",
@@ -337,7 +364,9 @@ const data = [
   },
   {
     id: 17,
+
     img: "https://i.ibb.co/sg6TNj2/Heladera-Samsung-Inox-321-L-con-display-RT32-K5930-SL.webp",
+
     title: "Heladera Samsung Inox 321L con display RT32K5930SL",
     price: "$00,00",
     category: "heladera",
@@ -362,7 +391,9 @@ const data = [
   },
   {
     id: 18,
+
     img: "https://i.ibb.co/xF1t8S9/Heladera-Samsung-Inox-380-L-Con-Display-RT38-K5932-SL.webp",
+
     title: "Heladera Samsung Inox 380L Con Display RT38K5932SL",
     price: "$00,00",
     category: "heladera",
@@ -390,7 +421,9 @@ const data = [
   },
   {
     id: 19,
+
     img: "https://i.ibb.co/Z8d47m6/Heladera-Philco-Inox-530l-94phsb530xt.webp",
+
     title: "Heladera Philco Inox 530l 94phsb530xt",
     price: "$00,00",
     category: "heladera",
@@ -420,7 +453,9 @@ const data = [
   },
   {
     id: 20,
+
     img: "https://i.ibb.co/H7kwVTK/Heladera-BRIKET-Bajo-Mesada.webp",
+
     title: "Heladera BRIKET Bajo Mesada Colores",
     price: "$00,00",
     category: "heladera",
@@ -440,7 +475,9 @@ const data = [
   },
   {
     id: 21,
+
     img: "https://i.ibb.co/gM6T3My/Freezer-Horizontal-Briket-FR-2500-st.webp",
+
     title: "Freezer Horizontal Briket FR 2500 st",
     price: "$00,00",
     category: "freezer",
@@ -461,7 +498,9 @@ const data = [
   },
   {
     id: 22,
+
     img: "https://i.ibb.co/tZrSNp7/Freezer-Horizontal-Briket-FR-3300-st.webp",
+
     title: "Freezer Horizontal Briket FR 3300 ST",
     price: "$00,00",
     category: "freezer",
@@ -482,7 +521,9 @@ const data = [
   },
   {
     id: 23,
+
     img: "https://i.ibb.co/WWJrGTG/Freezer-Horizontal-Briket-FR-4500-ST-2-Puertas.webp",
+
     title: "Freezer Horizontal Briket FR 4500 ST 2 Puertas",
     price: "$00,00",
     category: "freezer",
@@ -504,7 +545,9 @@ const data = [
   },
   {
     id: 24,
+
     img: "https://i.ibb.co/rtSM63W/Exhibidora-Comercial-BRIKET-Master-3200.webp",
+
     title: "Exhibidora Comercial BRIKET Master 3200",
     price: "$00,00",
     category: "freezer",
@@ -522,7 +565,9 @@ const data = [
   },
   {
     id: 25,
+
     img: "https://i.ibb.co/846HyJs/Exhibidora-Comercial-BRIKET-Master-4300.webp",
+
     title: "Exhibidora Comercial BRIKET Master 4300",
     price: "$00,00",
     category: "freezer",
@@ -539,7 +584,9 @@ const data = [
   },
   {
     id: 26,
+
     img: "https://i.ibb.co/tPL6zWq/Exhibidora-Comercial-BRIKET-Master-5000.webp",
+
     title: "Exhibidora Comercial BRIKET Master 5000",
     price: "$00,00",
     category: "freezer",
@@ -557,7 +604,9 @@ const data = [
   },
   {
     id: 27,
+
     img: "https://i.ibb.co/vcsmkKj/Exhibidora-Comercial-Best-Cold-2-Puertas-750l-MT750.webp",
+
     title: "Exhibidora Comercial BestCold 2 Puertas 750l MT750",
     price: "$00,00",
     category: "freezer",
@@ -579,7 +628,9 @@ const data = [
   },
   {
     id: 28,
+
     img: "https://i.ibb.co/rvtHx6V/Freezer-Horizontal-BRIKET-Tapa-Vidrio-3300.webp",
+
     title: "Freezer Horizontal BRIKET Tapa Vidrio 3300",
     price: "$00,00",
     category: "freezer",
@@ -599,7 +650,9 @@ const data = [
   },
   {
     id: 29,
+
     img: "https://i.ibb.co/8bJpMF5/Freezer-Horizontal-Teora-550-L-TV-FH550-TV.webp",
+
     title: "Freezer Horizontal TEORA 550L TV FH550TV",
     price: "$00,00",
     category: "freezer",
@@ -616,7 +669,9 @@ const data = [
   },
   {
     id: 30,
+
     img: "https://i.ibb.co/0CSfs3k/Batea-Comercial-Best-Cold-Standard-Recta-2400-R.webp",
+
     title: "Batea Comercial BestCold Standard Recta 2400-R",
     price: "$00,00",
     category: "heladera",
@@ -635,7 +690,9 @@ const data = [
   },
   {
     id: 31,
+
     img: "https://i.ibb.co/wB4Whhy/Vitrina-Mostrador-BESTCOLD-Winnipeg-610-L-1600-WE.webp",
+
     title: "Vitrina Mostrador BESTCOLD Winnipeg 610L 1600WE",
     price: "$00,00",
     category:"heladera",
@@ -654,7 +711,9 @@ const data = [
   },
   {
     id: 32,
+
     img: "https://i.ibb.co/w6wJbFg/Batea-Comercial-Best-Cold-standard-Vidrio-bajo-1300-rs.webp",
+
     title: "Batea Comercial BestCold standard Vidrio bajo 1300-RS",
     price: "$00,00",
     category: "heladera",
@@ -671,7 +730,9 @@ const data = [
   },
   {
     id: 33,
+
     img: "https://i.ibb.co/yfXB6fT/Vitrina-Best-Cold-Winnipeg-Dark-1400-WE.webp",
+
     title: "Vitrina BestCold Winnipeg Dark 1400WE",
     price: "$00,00",
     category: "heladera",
@@ -693,7 +754,9 @@ const data = [
   },
   {
     id: 34,
+
     img: "https://i.ibb.co/ZTV0R9m/Vitrina-con-Bajada-Best-Cold-450-L-1700-E.webp",
+
     title: "Vitrina con Bajada BestCold 450L 1700E",
     price: "$00,00",
     category: "heladera",
@@ -712,7 +775,9 @@ const data = [
   },
   {
     id: 35,
+
     img: "https://i.ibb.co/T0dCwy1/Lavarropas-Drean-Next-8-12-ECO.webp",
+
     title: "Lavarropas Drean Next 8.12 ECO",
     price: "$00,00",
     category: "lavarropa",
@@ -723,8 +788,9 @@ const data = [
     detail5: "Capacidad 8kg ",
     detail6: "Automatico ",
     marca: "DREAN",
+
     modelo: "8.12 ECO",
-    
+
     centrifugado: "Sí",
     centrifugado_autoequilibrado: "Sí",        
     filtro: "Sí",
@@ -746,7 +812,9 @@ const data = [
   },
   {
     id: 36,
+
     img: "https://i.ibb.co/2SgZXJX/Lavasecarropas-Electrolux-8kg-inverter-EWD08-B.webp",
+
     title: "Lavasecarropas Electrolux 8kg inverter EWD08B",
     price: "$00,00",
     category: "lavarropa",
@@ -772,7 +840,9 @@ const data = [
   },
   {
     id: 37,
+
     img: "https://i.ibb.co/t8P63vR/Lavarropas-Drean-Concept-Fuzzy-Logic-Tech-V1.webp",
+
     title: "Lavarropas Drean Concept Fuzzy Logic Tech V1",
     price: "$00,00",
     category: "lavarropa",
@@ -801,7 +871,9 @@ const data = [
   },
   {
     id: 38,
+
     img: "https://i.ibb.co/g6s5k1q/Secarropas-Koh-i-Noor-Negro-N-655-2-5-5-KG.webp",
+
     title: "Secarropas Koh i Noor Negro N-655-2 5.5KG",
     price: "$00,00",
     category: "secarropa",
@@ -822,7 +894,9 @@ const data = [
   },
   {
     id: 39,
+
     img: "https://i.ibb.co/kmcrFr0/Secarropas-Koh-i-Noor-Acero-A-665-2-6-5-KG.webp",
+
     title: "Secarropas Koh i Noor Acero A-665-2 6.5KG",
     price: "$00,00",
     category: "secarropa",
@@ -842,7 +916,9 @@ const data = [
   },
   {
     id: 40,
+
     img: "https://i.ibb.co/60q0cCb/Cocina-Vitta-Bella-Bianca-Multigas.webp",
+
     title: "Cocina Vitta Bella Bianca Multigas",
     price: "$00,00",
     category: "cocina",
@@ -859,7 +935,9 @@ const data = [
   },
   {
     id: 41,
+
     img: "https://i.ibb.co/YdqvBRb/Cocina-Vitta-Bella-Nera-Multigas.webp",
+
     title: "Cocina Vitta Bella Nera Multigas",
     price: "$00,00",
     category: "cocina",
@@ -875,7 +953,9 @@ const data = [
   },
   {
     id: 42,
+
     img: "https://i.ibb.co/88fCD8r/Cocina-Vitta-Bella-Acero-Multigas.webp",
+
     title: "Cocina Vitta Bella Acero Multigas",
     price: "$00,00",
     category: "cocina",
@@ -891,7 +971,9 @@ const data = [
   },
   {
     id: 43,
+
     img: "https://i.ibb.co/61Y65DV/Cocina-Vitta-Semi-Industrial-Bella-Chef.webp",
+
     title: "Cocina Vitta Semi Industrial Bella Chef",
     price: "$00,00",
     category: "cocina",
@@ -908,7 +990,9 @@ const data = [
   },
   {
     id: 44,
+
     img: "https://i.ibb.co/rkXj6tW/Cocina-Electrolux-Doble-Horno-Elec-Gas.webp",
+
     title: "Cocina Electrolux Doble Horno Elec-Gas",
     price: "$00,00",
     category: "cocina",
@@ -932,7 +1016,9 @@ const data = [
   },
   {
     id: 45,
+
     img: "https://i.ibb.co/8mVxRmy/Cocina-Industrial-Motta-Pro-Pv-520-G-N.webp",
+
     title: "Cocina Industrial Motta Pro Pv 520 G-N",
     price: "$00,00",
     category: "cocina",
@@ -950,7 +1036,9 @@ const data = [
   },
   {
     id: 46,
+
     img: "https://i.ibb.co/M79zyqv/Cocina-Industrial-Motta-Pro-600-Negra-G-N.webp",
+
     title: "Cocina Industrial Motta Pro 600 Negra G-N",
     price: "$00,00",
     category: "cocina",
@@ -968,7 +1056,9 @@ const data = [
   },
   {
     id: 47,
+
     img: "https://i.ibb.co/2jSmgHZ/Cocina-Industrial-Compacta-El-Gauchito-G-N.webp",
+
     title: "Cocina Industrial Compacta El Gauchito G-N",
     price: "$00,00",
     category: "cocina",
@@ -984,7 +1074,9 @@ const data = [
   },
   {
     id: 48,
+
     img: "https://i.ibb.co/XVwYySq/Horno-Electrico-Vitta-Forno-blanco-45l-c-Anafe.webp",
+
     title: "Horno Electrico Vitta Forno Blanco 45l c-Anafe",
     price: "$00,00",
     category: "horno",
@@ -1001,7 +1093,9 @@ const data = [
   },
   {
     id: 49,
+
     img: "https://i.ibb.co/vqyd8DS/Horno-Vitta-Electrico-DW-5094-CA-55-L-C-Anafe.webp",
+
     title: "Horno Vitta Electrico DW-5094CA 55L C-Anafe",
     price: "$00,00",
     category: "horno",
@@ -1018,6 +1112,7 @@ const data = [
   },
   {
     id: 50,
+
     img: "https://i.ibb.co/vqyd8DS/Horno-Vitta-Electrico-DW-5094-CA-55-L-C-Anafe.webp",
     title: "Horno Vitta Electrico DW-7004CA 70L C-Anafe",
     price: "$00,00",
@@ -1034,7 +1129,9 @@ const data = [
   },
   {
     id: 51,
+
     img: "https://i.ibb.co/58v2R7X/Horno-Vitta-Electrico-Forno-Rosso-45-L-C-Anafe.webp",
+
     title: "Horno Vitta Electrico Forno Rosso 45L C-Anafe",
     price: "$00,00",
     category: "horno",
@@ -1050,7 +1147,9 @@ const data = [
   },
   {
     id: 52,
+
     img: "https://i.ibb.co/xLdy89c/Horno-Vitta-Electrico-Forno-Rosso-55-L-C-Anafe.webp",
+
     title: "Horno Vitta Electrico Forno Rosso 55L C-Anafe",
     price: "$00,00",
     category: "horno",
@@ -1066,7 +1165,9 @@ const data = [
   },
   {
     id: 53,
+
     img: "https://i.ibb.co/TPsb1ZR/Horno-Vitta-Electrico-40l-VIT-HE4000012000-RC-1.webp",
+
     title: "Horno Vitta Electrico 40l-50l-65l",
     price: "$00,00",
     category: "horno",
@@ -1082,7 +1183,9 @@ const data = [
   },
   {
     id: 54,
+
     img: "https://i.ibb.co/gV6bqnz/Microondas-Samsung-Blanco-20lts-ME731-KKD.webp",
+
     title: "Microondas Samsung Blanco 20lts ME731KKD",
     price: "$00,00",
     category: "microonda",
@@ -1098,7 +1201,9 @@ const data = [
   },
   {
     id: 55,
+
     img: "https://i.ibb.co/YkgqyqN/Microondas-Samsung-Negro-23lts-MG23-F3-K3-TAK.webp",
+
     title: "Microondas Samsung Negro 23lts MG23F3K3TAK",
     price: "$00,00",
     category: "microonda",
@@ -1114,7 +1219,9 @@ const data = [
   },
   {
     id: 56,
+
     img: "https://i.ibb.co/54Zm77F/Microondas-Samsung-Silver-23lts-MG23-F3-K3-TA.webp",
+
     title: "Microondas Samsung Silver 23lts MG23F3K3TA",
     price: "$00,00",
     category: "microonda",
@@ -1129,7 +1236,9 @@ const data = [
   },
   {
     id: 57,
+
     img: "https://i.ibb.co/C0zHFLP/Microondas-Samsung-Silver-28-lts-MG28-F3-K3-T.webp",
+
     title: "Microondas Samsung Silver 28 lts MG28F3K3T",
     price: "$00,00",
     category: "microonda",
@@ -1143,7 +1252,9 @@ const data = [
   },
   {
     id: 58,
+
     img: "https://i.ibb.co/T1h70xc/Licuadora-3-en-1-Star-Trak-Acero-Vaso-de-Vidrio.webp",
+
     title: "Licuadora 3 en 1 Star Trak Acero Vaso de Vidrio",
     price: "$00,00",
     category: "licuadora",
@@ -1157,7 +1268,9 @@ const data = [
   },
   {
     id: 59,
+
     img: "https://i.ibb.co/pZDMwLF/Licuadora-Westinghouse-BL0800-LA0-Negra.webp",
+
     title: "Licuadora Westinghouse BL0800LA0 Negra",
     price: "$00,00",
     category: "licuadora",
@@ -1171,7 +1284,9 @@ const data = [
   },
   {
     id: 60,
+
     img: "https://i.ibb.co/2Z1jyxt/Licuadora-Yelmo-700w-1-5-Vaso-de-Vidrio-LC-1010.webp",
+
     title: "Licuadora Yelmo 700w 1.5 Vaso de Vidrio LC-1010",
     price: "$00,00",
     category: "licuadora",
@@ -1185,7 +1300,9 @@ const data = [
   },
   {
     id: 61,
+
     img: "https://i.ibb.co/JnJZdq0/Licuadora-Liliana-Delux-Jarra-AL180.webp",
+
     title: "Licuadora Liliana Delux Jarra AL180",
     price: "$00,00",
     category: "licuadora",    
@@ -1199,7 +1316,9 @@ const data = [
   },
   {
     id: 62,
+
     img: "https://i.ibb.co/X5Yv4rh/Juguera-Electrica-Liliana-Nutrijug-350-ML-AAJ950.webp",
+
     title: "Juguera Electrica Liliana Nutrijug 350 ML AAJ950",
     price: "$00,00",
     category: "licuadora",
@@ -1213,7 +1332,9 @@ const data = [
   },
   {
     id: 63,
+
     img: "https://i.ibb.co/XVQhzzJ/Multiprocesadora-Liliana-Simplix-700-W-AAM700.webp",
+
     title: "Multiprocesadora Liliana Simplix 700W AAM700",
     price: "$00,00",
     category: "multiprocesadora",
@@ -1223,6 +1344,7 @@ const data = [
   {
     id: 64,
     img: "https://i.ibb.co/ZNNddN7/Procesadora-B-D-FP1002-J-AR-750w-c-Vaso-licuadora.webp",
+
     title: "Procesadora B+D FP1002J-AR 750w c-Vaso licuadora",
     price: "$00,00",
     category: "multiprocesadora",
@@ -1231,7 +1353,9 @@ const data = [
   },
   {
     id: 65,
+
     img: "https://i.ibb.co/n7rqYbn/Batidora-Planetaria-Eurocook-Taurus-EC-BP1509-B.webp",
+
     title: "Batidora Planetaria Eurocook Taurus EC-BP1509B",
     price: "$00,00",
     category: "batidora",
@@ -1241,7 +1365,9 @@ const data = [
   },
   {
     id: 66,
-    img: "https://i.ibb.co/qmzsyH5/Batidora-Planetaria-Yelmo-Amarilla-8-Vel-BB-1103-A.webp",
+
+   img: "https://i.ibb.co/qmzsyH5/Batidora-Planetaria-Yelmo-Amarilla-8-Vel-BB-1103-A.webp",
+
     title: "Batidora Planetaria Yelmo Amarilla 8 Vel BB-1103A",
     price: "$00,00",
     category: "batidora",
@@ -1251,7 +1377,9 @@ const data = [
   },
   {
     id: 67,
+
     img: "https://i.ibb.co/pRQVrtj/Batidora-Planetaria-Westing-House-Blanca-Gris.webp",
+
     title: "Batidora Planetaria WestingHouse Blanca-Gris",
     price: "$00,00",
     category: "batidora",
@@ -1261,7 +1389,9 @@ const data = [
   },
   {
     id: 68,
+
     img: "https://i.ibb.co/jkkTRZZ/Horno-de-Pan-Liliana-Full-Bread-850-W-AFP910.webp",
+
     title: "Horno de Pan Liliana Full Bread 850W AFP910",
     price: "$00,00",
     category: "hornodepan",
@@ -1271,7 +1401,9 @@ const data = [
   },
   {
     id: 69,
+
     img: "https://i.ibb.co/Gn0dV6h/Freidora-Electrica-de-Aire-Black-Decker-HFD1010-B.webp",
+
     title: "Freidora Electrica de Aire Black Decker HFD1010B",
     price: "$00,00",
     category: "freidora",
@@ -1281,7 +1413,9 @@ const data = [
   },
   {
     id: 70,
+
     img: "https://i.ibb.co/qJr58Kq/Juego-de-5-Piezas-Aluminio-Teflon-Mta-Safira-Negra.webp",
+
     title: "Juego de 5 Piezas Aluminio Teflon Mta Safira Negra",
     price: "$00,00",
     category: "equipamiento",
@@ -1291,7 +1425,9 @@ const data = [
   },
   {
     id: 71,
+
     img: "https://i.ibb.co/fpMDmSH/Balanza-Comercial-Kretz-Novel-Eco-2-30kg-AUN30-P.webp",
+
     title: "Balanza Comercial Kretz Novel Eco 2 30kg AUN30P",
     price: "$00,00",
     category: "equipamiento",
@@ -1301,7 +1437,9 @@ const data = [
   },
   {
     id: 72,
+
     img: "https://i.ibb.co/gz6X0MW/Balanza-Comercial-Kretz-Etiquetadora-Report-30kg.webp",
+
     title: "Balanza Comercial Kretz Etiquetadora Report 30kg",
     price: "$00,00",
     category: "equipamiento",
@@ -1311,7 +1449,9 @@ const data = [
   },
   {
     id: 73,
+
     img: "https://i.ibb.co/vwG9Lzs/Balanza-Comercial-Kretz-Aura-Eco-30kg-AUI30-P.webp",
+
     title: "Balanza Comercial Kretz Aura Eco 30kg AUI30P",
     price: "$00,00",
     category: "equipamiento",
@@ -1321,7 +1461,9 @@ const data = [
   },
   {
     id: 74,
+
     img: "https://i.ibb.co/J3245Lt/Aspiradora-Ultracomb-C-Bolsa-1600-W-AS4210.webp",
+
     title: "Aspiradora Ultracomb C-Bolsa 1600W AS4210",
     price: "$00,00",
     category: "aspiradora",
@@ -1331,7 +1473,9 @@ const data = [
   },
   {
     id: 75,
+
     img: "https://i.ibb.co/hcQhddG/Aspiradora-Ultracomb-S-Bolsa-1400-W-1-2-L-AS-4220.webp",
+
     title: "Aspiradora Ultracomb S-Bolsa 1400W 1,2L AS-4220",
     price: "$00,00",
     category: "aspiradora",
@@ -1341,7 +1485,9 @@ const data = [
   },
   {
     id: 76,
+
     img: "https://i.ibb.co/60rnQK5/Aspiradora-Ultracomb-S-Bolsa-1800-W-2-5-L-AS-4224.webp",
+
     title: "Aspiradora Ultracomb S-Bolsa 1800W 2,5L AS-4224",
     price: "$00,00",
     category: "aspiradora",
@@ -1351,7 +1497,9 @@ const data = [
   },
   {
     id: 77,
+
     img: "https://i.ibb.co/dbXDt98/Aspiradora-Black-Decker-C-Bolsa-1800-W-VCBD1800.webp",
+
     title: "Aspiradora Black & Decker C-Bolsa 1800W VCBD1800",
     price: "$00,00",
     category: "aspiradora",
@@ -1361,7 +1509,9 @@ const data = [
   },
   {
     id: 78,
+
     img: "https://i.ibb.co/ry0ShSM/Aspiradora-Samsung-VC20-CCNMARF-Red-Flame.webp",
+
     title: "Aspiradora Samsung VC20CCNMARF Red Flame",
     price: "$00,00",
     category: "aspiradora",
@@ -1371,7 +1521,9 @@ const data = [
   },
   {
     id: 79,
+
     img: "https://i.ibb.co/cTjrBCk/Aspiradora-Ciclonica-Ultra-Comb-7-L-Gris-AS-4230.webp",
+
     title: "Aspiradora Ciclonica UltraComb 7L Gris AS-4230",
     price: "$00,00",
     category: "aspiradora",
@@ -1381,7 +1533,9 @@ const data = [
   },
   {
     id: 80,
+
     img: "https://i.ibb.co/w4dLvpt/Termotanque-Gris-Electrico-Blanco-Gas-150-100-80-50-25-lts-Vitta.webp",
+
     title: "Termotanque Gris Electrico-Blanco Gas 150-100-80-50-25 lts Vitta",
     price: "$00,00",
     category: "termotanques",
@@ -1391,7 +1545,9 @@ const data = [
   },
   {
     id: 81,
+
     img: "https://i.ibb.co/PFh7jH5/Termotanque-Electrico-Sherman-Colgante-55-L.webp",
+
     title: "Termotanque Electrico Sherman Colgante 55L & 85L",
     price: "$00,00",
     category: "termotanques",
@@ -1401,7 +1557,9 @@ const data = [
   },
   {
     id: 82,
+
     img: "https://i.ibb.co/LxTPG59/Termotanque-Electrico-Sherman-Pie-85-L.webp",
+
     title: "Termotanque Electrico Sherman Con Pie 55L & 85L",
     price: "$00,00",
     category: "termotanques",
@@ -1411,7 +1569,9 @@ const data = [
   },
   {
     id: 83,
+
     img: "https://i.ibb.co/9rXpfVd/Termotanque-Sherman-Pie-MG-C-Purificador-120-L.webp",
+
     title: "Termotanque Sherman Pie MG C-Purificador 120L",
     price: "$00,00",
     category: "termotanques",
@@ -1421,7 +1581,9 @@ const data = [
   },
   {
     id: 84,
+
     img: "https://i.ibb.co/SyQJTxX/Termotanque-Bigas-Universal-120-L.webp",
+
     title: "Termotanque Bigas Universal 120L",
     price: "$00,00",
     category: "termotanques",
@@ -1431,7 +1593,9 @@ const data = [
   },
   {
     id: 85,
+
     img: "https://i.ibb.co/ZSpLJx6/Termotanque-Electrico-Universal-60-L.webp",
+
     title: "Termotanque Electrico Universal 60L",
     price: "$00,00",
     category: "termotanques",
@@ -1441,7 +1605,9 @@ const data = [
   },
   {
     id: 86,
+
     img: "https://i.ibb.co/tMN8Myc/Tv-Kanji-32-Led-HD.webp",
+
     title: "Tv Kanji 32 Led HD",
     price: "$00,00",
     category: "imagen",
@@ -1451,7 +1617,9 @@ const data = [
   },
   {
     id: 87,
+
     img: "https://i.ibb.co/mBc8kDN/Tv-Smart-Kanji-32-HD-Google-TV-KJ-32-MT005.webp",
+
     title: "Tv Smart Kanji 32'' HD Google  TV KJ-32MT005",
     price: "$00,00",
     category: "imagen",
@@ -1461,7 +1629,9 @@ const data = [
   },
   {
     id: 88,
+
     img: "https://i.ibb.co/JyfmqfX/Tv-Smart-HD-32-ENOVA.webp",
+
     title: "Tv Smart HD 32 ENOVA",
     price: "$00,00",
     category: "imagen",
@@ -1471,7 +1641,9 @@ const data = [
   },
   {
     id: 89,
+
     img: "https://i.ibb.co/3sKv49s/Tv-Smart-HD-32-TELEFUNKEN.webp",
+
     title: "Tv Smart HD 32'' TELEFUNKEN",
     price: "$00,00",
     category: "imagen",
@@ -1481,7 +1653,9 @@ const data = [
   },
   {
     id: 90,
+
     img: "https://i.ibb.co/GPsVLbr/Tv-Smart-Led-32-TCL-Con-Android-L32-S60-A.webp",
+
     title: "Tv Smart Led 32'' TCL Con Android L32S60A",
     price: "$00,00",
     category: "imagen",
@@ -1491,7 +1665,9 @@ const data = [
   },
   {
     id: 91,
+
     img: "https://i.ibb.co/pf44v93/Smart-Vision-Candy-Led-32.webp",
+
     title: "SmartVision Candy Led 32'",
     price: "$00,00",
     category: "imagen",
@@ -1501,7 +1677,9 @@ const data = [
   },
   {
     id: 92,
+
     img: "https://i.ibb.co/vwP6pGC/Tv-Smart-Kodak-32-HD-32-SV1200-Negro.webp",
+
     title: "Tv Smart Kodak 32'' HD 32SV1200 Negro",
     price: "$00,00",
     category: "imagen",
@@ -1511,7 +1689,9 @@ const data = [
   },
   {
     id: 93,
+
     img: "https://i.ibb.co/qyZ3Jyz/Smart-Tv-Skyworth-32-Android.webp",
+
     title: "Smart Tv Skyworth 32'' Android",
     price: "$00,00",
     category: "imagen",
@@ -1521,7 +1701,9 @@ const data = [
   },
   {
     id: 94,
+
     img: "https://i.ibb.co/GJTGQ52/Tv-Smart-Kanji-40-Full-Hd-Google-TV.webp",
+
     title: "Tv Smart Kanji 40'' Full Hd Google TV",
     price: "$00,00",
     category: "imagen",
@@ -1531,7 +1713,9 @@ const data = [
   },
   {
     id: 95,
+
     img: "https://i.ibb.co/D7hY6Bz/Smart-Tv-Candy-50-Google-Tv-Android.webp",
+
     title: "Smart Tv Candy 50'' Google Tv Android",
     price: "$00,00",
     category: "imagen",
@@ -1541,7 +1725,9 @@ const data = [
   },
   {
     id: 96,
+
     img: "https://i.ibb.co/gP8Gjw7/Smart-Tv-Kodak-40-Led-FHD-WE-4-XTL005.webp",
+
     title: "Smart Tv Kodak 40'' Led FHD WE-4XTL005",
     price: "$00,00",
     category: "imagen",
@@ -1551,7 +1737,9 @@ const data = [
   },
   {
     id: 97,
+
     img: "https://i.ibb.co/tZ9b20C/Smart-Tv-Philips-Led-50-Android-50-PUD7406-77.webp",
+
     title: "Smart Tv Philips Led 50'' Android 50PUD7406-77",
     price: "$00,00",
     category: "imagen",
@@ -1561,7 +1749,9 @@ const data = [
   },
   {
     id: 98,
+
     img: "https://i.ibb.co/ZhBFgG9/Tv-Smart-Kanji-60-4-K-Google-Tv.webp",
+
     title: "Tv Smart Kanji 60'' 4K Google Tv",
     price: "$00,00",
     category: "imagen",
@@ -1571,7 +1761,9 @@ const data = [
   },
   {
     id: 99,
+
     img: "https://i.ibb.co/XSjV18p/Tv-Smart-Kodak-60-LED-UHD-WE-6-XST005.webp",
+
     title: "Tv Smart Kodak 60 LED UHD WE-6XST005",
     price: "$00,00",
     category: "imagen",
@@ -1581,7 +1773,9 @@ const data = [
   },
   {
     id: 100,
+
     img: "https://i.ibb.co/MM56vqX/Tv-Smart-Samsung-55-QLED-4-K-QN55-Q65-BAGCZB.webp",
+
     title: "Tv Smart Samsung 55'' QLED 4K QN55Q65BAGCZB",
     price: "$00,00",
     category: "imagen",
@@ -1591,7 +1785,9 @@ const data = [
   },
   {
     id: 101,
+
     img: "https://i.ibb.co/BBbRnMP/Tv-Smart-Kanji-65-4-K-Google-TV.webp",
+
     title: "Tv Smart Kanji 65'' 4K Google TV",
     price: "$00,00",
     category: "imagen",
@@ -1601,7 +1797,9 @@ const data = [
   },
   {
     id: 102,
+
     img: "https://i.ibb.co/9c6Gds4/Tv-Smart-Samsung-55-4-K-AU700.webp",
+
     title: "Tv Smart Samsung 55'' 4K AU700",
     price: "$00,00",
     category: "imagen",
@@ -1611,7 +1809,9 @@ const data = [
   },
   {
     id: 103,
+
     img: "https://i.ibb.co/58GTMMg/Tv-Smart-Samsung-75-UHD-4-K-BU8000.webp",
+
     title: "Tv Smart Samsung 75'' UHD 4K BU8000",
     price: "$00,00",
     category: "imagen",
@@ -1621,7 +1821,9 @@ const data = [
   },
   {
     id: 104,
+
     img: "https://i.ibb.co/6Zxx4vw/Celular-Samsung-A30-Core-32-Gb.webp",
+
     title: "Celular Samsung A30 Core 32Gb",
     price: "$00,00",
     category: "samsung",
@@ -1631,7 +1833,9 @@ const data = [
   },
   {
     id: 105,
+
     img: "https://i.ibb.co/cYnmDmC/Celular-Samsung-Galaxy-A03-32-Gb.webp",
+
     title: "Celular Samsung Galaxy A03 32Gb",
     price: "$00,00",
     category: "samsung",
@@ -1641,7 +1845,9 @@ const data = [
   },
   {
     id: 106,
+
     img: "https://i.ibb.co/FhTHkwB/Celular-Samsung-A04-32-GB.webp",
+
     title: "Celular Samsung A04 32GB",
     price: "$00,00",
     category: "samsung",
@@ -1651,7 +1857,9 @@ const data = [
   },
   {
     id: 107,
+
     img: "https://i.ibb.co/jhs7Fgn/Celular-Samsung-A03-64-GB.webp",
+
     title: "Celular Samsung A03 64 GB",
     price: "$00,00",
     category: "samsung",
@@ -1661,7 +1869,9 @@ const data = [
   },
   {
     id: 108,
+
     img: "https://i.ibb.co/WyPvHqt/Celular-Samsung-A03-128-GB.webp",
+
     title: "Celular Samsung A03 128 GB",
     price: "$00,00",
     category: "samsung",
@@ -1671,7 +1881,9 @@ const data = [
   },
   {
     id: 109,
+
     img: "https://i.ibb.co/VWmcdtt/Celular-Samsung-A13-64gb.webp",
+
     title: "Celular Samsung A13 64gb",
     price: "$00,00",
     category: "samsung",
@@ -1681,7 +1893,9 @@ const data = [
   },
   {
     id: 110,
+
     img: "https://i.ibb.co/zJBC0pK/Celular-Samsung-A13-128gb-Negro.webp",
+
     title: "Celular Samsung A13 128gb Negro",
     price: "$00,00",
     category: "samsung",
@@ -1691,7 +1905,9 @@ const data = [
   },
   {
     id: 111,
+
     img: "https://i.ibb.co/pP1BRWD/Celular-Samsung-M13-128-4gb.webp",
+
     title: "Celular Samsung M13 128-4gb",
     price: "$00,00",
     category: "samsung",
@@ -1701,7 +1917,9 @@ const data = [
   },
   {
     id: 112,
+
     img: "https://i.ibb.co/XSLRqxm/Celular-Samsung-A22-5-G-Nacional.webp",
+
     title: "Celular Samsung A22 5G Nacional",
     price: "$00,00",
     category: "samsung",
@@ -1711,7 +1929,9 @@ const data = [
   },
   {
     id: 113,
+
     img: "https://i.ibb.co/fvqn6D9/Celular-Samsung-A23-Nacional.webp",
+
     title: "Celular Samsung A23 Nacional",
     price: "$00,00",
     category: "samsung",
@@ -1721,7 +1941,9 @@ const data = [
   },
   {
     id: 114,
+
     img: "https://i.ibb.co/wNcNqNH/Celular-Samsung-M23-G5-Nacional.webp",
+
     title: "Celular Samsung M23 G5 Nacional",
     price: "$00,00",
     category: "samsung",
@@ -1731,7 +1953,9 @@ const data = [
   },
   {
     id: 115,
+
     img: "https://i.ibb.co/fG9QjrC/Celular-Samsung-A33.webp",
+
     title: "Celular Samsung A33",
     price: "$00,00",
     category: "samsung",
@@ -1741,7 +1965,9 @@ const data = [
   },
   {
     id: 116,
+
     img: "https://i.ibb.co/28GxTgL/Celular-Samsung-A53-5-G-Nacional.webp",
+
     title: "Celular Samsung A53 5G Nacional",
     price: "$00,00",
     category: "samsung",
@@ -1751,7 +1977,9 @@ const data = [
   },
   {
     id: 117,
+
     img: "https://i.ibb.co/p18L56W/Celular-Samsung-S20-128-GB.webp",
+
     title: "Celular Samsung S20 128GB",
     price: "$00,00",
     category: "samsung",
@@ -1761,7 +1989,9 @@ const data = [
   },
   {
     id: 118,
+
     img: "https://i.ibb.co/syy3Sg5/Celular-Samsung-Galaxy-S21-FE-5-G.webp",
+
     title: "Celular Samsung Galaxy S21 FE 5G",
     price: "$00,00",
     category: "samsung",
@@ -1771,7 +2001,9 @@ const data = [
   },
   {
     id: 119,
+
     img: "https://i.ibb.co/W02yspW/Celular-Motorola-G51-5-G-128-GB.webp",
+
     title: "Celular Motorola G51 5G 128GB",
     price: "$00,00",
     category: "motorola",
@@ -1781,7 +2013,9 @@ const data = [
   },
   {
     id: 120,
+
     img: "https://i.ibb.co/TvwCKfC/Celular-Motorola-G52-6-128-GB-Negro.webp",
+
     title: "Celular Motorola G52 6-128GB Negro",
     price: "$00,00",
     category: "motorola",
@@ -1791,7 +2025,9 @@ const data = [
   },
   {
     id: 121,
+
     img: "https://i.ibb.co/Q6rxYdr/Celular-Motorola-G71.webp",
+
     title: "Celular Motorola G71",
     price: "$00,00",
     category: "motorola",
@@ -1801,7 +2037,9 @@ const data = [
   },
   {
     id: 122,
+
     img: "https://i.ibb.co/y41mSGF/Notebook-Enova-2-GB-Ram-64-Gb-Disco-Win10.webp",
+
     title: "Notebook Enova 2GB Ram 64Gb Disco Win10",
     price: "$00,00",
     category: "notebook",
@@ -1812,7 +2050,9 @@ const data = [
  
   {
     id: 123,
+
     img: "https://i.ibb.co/H4rdgqb/Notebook-Innjoo-Voom-Max-N3350-6gb-192gb-win10.webp",
+
     title: "Notebook Innjoo Voom Max N3350 6gb-192gb-win10",
     price: "$00,00",
     category: "notebook",
@@ -1822,7 +2062,9 @@ const data = [
   },
   {
     id: 124,
+
     img: "https://i.ibb.co/gVmh1FK/Gabinete-Kanji-Go-KIT-GO9322.webp",
+
     title: "Gabinete Kanji Go KIT GO9322",
     price: "$00,00",
     category: "gabinete",
@@ -1832,7 +2074,9 @@ const data = [
   },
   {
     id: 125,
+
     img: "https://i.ibb.co/vjYDkgB/Gabinete-Gammer-Kanji-JK-GAMEZ820.webp",
+
     title: "Gabinete Gammer Kanji JK-GAMEZ820",
     price: "$00,00",
     category: "gabinete",
@@ -1842,7 +2086,9 @@ const data = [
   },
   {
     id: 126,
+
     img: "https://i.ibb.co/Ky01rqn/Desktop-Gfast-H-200-i4120l-4gb-120ssd-h-200.webp",
+
     title: "Desktop Gfast H-200 i4120l 4gb 120ssd h-200",
     price: "$00,00",
     category: "pc",
@@ -1852,7 +2098,9 @@ const data = [
   },
   {
     id: 127,
+
     img: "https://i.ibb.co/yFMRcWn/Computadora-Intel-Core-i3-8-GB.webp",
+
     title: "Computadora Intel Core i3 8GB",
     price: "$00,00",
     category: "pc",
@@ -1862,7 +2110,9 @@ const data = [
   },
   {
     id: 128,
+
     img: "https://i.ibb.co/vLmL54y/Pc-Intel-i5-10400-8gb-240-GB-w10.webp",
+
     title: "Pc Intel i5 10400 8gb 240GB w10",
     price: "$00,00",
     category: "pc",
@@ -1872,7 +2122,9 @@ const data = [
   },
   {
     id: 200,
+
     img: "https://i.ibb.co/Cmp5VVj/Bajo-Mesada-2-Puertas-3-Cajones-Jacaranda-3030.webp",
+
     title: "Bajo Mesada 2 Puertas 3 Cajones Jacaranda 3030",
     price: "$00,00",
     category: "mueblesdecocina",
@@ -1882,7 +2134,9 @@ const data = [
   },
   {
     id: 201,
+
     img: "https://i.ibb.co/3YRpJQs/Bajo-Mesada-2-Puertas-3-Cajones-Blanco-3028.webp",
+
     title: "Bajo Mesada 2 Puertas 3 Cajones Blanco 3028",
     price: "$00,00",
     category: "mueblesdecocina",
@@ -1892,7 +2146,9 @@ const data = [
   },
   {
     id: 202,
+
     img: "https://i.ibb.co/VQktYfK/Alacena-3-Puertas-Jacaranda-2023.webp",
+
     title: "Alacena 3 Puertas Jacaranda 2023",
     price: "$00,00",
     detail: "Alacena de 3 puertas y 2 estantes. Material: Melamina de 15 mm.",
@@ -1901,8 +2157,10 @@ const data = [
   },
   {
     id: 203,
+
     img: "https://i.ibb.co/gmy0j8G/Alacena-3-Puertas-Blanco-Wengue-2022.webp",
     title: "Alacena 3 Puertas Blanco - Wengue 2022",
+
     price: "$00,00",
     detail: "Alacena de 3 puertas y 2 estantes. Material: Melamina de 15 mm.",
     category: "mueblesdecocina",
@@ -1910,7 +2168,9 @@ const data = [
   },
   {
     id: 204,
+
     img: "https://i.ibb.co/wKh5HHq/Mesa-de-Luz-1-Puerta-1-Cajon-Puerta-Linosa-110.webp",
+
     title: "Mesa de Luz 1 Puerta 1 Cajon Puerta Linosa 110",
     price: "$00,00",
     detail: "Un cajon / una puerta. 415 x 595 x 315 mm. SE ENTREGA DESARMADO",
@@ -1919,7 +2179,9 @@ const data = [
   },
   {
     id: 205,
+
     img: "https://i.ibb.co/8gq1ycb/Mesa-de-Luz-1-Puerta-1-Cajon-Wengue-99.webp",
+
     title: "Mesa de Luz 1 Puerta 1 Cajon Wengue 99",
     price: "$00,00",
     detail:
@@ -1929,7 +2191,9 @@ const data = [
   },
   {
     id: 206,
+
     img: "https://i.ibb.co/DgGt4VL/Mesa-de-Luz-1-Puerta-1-Cajon-jacaranda-108.webp",
+
     title: "Mesa de Luz 1 Puerta 1 Cajon jacaranda 108",
     price: "$00,00",
     detail: "Un cajon / una puerta. 415 x 595 x 315 mm. SE ENTREGA DESARMADO",
@@ -1938,7 +2202,9 @@ const data = [
   },
   {
     id: 207,
+
     img: "https://i.ibb.co/pr535Sg/Placard-Bahia-5-puertas-2-cajones-WENGUE-3513.webp",
+
     title: "Placard Bahia 5 puertas 2 cajones wengue 3513",
     price: "$00,00",
     detail:
@@ -1948,7 +2214,9 @@ const data = [
   },
   {
     id: 208,
+
     img: "https://i.ibb.co/5hfK5qx/Placard-Bahia-5-puertas-2-cajones-jacaranda-3514.webp",
+
     title: "Placard Bahia 5 puertas 2 cajones jacaranda 3514",
     price: "$00,00",
     detail:
@@ -1958,7 +2226,9 @@ const data = [
   },
   {
     id: 209,
+
     img: "https://i.ibb.co/jRDhjCS/Placard-Bahia-5-puertas-2-cajones-VENECIA-3515.webp",
+
     title: "Placard Bahia 5 puertas 2 cajones venecia 3515",
     price: "$00,00",
     detail:
@@ -1968,7 +2238,9 @@ const data = [
   },
   {
     id: 210,
+
     img: "https://i.ibb.co/WgFPtpR/Placard-Bahia-4-puertas-2-cajones-jacaranda-3524.webp",
+
     title: "Placard Bahia 4 puertas 2 cajones jacaranda 3524",
     price: "$00,00",
     detail:
@@ -1978,7 +2250,9 @@ const data = [
   },
   {
     id: 211,
+
     img: "https://i.ibb.co/3kpWtYN/placard-bahia-4-puertas-2-cajones-venecia-3525.webp",
+
     title: "Placard Bahia 4 puertas 2 cajones venecia 3525",
     price: "$00,00",
     detail:
@@ -1988,7 +2262,9 @@ const data = [
   },
   {
     id: 212,
+
     img: "https://i.ibb.co/cwCyLCN/Placard-Bahia-4-puertas-2-cajones-Wengue-3523.webp",
+
     title: "Placard Bahia 4 puertas 2 cajones wengue 3523",
     price: "$00,00",
     detail:
@@ -1998,7 +2274,9 @@ const data = [
   },
   {
     id: 213,
+
     img: "https://i.ibb.co/QbZWbY1/Placard-Bahia-3-puertas-2-cajones-wengue-3533.webp",
+
     title: "Placard Bahia 3 puertas 2 cajones wengue 3533",
     price: "$00,00",
     detail:
@@ -2008,7 +2286,9 @@ const data = [
   },
   {
     id: 214,
+
     img: "https://i.ibb.co/QNqMYSG/Placard-Bahia-3-puertas-2-cajones-venecia-3525.webp",
+
     title: "Placard Bahia 3 puertas 2 cajones venecia 3525",
     price: "$00,00",
     detail:
@@ -2018,7 +2298,9 @@ const data = [
   },
   {
     id: 215,
+
     img: "https://i.ibb.co/8xVZ7y3/Placard-Bahia-3-puertas-2-cajones-jacaranda-3534.webp",
+
     title: "Placard Bahia 3 puertas 2 cajones jacaranda 3534",
     price: "$00,00",
     detail:
@@ -2038,7 +2320,9 @@ const data = [
   },
   {
     id: 217,
+
     img: "https://i.ibb.co/vmr8RYk/Placard-Bahia-2-puertas-2-cajones-venecia-3545.webp",
+
     title: "Placard Bahia 2 puertas 2 cajones venecia 3545",
     price: "$00,00",
     detail:
@@ -2048,7 +2332,9 @@ const data = [
   },
   {
     id: 218,
+
     img: "https://i.ibb.co/sbwjx6P/Placard-Bahia-2-puertas-2-cajones-wengue-3543.webp",
+
     title: "Placard Bahia 2 puertas 2 cajones wengue 3543",
     price: "$00,00",
     detail:
@@ -2058,7 +2344,9 @@ const data = [
   },
   {
     id: 219,
+
     img: "https://i.ibb.co/YdQD1Gf/Placard-Bahia-2-puertas-2-cajones-jacaranda-3544.webp",
+
     title: "Placard Bahia 2 puertas 2 cajones jacaranda 3544",
     price: "$00,00",
     detail:
@@ -2068,7 +2356,9 @@ const data = [
   },
   {
     id: 220,
+
     img: "https://i.ibb.co/KGn4KTK/Bicicleta-enrique-r20-nena-stars.webp",
+
     title: "Bicicleta enrique r20 nena stars",
     price: "$00,00",
     detail:
@@ -2078,7 +2368,9 @@ const data = [
   },
   {
     id: 221,
+
     img: "https://i.ibb.co/jZ0ZGL5/Bicicleta-paseo-c-canasto-tempo-rod-20-dama.webp",
+
     title: "Bicicleta paseo C-canasto tempo rod 20 dama",
     price: "$00,00",
     detail:
@@ -2088,7 +2380,9 @@ const data = [
   },
   {
     id: 222,
+
     img: "https://i.ibb.co/mT34nX0/Bicicleta-alpina-rod-26-18-vel-hombre.webp",
+
     title: "Bicicleta alpina rod 26 18 vel hombre",
     price: "$00,00",
     detail:
@@ -2098,7 +2392,9 @@ const data = [
   },
   {
     id: 223,
+
     img: "https://i.ibb.co/fxtfXtj/Bicicleta-enrique-r29-Gris-Naranja.webp",
+
     title: "Bicicleta enrique r29 Gris-Naranja",
     price: "$00,00",
     detail:
@@ -2108,7 +2404,9 @@ const data = [
   },
   {
     id: 224,
+
     img: "https://i.ibb.co/H7DM1XR/Bicicleta-enrique-fenix-r29-blanco.webp",
+
     title: "Bicicleta enrique fenix r29 blanco",
     price: "$00,00",
     detail:
@@ -2118,7 +2416,9 @@ const data = [
   },
   {
     id: 225,
+
     img: "https://i.ibb.co/gJhBJHG/Bicicleta-enrique-fenix-r29-azul.webp",
+
     title: "Bicicleta enrique fenix r29 azul",
     price: "$00,00",
     detail:
@@ -2128,7 +2428,9 @@ const data = [
   },
   {
     id: 226,
+
     img: "https://i.ibb.co/Z68jBsv/Bicicleta-corvo-r29-21-velocidades-negra.webp",
+
     title: "Bicicleta corvo r29 21 velocidades negra",
     price: "$00,00",
     detail:
@@ -2138,7 +2440,9 @@ const data = [
   },
   {
     id: 227,
+
     img: "https://i.ibb.co/0Dzqfh4/Bicicleta-corvo-r29-21-velocidades-celeste.webp",
+
     title: "Bicicleta corvo r29 21 velocidades celeste",
     price: "$00,00",
     detail:
@@ -2148,7 +2452,9 @@ const data = [
   },
   {
     id: 228,
+
     img: "https://i.ibb.co/py6NPBt/Bicicleta-corvo-r29-21-velocidades-blanca.webp",
+
     title: "Bicicleta corvo r29 21 velocidades blanca",
     price: "$00,00",
     detail:
@@ -2158,7 +2464,9 @@ const data = [
   },
   {
     id: 229,
+
     img: "https://i.ibb.co/5csh4G8/Bicicleta-corvo-r29-21-velocidades-roja.webp",
+
     title: "Bicicleta corvo r29 21 velocidades roja",
     price: "$00,00",
     detail:
@@ -2168,7 +2476,9 @@ const data = [
   },
   {
     id: 230,
+
     img: "https://i.ibb.co/hVBwWRQ/Bicicleta-lamborghini-shimano-r29-m47l-azul-negro.webp",
+
     title: "Bicicleta lamborhini shimano r29 m47l azul-negro",
     price: "$00,00",
     detail:
@@ -2178,7 +2488,9 @@ const data = [
   },
   {
     id: 231,
+
     img: "https://i.ibb.co/g3mHvSD/Bicicleta-lamborhini-shimano-r29-m45l-rojo-negro.webp",
+
     title: "Bicicleta lamborhini shimano r29 m45l rojo-negro",
     price: "$00,00",
     detail:
@@ -2188,7 +2500,9 @@ const data = [
   },
   {
     id: 232,
+
     img: "https://i.ibb.co/V9Hhbhb/Bicicleta-lamborhini-shimano-r29-m52l-gris-negro.webp",
+
     title: "Bicicleta lamborhini shimano r29 m52l Gris-Negro",
     price: "$00,00",
     detail:
@@ -2198,7 +2512,9 @@ const data = [
   },
   {
     id: 233,
+
     img: "https://i.ibb.co/DkMw6YH/Bicicleta-lamborhini-shimano-r29-m02l-M-Negro.webp",
+
     title: "Bicicleta lamborhini shimano r29 m02l m/negro",
     price: "$00,00",
     detail:
@@ -2208,7 +2524,9 @@ const data = [
   },
   {
     id: 234,
+
     img: "https://i.ibb.co/74bS6YV/Bicicleta-lamborghini-C-21-r29-m37l-Neg-Verde.webp",
+
     title: "Bicicleta lamborghini C-21 r29 m37l Neg-Verde",
     price: "$00,00",
     detail:
@@ -2218,7 +2536,9 @@ const data = [
   },
   {
     id: 235,
+
     img: "https://i.ibb.co/SdrPVF1/Bicicleta-lamborghini-C-21-r29-m58l-Blanco-Naranja.webp",
+
     title: "Bicicleta lamborghini C-21 r29 m58l Blanco-Naranja",
     price: "$00,00",
     detail:
@@ -2228,7 +2548,9 @@ const data = [
   },
   {
     id: 236,
+
     img: "https://i.ibb.co/QpG8VM5/Bicicleta-lamborghini-C-21-r29-s02l-S-Negro.webp",
+
     title: "Bicicleta lamborghini C-21 r29 s02l S-Negro",
     price: "$00,00",
     detail:
@@ -2238,7 +2560,9 @@ const data = [
   },
   {
     id: 237,
+
     img: "https://i.ibb.co/Z19hKLQ/Bicicleta-lamborghini-shimano-r29-m60l-Plata-Negro.webp",
+
     title: "Bicicleta lamborghini shimano r29 m60l Plata-Negro",
     price: "$00,00",
     detail:
@@ -2248,7 +2572,9 @@ const data = [
   },
   {
     id: 238,
+
     img: "https://i.ibb.co/wKTQ7YB/Bicicleta-lamborghini-shimano-r29-m36l-Gris-Verde.webp",
+
     title: "Bicicleta lamborghini shimano r29 m36l Gris-Verde",
     price: "$00,00",
     detail:
@@ -2258,7 +2584,9 @@ const data = [
   },
   {
     id: 239,
+
     img: "https://i.ibb.co/Z19hKLQ/Bicicleta-lamborghini-shimano-r29-m60l-Plata-Negro.webp",
+
     title: "Bicicleta lamborghini shimano r29 m23l Blanco-Negro",
     price: "$00,00",
     detail:
@@ -2268,7 +2596,9 @@ const data = [
   },
   {
     id: 240,
+
     img: "https://i.ibb.co/sCydWLB/Pileta-estructural-6100l-3-60-x-0-76-avenli.webp",
+
     title: "Pileta estructural 6100l 3.60 x 0.76 avenli",
     price: "$00,00",
     detail:
@@ -2278,7 +2608,9 @@ const data = [
   },
   {
     id: 241,
+
     img: "https://i.ibb.co/F0QWK4Q/Pileta-mor-400-l-1-15-x-1-06-x-0-33-1919.webp",
+
     title: "Pileta mor 400 l 1.15 x 1.06 x 0.33 1919",
     price: "$00,00",
     detail:
@@ -2288,7 +2620,9 @@ const data = [
   },
   {
     id: 242,
+
     img: "https://i.ibb.co/wC9wd69/Pileta-mor-1000-l-1-89-x-1-26-x-0-42-1921.webp",
+
     title: "Pileta mor 1000 l 1.89 x 1.26 x 0.42 1921",
     price: "$00,00",
     detail:
@@ -2298,7 +2632,9 @@ const data = [
   },
   {
     id: 243,
+
     img: "https://i.ibb.co/nr4dBgw/Pileta-mor-1500-l-1-89-x-1-89-x-0-42-1924.webp",
+
     title: "Pileta mor 1500 l 1.89 x 1.89 x 0.42 1924",
     price: "$00,00",
     detail:
@@ -2308,7 +2644,9 @@ const data = [
   },
   {
     id: 244,
+
     img: "https://i.ibb.co/F6FjFQL/Pileta-mor-2000-l-2-11-x-1-64-x-0-58-1922.webp",
+
     title: "Pileta mor 2000 l 2.11 x 1.64 x 0.58 1922",
     price: "$00,00",
     detail:
@@ -2318,7 +2656,9 @@ const data = [
   },
   {
     id: 245,
+
     img: "https://i.ibb.co/QNpmM2B/Parrilla-electrica-kanji-zoilo.webp",
+
     title: "Parrilla electrica KANJI Zoilo",
     price: "$00,00",
     detail:
@@ -2328,7 +2668,9 @@ const data = [
   },
   {
     id: 246,
+
     img: "https://i.ibb.co/p497Kmr/Parrilla-electrica-KANJI-gaucho-kjh-be220pn.webp",
+
     title: "Parrilla electrica KANJI gaucho kjh-be220pn",
     price: "$00,00",
     detail:
@@ -2338,7 +2680,9 @@ const data = [
   },
   {
     id: 247,
+
     img: "https://i.ibb.co/k5w2hrY/Gas-Butano-cartucho-Descartable-de-227-grs-466-l.webp",
+
     title: "Gas Butano cartucho Descartable de 227 grs 466-l",
     price: "$00,00",
     detail: "Cartucho BROGAS descartable de 227 gr. Gas butano.",
@@ -2347,7 +2691,9 @@ const data = [
   },
   {
     id: 248,
+
     img: "https://i.ibb.co/gZK0RcT/Cortador-de-pasto-naftera-vitta-4-5hp-hogare-a-r60.webp",
+
     title: "Cortador de pasto naftera vitta 4.5hp Hogareña R60",
     price: "$00,00",
     detail:
@@ -2357,7 +2703,9 @@ const data = [
   },
   {
     id: 249,
+
     img: "https://i.ibb.co/vHvd8gW/Hidrolavadora-1200w-KONAN.webp",
+
     title: "Hidrolavadora 1200w KONAN",
     price: "$00,00",
     detail:
@@ -2367,7 +2715,9 @@ const data = [
   },
   {
     id: 250,
+
     img: "https://i.ibb.co/LNkxP3C/Motosierra-electrica-Black-Decker-IC04114566-N.webp",
+
     title: "Motosierra electrica Black & Decker IC04114566N",
     price: "$00,00",
     detail:
@@ -2377,7 +2727,9 @@ const data = [
   },
   {
     id: 251,
+
     img: "https://i.ibb.co/KDY4ZQP/Lijadora-Orbital-150w-HYUNDAI-hh0s150-019-6040.webp",
+
     title: "Lijadora Orbital 150w HYUNDAI hh0s150 019-6040",
     price: "$00,00",
     detail:
@@ -2387,7 +2739,9 @@ const data = [
   },
   {
     id: 252,
+
     img: "https://i.ibb.co/frqSswC/Lijadora-Orbital-mano-KONAN-200w-3-lijas.webp",
+
     title: "Lijadora Orbital mano KONAN 200w + 3 lijas",
     price: "$00,00",
     detail:
@@ -2397,7 +2751,9 @@ const data = [
   },
   {
     id: 253,
+
     img: "https://i.ibb.co/KsHKRqg/Lijadora-Orbital-KONAN-250w-3-lijas-Kloe-250.webp",
+
     title: "Lijadora Orbital KONAN 250w + 3 lijas Kloe-250",
     price: "$00,00",
     detail:
@@ -2407,7 +2763,9 @@ const data = [
   },
   {
     id: 254,
+
     img: "https://i.ibb.co/yhDSX37/Pulidora-9-FLIGMAN-1300-W-CP1801200.webp",
+
     title: "Pulidora 9 FLIGMAN 1300W CP1801200",
     price: "$00,00",
     detail:
@@ -2417,7 +2775,9 @@ const data = [
   },
   {
     id: 255,
+
     img: "https://i.ibb.co/ngvSLmt/Lijadora-Orbital-de-Palma-Black-Decker-200w.webp",
+
     title: "Lijadora Orbital de Palma Black & Decker 200w",
     price: "$00,00",
     detail:
@@ -2427,7 +2787,9 @@ const data = [
   },
   {
     id: 256,
+
     img: "https://i.ibb.co/W3CJmh0/Sierra-Circular-KONAN-1300w-disco-kcs-1300.webp",
+
     title: "Sierra Circular KONAN 1300w + disco kcs-1300",
     price: "$00,00",
     detail:
@@ -2437,7 +2799,9 @@ const data = [
   },
   {
     id: 257,
+
     img: "https://i.ibb.co/88JGXf6/Sierra-Circular-STANLEY-1600w-190mm-ic04114566n.webp",
+
     title: "Sierra Circular STANLEY 1600w 190mm ic04114566n",
     price: "$00,00",
     detail:
@@ -2447,7 +2811,9 @@ const data = [
   },
   {
     id: 258,
+
     img: "https://i.ibb.co/ssBNzq9/Sierra-Circular-PHLILCO-1200w-mepsc115.webp",
+
     title: "Sierra Circular PHILCO 1200w mepsc115",
     price: "$00,00",
     detail:
@@ -2457,7 +2823,9 @@ const data = [
   },
   {
     id: 259,
+
     img: "https://i.ibb.co/P4zqYJ7/Sierra-Caladora-PHILCO-350w.webp",
+
     title: "Sierra Caladora PHILCO 350w",
     price: "$00,00",
     detail:
@@ -2467,7 +2835,9 @@ const data = [
   },
   {
     id: 260,
+
     img: "https://i.ibb.co/f2QYzch/Sierra-Caladora-KONAN-750w-3-luz-led.webp",
+
     title: "Sierra Caladora KONAN 750w +3 luz led",
     price: "$00,00",
     detail:
@@ -2477,7 +2847,9 @@ const data = [
   },
   {
     id: 261,
+
     img: "https://i.ibb.co/B3FYT6b/Sierra-Caladora-Black-Decker-ic04113319x.webp",
+
     title: "Sierra Caladora Black & Decker ic04113319x",
     price: "$00,00",
     detail:
@@ -2487,7 +2859,9 @@ const data = [
   },
   {
     id: 262,
+
     img: "https://i.ibb.co/YWyHXjv/Amoladora-PHILCO-Angular.webp",
+
     title: "Amoladora PHILCO Angular",
     price: "$00,00",
     detail:
@@ -2497,7 +2871,9 @@ const data = [
   },
   {
     id: 263,
+
     img: "https://i.ibb.co/FDvNGRf/Amoladora-Angular-Black-Decker-820w-g720n.webp",
+
     title: "Amoladora Angular Black & Decker 820w g720n",
     price: "$00,00",
     detail:
@@ -2507,7 +2883,9 @@ const data = [
   },
   {
     id: 264,
+
     img: "https://i.ibb.co/7nct8Xs/Amoladora-Angular-STANLEY-115mm-150w-sgs1045.webp",
+
     title: "Amoladora Angular STANLEY 115mm 150w sgs1045",
     price: "$00,00",
     detail:
@@ -2517,7 +2895,9 @@ const data = [
   },
   {
     id: 265,
+
     img: "https://i.ibb.co/WyYxQBL/Taladro-ATOR-a-Bateria-KONAN-13mm-21v.webp",
+
     title: "Taladro ATOR a Bateria KONAN 13mm 21v",
     price: "$00,00",
     detail:
@@ -2527,7 +2907,9 @@ const data = [
   },
   {
     id: 266,
+
     img: "https://i.ibb.co/TY809b7/Taladro-Atornillador-Black-Decker-12v-a-bat-10mm-cd121k.webp",
+
     title: "Taladro Atornillador Black & Decker 12v a bat 10mm cd121k",
     price: "$00,00",
     detail:
@@ -2537,7 +2919,9 @@ const data = [
   },
   {
     id: 267,
+
     img: "https://i.ibb.co/LQ9x3hR/Taladro-Atorn-bateria-DEWALT-12v-ico4113319x.webp",
+
     title: "Taladro Atorn bateria DEWALT 12v ico4113319x",
     price: "$00,00",
     detail:
@@ -2547,7 +2931,9 @@ const data = [
   },
   {
     id: 268,
+
     img: "https://i.ibb.co/QnnTgbB/Taladro-a-bateria-HYUNDAI-12v-maletin-hp0322.webp",
+
     title: "Taladro a bateria HYUNDAI 12v + maletin hp0322",
     price: "$00,00",
     detail:
@@ -2557,7 +2943,9 @@ const data = [
   },
   {
     id: 269,
+
     img: "https://i.ibb.co/tXjFCDj/Taladro-inalambrico-Percutor-STANLEY-12v-10mm.webp",
+
     title: "Taladro inalambrico Percutor STANLEY 12v 10mm",
     price: "$00,00",
     detail:
@@ -2567,7 +2955,9 @@ const data = [
   },
   {
     id: 270,
+
     img: "https://i.ibb.co/WVtcJxW/Taladro-Percutor-Stanley-13mm-600w.webp",
+
     title: "Taladro Percutor Stanley 13mm 600w",
     price: "$00,00",
     detail:
@@ -2577,7 +2967,9 @@ const data = [
   },
   {
     id: 271,
+
     img: "https://i.ibb.co/ZXdfdQG/Taladro-Percutor-Black-Decker-13mm-560w-tm555.webp",
+
     title: "Taladro Percutor Black & Decker 13mm 560w tm555",
     price: "$00,00",
     detail:
@@ -2587,7 +2979,9 @@ const data = [
   },
   {
     id: 272,
+
     img: "https://i.ibb.co/njdwcX5/Taladro-HYUNDAI-550w-72-piezas-maletin.webp",
+
     title: "Taladro HYUNDAI 550w 72 piezas + maletin",
     price: "$00,00",
     detail:
@@ -2597,6 +2991,7 @@ const data = [
   },
   {
     id: 273,
+
     img: "https://i.ibb.co/0nmWXLx/Parlante-CROWN-MUSTANG-Negro-bluetooth-sbl-6500bt.webp",
     title: "Parlante CROWN MUSTANG Negro bluetooth sbl-6500bt",
     price: "$00,00",
@@ -2607,7 +3002,9 @@ const data = [
   },
   {
     id: 274,
+
     img: "https://i.ibb.co/0Jz3r7y/Parlante-Termuki-KANJI-sp-kja870a-dj.webp",
+
     title: "Parlante Temuki KANJI sp-kja870a-dj",
     price: "$00,00",
     detail:
@@ -2617,7 +3014,9 @@ const data = [
   },
   {
     id: 275,
+
     img: "https://i.ibb.co/fDM3H40/Parlante-CROWN-MUSTANG-Negro-bluetooth-djs-1002bt.webp",
+
     title: "Parlante CROWN MUSTANG Negro bluetooth djs-1002bt",
     price: "$00,00",
     detail:
@@ -2627,7 +3026,9 @@ const data = [
   },
   {
     id: 276,
+
     img: "https://i.ibb.co/0D0WHvj/Monitor-LG-LCD-29-29wp500-b-wide.webp",
+
     title: "Monitor LG LCD 29'' 29wp500-b wide",
     price: "$00,00",
     detail:
@@ -2637,7 +3038,9 @@ const data = [
   },
   {
     id: 277,
+
     img: "https://i.ibb.co/0Z3XXFx/Monitor-LG-LED-27-27mk400h-b-hdmi.webp",
+
     title: "Monitor LG LED 27'' 27mk400h-b hdmi",
     price: "$00,00",
     detail:
@@ -2647,7 +3050,9 @@ const data = [
   },
   {
     id: 278,
+
     img: "https://i.ibb.co/VY1MsF0/Monitor-LG-LED-19-19m38a-b.webp",
+
     title: "Monitor LG LED 19'' 19m38a-b",
     price: "$00,00",
     detail:
@@ -2670,7 +3075,8 @@ const data = [
     img: "https://i.ibb.co/T12g9rW/Anafe-Camping-Brogas-465-P-Cartucho-Descartables.webp",
     title: "Anafe Camping Brogas 465 P-Cartucho Descartables",
     price: "$00,00",
-    detail: "Anafe a gas butano con encendido electrónico. Incluye maletín de transporte. Válvula de seguridad. Rejilla de apoyo. Regulador de llama.",
+    detail:
+      "Anafe a gas butano con encendido electrónico. Incluye maletín de transporte. Válvula de seguridad. Rejilla de apoyo. Regulador de llama.",
     category: "parrillas",
     codigo: 512,
   },
@@ -2679,16 +3085,18 @@ const data = [
     img: "https://i.ibb.co/qkZW8Y8/Cortador-de-pasto-naftera-VITTA-4-5hp-Profesional-R68.webp",
     title: "Cortador de pasto naftera VITTA 4.5hp Profesional R68",
     price: "$00,00",
-    detail: "Ancho de corte 18''. Cuchilla recolectora C-Tratatamiento termico. carcasa de acero estampado. Rodado delantero 8''. Rodado trasero 12. Altura de corte 6 pos. Motor serie 450etm. Capacidad de combustible 1.5l ",
+    detail:
+      "Ancho de corte 18''. Cuchilla recolectora C-Tratatamiento termico. carcasa de acero estampado. Rodado delantero 8''. Rodado trasero 12. Altura de corte 6 pos. Motor serie 450etm. Capacidad de combustible 1.5l ",
     category: "cortadoras",
     codigo: 2498,
-  },  
+  },
   {
     id: 282,
     img: "https://i.ibb.co/WfR7kP9/Hidrolavadora-Konan-1400.webp",
     title: "Hidrolavadora Konan 1400",
     price: "$00,00",
-    detail: "Con tu hidrolavadora podés dejar reluciente cualquier material o superficie. Su rocío de agua de alta presión es entre diez y cincuenta veces más potente que las mangueras de jardín, lo que hace más eficaz y fácil el proceso de limpieza. Gracias a su presión máxima de 110 bar, esta hidrolavadora te permite realizar un lavado fácil, rápido y con el menor esfuerzo posible. Regulá la forma de riego según tu necesidad. Para lograr un mayor impacto sobre la superficie, podés usar la función en línea recta. Si buscás lograr una mayor cobertura, es ideal utilizar el chorro en abanico.",
+    detail:
+      "Con tu hidrolavadora podés dejar reluciente cualquier material o superficie. Su rocío de agua de alta presión es entre diez y cincuenta veces más potente que las mangueras de jardín, lo que hace más eficaz y fácil el proceso de limpieza. Gracias a su presión máxima de 110 bar, esta hidrolavadora te permite realizar un lavado fácil, rápido y con el menor esfuerzo posible. Regulá la forma de riego según tu necesidad. Para lograr un mayor impacto sobre la superficie, podés usar la función en línea recta. Si buscás lograr una mayor cobertura, es ideal utilizar el chorro en abanico.",
     category: "hidrolavadoras",
     codigo: 2498,
   },
@@ -2697,7 +3105,8 @@ const data = [
     img: "https://i.ibb.co/jWYZ3g6/Motosierra-52cc-20-KONAN.webp",
     title: "Motosierra 52cc 20 KONAN",
     price: "$00,00",
-    detail: "Marca: Konan. Modelo KME/52. Tipos de combustible: Nafta. Potencia: 3 hp. Cilindrada: 52 cc. Largo de las espadas compatibles: 20''. Peso: 7 kg. Tanque de combustible de 1200 ml. Refrigeración por aire. Con cadena y barra de 20”, 0.325.",
+    detail:
+      "Marca: Konan. Modelo KME/52. Tipos de combustible: Nafta. Potencia: 3 hp. Cilindrada: 52 cc. Largo de las espadas compatibles: 20''. Peso: 7 kg. Tanque de combustible de 1200 ml. Refrigeración por aire. Con cadena y barra de 20”, 0.325.",
     category: "herramientas",
     codigo: 2498,
   },
@@ -2706,7 +3115,8 @@ const data = [
     img: "https://i.ibb.co/GMdmFSb/Lijadora-Orbital-150-W-Hoja-1-3-Black-Decker-BEW220.webp",
     title: "Lijadora Orbital 150W Hoja 1-3 Black & Decker BEW220",
     price: "$00,00",
-    detail: "Hablar de trayectoria es hacer referencia a Black+Decker, empresa líder en el rubro. Su amplia gama de productos incluye opciones para el hogar y la industria que podés elegir según tus necesidades. Practicidad y versatilidad en una sola herramienta: Con la lijadora Black+Decker BEW220 lograrás trabajos con un acabado más fino y llegarás a lugares estrechos y de difícil acceso. Una herramienta compacta, versátil y con un diseño ergonómico, que te proporciona más control y comodidad. ¡Es ideal si tu actividad principal es la carpintería! Confort para trabajar: Su bolsa recolectora de polvo te ayudará a lijar más cómodo, sin tener que interrumpir tu trabajo para limpiar la zona.Potencia: 150 Watts. Velocidad máxima de rotación: 14000 rpm. Con regulación de velocidad: No. Número de oscilaciones: 14000 opm. Tipos de lijadora: Orbital. Peso aproximado: 1.3 kg. 1 Hoja para lijado: 1/3''. Bolsa de polvo: Sí. Diámetro de órbita: 92 x 230 mm. Longitud de cable: 2 metros. Peso aproximado: 1,3 kg. Apta para lijar: Maderas y metales",
+    detail:
+      "Hablar de trayectoria es hacer referencia a Black+Decker, empresa líder en el rubro. Su amplia gama de productos incluye opciones para el hogar y la industria que podés elegir según tus necesidades. Practicidad y versatilidad en una sola herramienta: Con la lijadora Black+Decker BEW220 lograrás trabajos con un acabado más fino y llegarás a lugares estrechos y de difícil acceso. Una herramienta compacta, versátil y con un diseño ergonómico, que te proporciona más control y comodidad. ¡Es ideal si tu actividad principal es la carpintería! Confort para trabajar: Su bolsa recolectora de polvo te ayudará a lijar más cómodo, sin tener que interrumpir tu trabajo para limpiar la zona.Potencia: 150 Watts. Velocidad máxima de rotación: 14000 rpm. Con regulación de velocidad: No. Número de oscilaciones: 14000 opm. Tipos de lijadora: Orbital. Peso aproximado: 1.3 kg. 1 Hoja para lijado: 1/3''. Bolsa de polvo: Sí. Diámetro de órbita: 92 x 230 mm. Longitud de cable: 2 metros. Peso aproximado: 1,3 kg. Apta para lijar: Maderas y metales",
     category: "herramientas",
     codigo: 2498,
   },
@@ -2715,7 +3125,8 @@ const data = [
     img: "https://i.ibb.co/rd1gMQn/Parlante-Daewoo-Techno-Pro-8500-W-DW-DJ8620.webp",
     title: "Parlante Daewoo Techno Pro 8500W DW-DJ8620",
     price: "$00,00",
-    detail: "BLUETOOTH 5.0. Woofer 2 x 1''. Carga AC 220-240V. Potencia 8500 Watts PMPO. Potencia Rms 100 Watts. Función Radio FM / TWS. Entradas 2 usb / tarjeta sd / auxiliar / 2 microfono. Luces led RGB. Accesorios control remoto y microfono",
+    detail:
+      "BLUETOOTH 5.0. Woofer 2 x 1''. Carga AC 220-240V. Potencia 8500 Watts PMPO. Potencia Rms 100 Watts. Función Radio FM / TWS. Entradas 2 usb / tarjeta sd / auxiliar / 2 microfono. Luces led RGB. Accesorios control remoto y microfono",
     category: "audio",
     codigo: 3096,
   },
@@ -2766,8 +3177,6 @@ const data = [
   },
 
 ];
-
-
 
 export default function getItems() {
   return new Promise((resolve, reject) => {

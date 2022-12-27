@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "./Slider";
-import "./SliderList.css";
+import "./Slider.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -47,7 +47,7 @@ export default function SliderList({ data }) {
         {data.map((item) => {
           return (
             <SwiperSlide key={item?.id}>
-              <div className="container mt-5">
+              <div className="container mt-5 d-flex justify-content-center">
                 <Slider
                   key={item.id}
                   id={item.id}

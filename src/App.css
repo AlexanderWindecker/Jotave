@@ -2,6 +2,12 @@ body {
   background: #FFFF;
 }
 
+h3{
+  font-family: "monserrat", "";
+  font-weight: 300;
+  
+}
+
 .App {
   text-align: center;
 }

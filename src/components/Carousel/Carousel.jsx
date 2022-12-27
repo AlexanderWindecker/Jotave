@@ -34,6 +34,7 @@ function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active ">
             
+
             <img src="https://i.ibb.co/kBm4JtG/Banner1.webp" className="d-block w-100"  alt="..."></img>
           </div>
           <div className="carousel-item">
@@ -42,6 +43,7 @@ function Carousel() {
           </div>
           <div className="carousel-item">          
           <img src="https://i.ibb.co/6gMhH4s/Banner3.webp" className="d-block w-100"  alt="..."></img>
+
           </div>
         </div>
         <button
