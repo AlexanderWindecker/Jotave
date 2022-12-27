@@ -35,6 +35,7 @@ function Carousel() {
           <div className="carousel-item active ">
             
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <img src="/img/Banner3.png" className="d-block w-100" height="300px" alt="..."></img>
           </div>
           <div className="carousel-item">
@@ -44,6 +45,8 @@ function Carousel() {
           <div className="carousel-item">          
           <img src="/img/Banner2.png" className="d-block w-100" height="300px" alt="..."></img>
 =======
+=======
+>>>>>>> Stashed changes
             <img src="https://i.ibb.co/kBm4JtG/Banner1.webp" className="d-block w-100"  alt="..."></img>
           </div>
           <div className="carousel-item">
@@ -52,6 +55,9 @@ function Carousel() {
           </div>
           <div className="carousel-item">          
           <img src="https://i.ibb.co/6gMhH4s/Banner3.webp" className="d-block w-100"  alt="..."></img>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </div>
         </div>
