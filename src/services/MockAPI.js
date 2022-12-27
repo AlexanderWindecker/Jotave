@@ -1,7 +1,7 @@
   const data = [
     {
       id: 1,
-      img: "https://i.ibb.co/0QbcYBS/Aire-acondicionado-Split-Kanji-2600w-f-c-26fkht81.jpg",
+      img: "https://i.ibb.co/s5TMzkV/Aire-acondicionado-Split-Kanji-2600w-f-c-26fkht81.webp",
       title: "Aire Acondicionado Split KANJI 2600w FC",
       price: "$00.00",
       category: "aire",
@@ -24,8 +24,9 @@
     },
     {
       id: 2,
-      img: "https://i.ibb.co/pKCPbxc/aire-acondicionado-split-hitachi-2600w-fc.jpg",
+      img: "https://i.ibb.co/jyxRcQb/aire-acondicionado-split-hitachi-2600w-fc.webp",
       title: "Aire Acondicionado Split HITACHI 2600w FC",
+      detail: "Aire split Hitachi de 2600 WTS posee swing *Control de flujo de aire(. Encendido y apagado automático. Modo deshumidificación. Modo sleep. Modo turbo y función I Feel",
       price: "$00,00",
       category: "aire",
       marca: "HITACHI",
@@ -48,8 +49,9 @@
   
     {
       id: 3,
-      img: "https://i.ibb.co/g9mKHqb/aire-acondicionado-split-kanji-3200w-fc.jpg",
+      img: "https://i.ibb.co/rpf3WJz/aire-acondicionado-split-kanji-3200w-fc.webp",
       title: "Aire acondicionado Split KANJI 3200w FC",
+      detail: "Aire Acondicionada Kanji Split 3200 watts frio-calor consumo A. El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir el consumo de energía hasta un 16 por ciento (vs. un equipo similar de eficiencia energética C.) También, utiliza el gas no tóxico y no contaminante R410A, que no contribuye al debilitamiento de la capa de ozono y tiene una mayor capacidad de refrigeración.",
       price: "$00,00",
       category: "aire",
       marca: "KANJI",
@@ -70,7 +72,7 @@
     },
     {
       id: 4,
-      img: "https://i.ibb.co/r67MbZ3/aire-acondicionado-inverter-greenstay-fc-3500.jpg",
+      img: "https://i.ibb.co/RbqmTWN/aire-acondicionado-inverter-greenstay-fc-3500.webp",
       title: "Aire acondicionado Inverter GREENSTAY 3500w FC",
       price: "$00,00",
       category: "aire",
@@ -84,8 +86,9 @@
     },
     {
       id: 5,
-      img: "https://i.ibb.co/HHG7r1D/aire-acondicionado-inverter-greenstay-fc-6900.jpg",
+      img: "https://i.ibb.co/6rzqwgT/aire-acondicionado-inverter-greenstay-fc-6900.webp",
       title: "Aire acondicionado Inverter GREENSTAY 6900w FC",
+      detail: "Climatizar tus espacios a lo largo del año es algo importante para tu comodidad. Un aire acondicionado frío/calor Inverter es la mejor decisión, ya que conseguís una mejor relación costo-beneficio. Diseño adecuado a tus espacios:  * El tipo de aire split es de bajo consumo energético, de fácil mantenimiento y sumamente silencioso ya que cuenta con una unidad exterior. Reducción de humedad y temperatura constante:  * El deshumidificador absorbe el agua del aire y disminuye la molesta humedad, creando un ambiente confortable y de calidad. * La tecnología inverter mejora la eficiencia de tu equipo, potencia su capacidad de refrigeración y proporciona una temperatura más estable. Programa de acuerdo a tus necesidades:  * Cuando las personas descansan su temperatura corporal baja gradualmente. Por eso, este aire cuenta con la función sleep, que hace que la temperatura del ambiente aumente a medida que pasa el tiempo. No tendrás que levantarte a apagarlo y podrás disfrutar de un sueño placentero.",
       price: "$00,00",
       category: "aire",
       marca: "GREENSTAY",
@@ -97,7 +100,7 @@
     },
     {
       id: 6,
-      img: "https://i.ibb.co/TLkWf51/ventilador-vitta-18pulgadas-3-en-1-90w.jpg",
+      img: "https://i.ibb.co/98MvLP1/ventilador-vitta-18pulgadas-3-en-1-90w.webp",
       title: "Ventilador VITTA 18'' 3 en 1 90w",
       price: "$00,00",
       category: "ventilacion",
@@ -112,8 +115,9 @@
     },
     {
       id: 7,
-      img: "https://i.ibb.co/7V2dS40/ventilador-industrial-vitta-30-Pulgadas-2-en-1.jpg",
+      img: "https://i.ibb.co/mCg2yCD/ventilador-industrial-vitta-30-Pulgadas-2-en-1.webp",
       title: "Ventilador Industrial Vitta 30'' 2 en 1",
+      detail: "Su funcionamiento está adaptado e ideado para entornos industriales. Esto hace que los distintos gases y aromas sean removidos sin inconvenientes. A su vez, tiene la capacidad de resistir ambientes severos, sin verse afectado por altas temperaturas ni presiones. Composición perfecta. Para una cobertura mayor de espacios, su oscilación de 180º proporciona un flujo constante de aire que permite refrescar más eficientemente los ambientes.",
       price: "$00,00",
       category: "ventilacion",
       marca: "VITTA",
@@ -129,8 +133,9 @@
     {
       id: 8,
   
-      img: "https://i.ibb.co/N6LrtJg/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.jpg",
+      img: "https://i.ibb.co/MfbHgQR/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.webp",
       title: "Ventilador 18'' 3 en 1 STAR TRAK",
+      detail: "¡Aire limpio y fresco en tus ambientes! El ventilador Star Trak STP31-18 es un elemento útil para dar frescura en el hogar. Con su óptimo rendimiento, la sensación térmica disminuirá. Es un aparato práctico, fácil de armar e instalar. Composición perfecta. Con sus palas elaboradas en metal vas a poder disfrutar de un producto de alta calidad y durabilidad. Su estilo único resalta en cualquier ámbito debido a su óptimo funcionamiento. Para una cobertura mayor de espacios, su oscilación de 180º proporciona un flujo constante de aire que permite refrescar más eficientemente los ambientes.",
       price: "$00,00",
       category: "ventilacion",
       marca: "STAR TRAK",
@@ -142,8 +147,9 @@
     },
     {
       id: 9,
-      img: "https://i.ibb.co/MgJGJFf/Ventilador-Pie-14-Pulgadas-Base-Pesada-STAR-TRAK.jpghttps://picsum.photos/200/300?random=9",
+      img: "https://i.ibb.co/WBGtj3g/Ventilador-Pie-14-Pulgadas-Base-Pesada-STAR-TRAK.webp",
       title: "Ventilador Pie 14'' Base Pesada STAR TRAK",
+      detail: "Ventilador de pie Star Trak 14 pulgadas anti mosquitos (35 cm.) de diámetro código STPG14, lleva 5 aspas plásticas de color negro, fijo con rejilla giratoria, este modelo de ventilador de pie de 14″ lleva barral exterior pintado de 38 mm (1″ ½) Ø e interior cromado de 22 mm (7/8) Ø, de altura regulable: mínimo 1,30 mts. máximo 1,50 mts., base redonda pesada, reja de protección plástica cumpliendo con las normas de seguridad vigente. El Ventilador de Pie Star Trak 14 Pulgadas cuenta con 3 velocidades, motor 220 V, 50 Hz., 70 w, alcance aproximado de 4 mts",
       price: "$00,00",
       category: "ventilacion",
       marca: "STAR TRAK",
@@ -157,8 +163,9 @@
     },    
     {
       id: 10,
-      img: "https://i.ibb.co/WBR7xrp/Ventilador-Pie-14-Pulgadas-STAR-TRAK-Multi.jpg",
+      img: "https://i.ibb.co/jwRFj67/Ventilador-Pie-14-Pulgadas-STAR-TRAK-Multi.webp",
       title: "Ventilador Pie 14'' STAR TRAK Multi",
+      detail: "Ventilador Multifuncion Star Trak 14″ (35 cm) Repelente para Mosquitos con triple función (Piso , Pared , Techo), código STG41-14, ultra silencioso, Motor de 70 watts, 3 niveles de velocidad, reja giratoria, apto para piso, pared y techo, 5 aspas plásticas, cabezal reclinable, color negro. Garantía 1 año.",
       price: "$00,00",
       category: "ventilacion",
       marca: "STAR TRAK",
@@ -173,8 +180,9 @@
     },
     {
       id: 11,
-      img: "https://i.ibb.co/kcJYp06/Ventilador-14-Pulgadas-STAR-TRAK.jpg",
+      img: "https://i.ibb.co/Zzrrzgj/Ventilador-20-Pulgadas-STAR-TRAK.webp",
       title: "Ventilador 20'' STAR TRAK",
+      detail: "Ventilador Multifunción 20''. Motor de 120 watts de potencia. Función Pie-Turbo y Pared. Grilla giratoria. Dispositivo repelente para mosquitos mediante tableta. Aspas plásticas. Baral telescópico. 1,7 metros de altura",
       price: "$00,00",
       category: "ventilacion",
       marca: "STAR TRAK",
