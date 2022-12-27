@@ -20,8 +20,8 @@ function ItemListContainer() {
 
   return (
     <>
-      <div className="d-flex bd-highlight ">
-        <div className="container p-0 mt-5 nav-vertical bd-highlight">
+      <div className="d-flex  ">
+        <div className="p-2  p-0 mt-5 nav-vertical ">
           <ul className=" flex-column nav-vertical m-0 p-1">
             <h2 className="text-center">Categorias</h2>
             
@@ -479,8 +479,10 @@ function ItemListContainer() {
           </ul>
         </div>
         
-          
+          <div className="container-fluid m-0">
+
             <ItemList data={data} />
+          </div>
           
         
       </div>

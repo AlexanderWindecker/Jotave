@@ -16,7 +16,7 @@ const Nosotros = () => {
         </motion.h1>
       </div>
 
-     
+      
 
       <div className="contenedor">
         <div className="container justify-center text-center">

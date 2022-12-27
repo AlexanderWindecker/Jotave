@@ -79,13 +79,13 @@ function NavBar() {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <span> Smarts, Audio y Video &raquo;</span>
+                      <span> Tv´s, Audio y Video &raquo;</span>
                     </Link>
                     <ul className="dropdown-menu submenu ul-color">
                       <li>
                         <Link className="dropdown-item" to="/categoria/imagen">
                           <i className="bi bi-caret-right-fill">
-                            <span>Smarts</span>
+                            <span>Tv´s</span>
                           </i>
                         </Link>
                       </li>
@@ -207,6 +207,35 @@ function NavBar() {
                       </li>
                     </ul>
                   </li>
+                  <li className="nav-item dropdown">
+                    <Link
+                      className="nav-link dropdown-toogle"
+                      to="/categoria/climatizacion"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span>Lavado &raquo;</span>
+                    </Link>
+                    <ul className="dropdown-menu submenu ul-color">
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/lavarropa"
+                        >
+                          <i className="bi bi-caret-right-fill">
+                            <span>Lavarropa</span>
+                          </i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item" to="/categoria/secarropa">
+                          <i className="bi bi-caret-right-fill">
+                            <span>Secarropa</span>
+                          </i>
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
                   <li>
                     <Link
                       className="nav-link dropdown-toogle"
@@ -217,16 +246,23 @@ function NavBar() {
                     </Link>
                     <ul className="dropdown-menu submenu ul-color">
                       <li>
-                        <Link className="dropdown-item" to="/categoria/cocinas">
+                        <Link className="dropdown-item" to="/categoria/cocina">
                           <i className="bi bi-caret-right-fill">
                             <span>Cocinas</span>
                           </i>
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item" to="/categoria/hornos">
+                        <Link className="dropdown-item" to="/categoria/horno">
                           <i className="bi bi-caret-right-fill">
                             <span>Hornos</span>
+                          </i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item" to="/categoria/microonda">
+                          <i className="bi bi-caret-right-fill">
+                            <span>Microondas</span>
                           </i>
                         </Link>
                       </li>
@@ -244,7 +280,7 @@ function NavBar() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          to="/categoria/planchas"
+                          to="/categoria/plancha"
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Planchas</span>
@@ -254,7 +290,7 @@ function NavBar() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          to="/categoria/aspiradoras"
+                          to="/categoria/aspiradora"
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Aspiradoras</span>
@@ -285,7 +321,7 @@ function NavBar() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          to="/categoria/pava electrica"
+                          to="/categoria/pavaelectrica"
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Pava Electrica</span>
@@ -295,7 +331,7 @@ function NavBar() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          to="/categoria/Batidora"
+                          to="/categoria/batidora"
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Batidora</span>
@@ -305,13 +341,13 @@ function NavBar() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          to="/categoria/Licuadora"
+                          to="/categoria/licuadora"
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Licuadora</span>
                           </i>
                         </Link>
-                      </li>
+                      </li>                      
                       <li>
                         <Link
                           className="dropdown-item"
@@ -325,7 +361,7 @@ function NavBar() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          to="/categoria/fabrica de pasta"
+                          to="/categoria/fabricadepasta"
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Fabrica de Pasta</span>
@@ -335,7 +371,17 @@ function NavBar() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          to="/categoria/horno de pan"
+                          to="/categoria/freidora"
+                        >
+                          <i className="bi bi-caret-right-fill">
+                            <span>Freidoras</span>
+                          </i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/hornodepan"
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Horno de Pan</span>
@@ -349,6 +395,16 @@ function NavBar() {
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Vaporera</span>
+                          </i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/equipamiento"
+                        >
+                          <i className="bi bi-caret-right-fill">
+                            <span>Otros</span>
                           </i>
                         </Link>
                       </li>
@@ -459,6 +515,26 @@ function NavBar() {
                         >
                           <i className="bi bi-caret-right-fill">
                             <span>Notebook</span>
+                          </i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/gabinete"
+                        >
+                          <i className="bi bi-caret-right-fill">
+                            <span>Gabinete</span>
+                          </i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/pc"
+                        >
+                          <i className="bi bi-caret-right-fill">
+                            <span>PC</span>
                           </i>
                         </Link>
                       </li>

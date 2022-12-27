@@ -23,8 +23,8 @@ export default function ItemList({ data }) {
   //metodo filtrado
 
   return (
-    <div className="justify-content-center mt-5 m-0 row ">
-      <div className="d-flex justify-content-center  ">
+    <div className="  justify-content-center mt-5 m-0 row ">
+      <div className="container d-flex justify-content-center  ">
         <input
           type="text"
           value={search}
