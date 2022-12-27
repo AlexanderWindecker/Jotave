@@ -34,14 +34,16 @@ function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active ">
             
-            <img src="/img/Banner3.png" className="d-block w-100"  alt="..."></img>
+
+            <img src="https://i.ibb.co/kBm4JtG/Banner1.webp" className="d-block w-100"  alt="..."></img>
           </div>
           <div className="carousel-item">
           
-            <img src="/img/Banner1.png" className="d-block w-100"  alt="..."></img>
+            <img src="https://i.ibb.co/cNXmLQD/Banner2.webp" className="d-block w-100"  alt="..."></img>
           </div>
           <div className="carousel-item">          
-          <img src="/img/Banner2.png" className="d-block w-100"  alt="..."></img>
+          <img src="https://i.ibb.co/6gMhH4s/Banner3.webp" className="d-block w-100"  alt="..."></img>
+
           </div>
         </div>
         <button
@@ -68,3 +70,4 @@ function Carousel() {
 }
 
 export default Carousel;
+
