@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 28,
-    img: "https://i.ibb.co/9wwKbfT/Freezer-Horizontal-BRIKET-Tapa-Vidrio-3300.jpg",
+    img: "https://i.ibb.co/rvtHx6V/Freezer-Horizontal-BRIKET-Tapa-Vidrio-3300.webp",
     title: "Freezer Horizontal BRIKET Tapa Vidrio 3300",
     price: "$00,00",
     category: "freezer",
@@ -21,7 +21,7 @@ export const data = [
   },
   {
     id: 230,
-    img: "https://i.ibb.co/DtBG6zn/Bicicleta-lamborghini-shimano-r29-m47l-azul-negro.jpg",
+    img: "https://i.ibb.co/hVBwWRQ/Bicicleta-lamborghini-shimano-r29-m47l-azul-negro.webp",
     title: "Bicicleta lamborhini shimano r29 m47l azul-negro",
     price: "$00,00",
     detail: "Cambios: Shimano de 21 velocidades. Frenos: Disco Mecánico. Llantas Doble Pared: Aluminio de 36 agujeros. Cubiertas: Wanda 29 x 2.1 mm. Camara : Valvula de auto. Descarrilador : SHIMANO. Piñon: 7 velocidades con cubrerayos. Pie de apoyo : Regulable. Leva Freno: A disco en las dos ruedas. Asiento: TIPO MTB",
@@ -30,7 +30,7 @@ export const data = [
   },
   {
     id: 40,
-    img: "https://i.ibb.co/7zRQrsD/Cocina-Vitta-Bella-Bianca-Multigas.jpg",
+    img: "https://i.ibb.co/60q0cCb/Cocina-Vitta-Bella-Bianca-Multigas.webp",
     title: "Cocina Vitta Bella Bianca Multigas",
     price: "$00,00",
     category: "cocinas y hornos",
@@ -46,7 +46,7 @@ export const data = [
   },
   {
     id: 98,
-    img: "https://i.ibb.co/L0Z8gX3/Tv-Smart-Kanji-60-4-K-Google-Tv.jpg",
+    img: "https://i.ibb.co/ZhBFgG9/Tv-Smart-Kanji-60-4-K-Google-Tv.webp",
     title: "Tv Smart Kanji 60'' 4K Google Tv",
     price: "$00,00",
     category: "imagen",
@@ -55,7 +55,7 @@ export const data = [
   },
   {
     id: 240,
-    img: "https://i.ibb.co/gRX5Z2B/Pileta-estructural-6100l-3-60-x-0-76-avenli.jpg",
+    img: "https://i.ibb.co/sCydWLB/Pileta-estructural-6100l-3-60-x-0-76-avenli.webp",
     title: "Pileta estructural 6100l 3.60 x 0.76 avenli",
     price: "$00,00",
     detail:
@@ -65,7 +65,7 @@ export const data = [
   },
   {
     id: 15,
-    img: "https://i.ibb.co/F0wyRpN/Heladera-Briket-476-L-BK2-F-2121-Gris.jpg",
+    img: "https://i.ibb.co/dbY7CSx/Heladera-Briket-476-L-BK2-F-2121-Gris.webp",
     title: "Heladera Briket 476L BK2F 2121 Gris",
     price: "$00,00",
     category: "heladera",
@@ -85,7 +85,7 @@ export const data = [
   },
   {
     id: 35,
-    img: "https://i.ibb.co/Xs77jkx/Lavarropas-Drean-Next-8-12-ECO.jpg",
+    img: "https://i.ibb.co/T0dCwy1/Lavarropas-Drean-Next-8-12-ECO.webp",
     title: "Lavarropas Drean Next 8.12 ECO",
     price: "$00,00",
     category: "lavarropa",
@@ -118,7 +118,7 @@ export const data = [
   },
   {
     id: 112,
-    img: "https://i.ibb.co/QnXX77M/Celular-Samsung-A22-5-G-Nacional.jpg",
+    img: "https://i.ibb.co/XSLRqxm/Celular-Samsung-A22-5-G-Nacional.webp",
     title: "Celular Samsung A22 5G Nacional",
     price: "$00,00",
     category: "samsung",
@@ -127,7 +127,7 @@ export const data = [
   },
   {
     id: 4,
-    img: "https://i.ibb.co/r67MbZ3/aire-acondicionado-inverter-greenstay-fc-3500.jpg",
+    img: "https://i.ibb.co/RbqmTWN/aire-acondicionado-inverter-greenstay-fc-3500.webp",
     title: "Aire acondicionado Inverter GREENSTAY 3500w FC",
     price: "$00,00",
     category: "aire",
@@ -141,7 +141,7 @@ export const data = [
   },
   {
     id: 13,
-    img: "https://i.ibb.co/B2h9Vv3/Climatizador-Kanji-LRG04-11-CR-Frio-Calor.jpg",
+    img: "https://i.ibb.co/yWrWZLk/Climatizador-Kanji-LRG04-11-CR-Frio-Calor.webp",
     title: "Climatizador Kanji LRG04-11CR Frio Calor",
     price: "$00,00",
     category: "aire",

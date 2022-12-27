@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 6,
-    img: "https://i.ibb.co/TLkWf51/ventilador-vitta-18pulgadas-3-en-1-90w.jpg",
+    img: "https://i.ibb.co/98MvLP1/ventilador-vitta-18pulgadas-3-en-1-90w.webp",
     title: "Ventilador VITTA 18'' 3 en 1 90w",
     price: "$00,00",
     category: "ventilacion",
@@ -15,17 +15,20 @@ export const data = [
     detail: "¡Aire limpio y fresco en tus ambientes! El ventilador Vitta Vitta es un elemento útil para dar frescura en el hogar. Con su óptimo rendimiento, la sensación térmica disminuirá. Es un aparato práctico, fácil de armar e instalar. Composición perfecta: Con sus palas elaboradas en metal vas a poder disfrutar de un producto de alta calidad y durabilidad. Su estilo único resalta en cualquier ámbito debido a su óptimo funcionamiento.",
   },
   {
-    id: 240,
-    img: "https://i.ibb.co/gRX5Z2B/Pileta-estructural-6100l-3-60-x-0-76-avenli.jpg",
-    title: "Pileta estructural 6100l 3.60 x 0.76 avenli",
+    id: 244,
+
+    img: "https://i.ibb.co/F6FjFQL/Pileta-mor-2000-l-2-11-x-1-64-x-0-58-1922.webp",
+
+    title: "Pileta mor 2000 l 2.11 x 1.64 x 0.58 1922",
     price: "$00,00",
-    detail: "De fácil instalación rápida y sin herramientas. Estructura de metal resistente al óxido, le dan una larga vida útil. Paredes laterales de PVC y poliéster de alta resistencia proporciona gran durabilidad. Sistema anticorrosión Tech Trigonal Lock. Kit de reparación. Medidas: Ø 3,60 mt | Altura 0,76 mt. Medidas caja: 32,5 x 20,0 x 119,0 cm. Peso: 22,4 kg",
+    detail:
+      "Los productos de la marca brasilera Mor son reconocidos por ser innovadores de calidad y estar enfocados a sus usuarios. Con esta pileta, podrás disfrutar del verano y pasar placenteramente los días de calor. Para todo tipo de espacios. Por su forma rectangular y su tamaño amplio y cómodo de 1.15 m de largo y 1.06 m de ancho, los meses de calor serán tus preferidos del año para compartir momentos únicos junto a quienes más querés. Comodidad y cuidado. Con su válvula de desagüe, vas a poder sacar el agua de una manera mucho más rápida y simple cuando desees limpiarla o vaciarla.",
     category: "piletas",
-    codigo: 2564,
+    codigo: 2476,
   },
   {
     id: 242,
-    img: "https://i.ibb.co/Fk1mhqN/Pileta-mor-1000-l-1-89-x-1-26-x-0-42-1921.jpg",
+    img: "https://i.ibb.co/wC9wd69/Pileta-mor-1000-l-1-89-x-1-26-x-0-42-1921.webp",
     title: "Pileta mor 1000 l 1.89 x 1.26 x 0.42 1921",
     price: "$00,00",
     detail: "Los productos de la marca brasilera Mor son reconocidos por ser innovadores de calidad y estar enfocados a sus usuarios. Con esta pileta, podrás disfrutar del verano y pasar placenteramente los días de calor. Para todo tipo de espacios. Por su forma rectangular y su tamaño amplio y cómodo de 1.15 m de largo y 1.06 m de ancho, los meses de calor serán tus preferidos del año para compartir momentos únicos junto a quienes más querés. Comodidad y cuidado. Con su válvula de desagüe, vas a poder sacar el agua de una manera mucho más rápida y simple cuando desees limpiarla o vaciarla.",
@@ -34,7 +37,7 @@ export const data = [
   },
   {
     id: 30,
-    img: "https://i.ibb.co/1nY1FH9/Batea-Comercial-Best-Cold-Standard-Recta-2400-R.jpg",
+    img: "https://i.ibb.co/0CSfs3k/Batea-Comercial-Best-Cold-Standard-Recta-2400-R.webp",
     title: "Batea Comercial BestCold Standard Recta 2400-R",
     price: "$00,00",
     category: "heladeras y freezer",
@@ -51,7 +54,7 @@ export const data = [
   },
   {
     id: 54,
-    img: "https://i.ibb.co/zSkxGB2/Microondas-Samsung-Blanco-20lts-ME731-KKD.jpg",
+    img: "https://i.ibb.co/gV6bqnz/Microondas-Samsung-Blanco-20lts-ME731-KKD.webp",
     title: "Microondas Samsung Blanco 20lts ME731KKD",
     price: "$00,00",
     category: "pequeños cocina",
@@ -69,7 +72,7 @@ export const data = [
   },
   {
     id: 59,
-    img: "https://i.ibb.co/1Jw7vVG/Licuadora-Westinghouse-BL0800-LA0-Negra.jpg",
+    img: "https://i.ibb.co/pZDMwLF/Licuadora-Westinghouse-BL0800-LA0-Negra.webp",
     title: "Licuadora Westinghouse BL0800LA0 Negra",
     price: "$00,00",
     category: "pequeños cocina",
@@ -78,7 +81,7 @@ export const data = [
   },
   {
     id: 71,
-    img: "https://i.ibb.co/8409FBM/Balanza-Comercial-Kretz-Novel-Eco-2-30kg-AUN30-P.jpg",
+    img: "https://i.ibb.co/fpMDmSH/Balanza-Comercial-Kretz-Novel-Eco-2-30kg-AUN30-P.webp",
     title: "Balanza Comercial Kretz Novel Eco 2 30kg AUN30P",
     price: "$00,00",
     category: "equipamiento",
@@ -87,7 +90,7 @@ export const data = [
   },
   {
     id: 80,
-    img: "https://i.ibb.co/44j6yP4/Termotanque-Gris-Electrico-Blanco-Gas-150-100-80-50-25-lts-Vitta.jpg",
+    img: "https://i.ibb.co/w4dLvpt/Termotanque-Gris-Electrico-Blanco-Gas-150-100-80-50-25-lts-Vitta.webp",
     title: "Termotanque Gris Electrico-Blanco Gas 150-100-80-50-25 lts Vitta",
     price: "$00,00",
     category: "termotanques",
@@ -96,7 +99,7 @@ export const data = [
   },
   {
     id: 122,
-    img: "https://i.ibb.co/PQ7NynS/Notebook-Enova-2-GB-Ram-64-Gb-Disco-Win10.jpg",
+    img: "https://i.ibb.co/y41mSGF/Notebook-Enova-2-GB-Ram-64-Gb-Disco-Win10.webp",
     title: "Notebook Enova 2GB Ram 64Gb Disco Win10",
     price: "$00,00",
     category: "notebook",
@@ -105,7 +108,7 @@ export const data = [
   },
   {
     id: 273,
-    img: "https://i.ibb.co/D9m2NRC/Parlante-CROWN-MUSTANG-Negro-bluetooth-sbl-6500bt.jpg",
+    img: "https://i.ibb.co/0nmWXLx/Parlante-CROWN-MUSTANG-Negro-bluetooth-sbl-6500bt.webp",
     title: "Parlante CROWN MUSTANG Negro bluetooth sbl-6500bt",
     price: "$00,00",
     detail: "Descripción: Crown Mustang SBL-6500BT ofrece un sonido natural, con una gran claridad y precisión, que se dispersa de manera uniforme. Un parlante que asegura potencia y calidad por igual en la reproducción de contenidos multimedia. Versátil y funcional. Disfrutar de todos los sonidos- graves, medios y agudos- con alta fidelidad y una excelente calidad es posible con este parlante de tipo woofer, subwoofer, tweeter, incluso cuando subas el volumen. Olvidate del amplificador. Al ser activo solo necesitarás conectarlo a la fuente de sonido y el mismo equipo se encargará de amplificar y reproducir: ganarás practicidad y espacio, ya que además requiere menos cableado que uno pasivo. Es la solución más conveniente si querés producir música en tu casa o en un estudio, y también para DJs.",
