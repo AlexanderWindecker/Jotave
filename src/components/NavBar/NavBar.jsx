@@ -7,7 +7,7 @@ function NavBar() {
     <>
 
 
-      <nav className="navbar navbar-expand-lg navbar-light  ">
+      <nav className="navbar navbar-expand-lg navbar-light border ">
         <div className="container ">
           <div className="container d-flex justify-content-around">
             <Link className="navbar-brand" to="/">

@@ -29,7 +29,6 @@ const data = [
     id: 2,
 
     img: "https://i.ibb.co/jyxRcQb/aire-acondicionado-split-hitachi-2600w-fc.webp",
-
     title: "Aire Acondicionado Split HITACHI 2600w FC",
     price: "$00,00",
     detail:
@@ -76,7 +75,6 @@ const data = [
   },
   {
     id: 4,
-
     img: "https://i.ibb.co/RbqmTWN/aire-acondicionado-inverter-greenstay-fc-3500.webp",
     title: "Aire acondicionado Inverter GREENSTAY 3500w FC",
     price: "$00,00",
@@ -94,7 +92,6 @@ const data = [
     id: 5,
 
     img: "https://i.ibb.co/6rzqwgT/aire-acondicionado-inverter-greenstay-fc-6900.webp",
-
     title: "Aire acondicionado Inverter GREENSTAY 6900w FC",
     price: "$00,00",
     detail:
