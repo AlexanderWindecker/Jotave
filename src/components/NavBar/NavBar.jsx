@@ -6,6 +6,7 @@ function NavBar() {
   return (
     <>
 
+
       <nav className="navbar navbar-expand-lg navbar-light  ">
         <div className="container ">
           <div className="container d-flex justify-content-around">
@@ -27,8 +28,7 @@ function NavBar() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-          </div>
-
+          </div>        
           <div
             className="container collapse navbar-collapse"
             id="navbarSupportedContent"
@@ -516,6 +516,39 @@ function NavBar() {
                           </i>
                         </Link>
                       </li>
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/colchones"
+                        >
+                          <i className="bi bi-caret-right-fill">
+                            <span>Colchones</span>
+                          </i>
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link
+                      className="nav-link dropdown-toogle"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span>Motos &raquo;</span>
+                    </Link>
+                    <ul className="dropdown-menu submenu ul-color">                      
+                      <li>
+                        <Link
+                          className="dropdown-item"
+                          to="/categoria/motos"
+                        >
+                          <i className="bi bi-caret-right-fill">
+                            <span>Motos</span>
+                          </i>
+                        </Link>
+                      </li>
+                      
+                      
                     </ul>
                   </li>
                 </ul>

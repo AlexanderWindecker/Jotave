@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function Search() {
 
 
-  let [data, setData] = useState([]);
+  let [data] = useState([]);
   
 
 

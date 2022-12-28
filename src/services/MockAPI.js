@@ -551,16 +551,18 @@ const data = [
     title: "Exhibidora Comercial BRIKET Master 3200",
     price: "$00,00",
     category: "freezer",
-    detail: "Esta heladera exhibidora Briket será la encargada de mantener la cadena de frío para preservar la calidad y la apariencia de los alimentos expuestos en tu comercio. Además, gracias a su puerta transparente, el cliente tendrá una visión general de lo exhibido, dándole una mejor experiencia de compra y evitando que se pierda la temperatura al evitar tener que abrirla y cerrarla varias veces. Frescura en tus productos: Almacenar y refrigerar los alimentos en condiciones óptimas no es solo una preferencia a la hora de consumirlos, sino que es parte fundamental de la preservación. Es por ello que con su temperatura mínima de 0 °C y máxima de 5 °C esta exhibidora mantendrá tus alimentos aptos para que perduren por más tiempo, retardando la degradación y el deterioro.",
-    detail2: "Dimensiones: Ancho: 55cm Prof.: 63cm Alto c/Cenefa: 185.5cm Alto s/Cenefa: 171cm",
+    detail:
+      "Esta heladera exhibidora Briket será la encargada de mantener la cadena de frío para preservar la calidad y la apariencia de los alimentos expuestos en tu comercio. Además, gracias a su puerta transparente, el cliente tendrá una visión general de lo exhibido, dándole una mejor experiencia de compra y evitando que se pierda la temperatura al evitar tener que abrirla y cerrarla varias veces. Frescura en tus productos: Almacenar y refrigerar los alimentos en condiciones óptimas no es solo una preferencia a la hora de consumirlos, sino que es parte fundamental de la preservación. Es por ello que con su temperatura mínima de 0 °C y máxima de 5 °C esta exhibidora mantendrá tus alimentos aptos para que perduren por más tiempo, retardando la degradación y el deterioro.",
+    detail2:
+      "Dimensiones: Ancho: 55cm Prof.: 63cm Alto c/Cenefa: 185.5cm Alto s/Cenefa: 171cm",
     detail3: "Capacidad: 315L ",
     detail4: "Niveles de temperatura: 0° a +5° C ",
     detail5: "Cantidad de estantes: 4 Intercambiables ",
     detail6: " ",
-    marca: "BRIKET",        
+    marca: "BRIKET",
     cantidad_puertas: "Triple vidrio Deshidratado entre sí",
-    luz_interior: "Si",   
-    motocompresor: "1/3 HP reforzado",    
+    luz_interior: "Si",
+    motocompresor: "1/3 HP reforzado",
     otro: "Ideal para bebidas, lácteos, frutas, verduras, pastas, etc",
   },
   {
@@ -571,16 +573,17 @@ const data = [
     title: "Exhibidora Comercial BRIKET Master 4300",
     price: "$00,00",
     category: "freezer",
-    detail: "Esta heladera exhibidora Briket será la encargada de mantener la cadena de frío para preservar la calidad y la apariencia de los alimentos expuestos en tu comercio. Además, gracias a su puerta transparente, el cliente tendrá una visión general de lo exhibido, dándole una mejor experiencia de compra y evitando que se pierda la temperatura al evitar tener que abrirla y cerrarla varias veces. ",
+    detail:
+      "Esta heladera exhibidora Briket será la encargada de mantener la cadena de frío para preservar la calidad y la apariencia de los alimentos expuestos en tu comercio. Además, gracias a su puerta transparente, el cliente tendrá una visión general de lo exhibido, dándole una mejor experiencia de compra y evitando que se pierda la temperatura al evitar tener que abrirla y cerrarla varias veces. ",
     detail2: "Dimensiones: Ancho: 65,5cm Prof.: 60cm Alto: 203cm ",
     detail3: "Capacidad: 417L ",
     detail4: "Gas: R 290 ",
     detail5: "Peso: 79kg ",
     detail6: " ",
-    marca: "BRIKET",    
+    marca: "BRIKET",
     cantidad_estantes: "4",
     max_estante: "42 Kg",
-    tipo_energia: "D",    
+    tipo_energia: "D",
   },
   {
     id: 26,
@@ -590,17 +593,17 @@ const data = [
     title: "Exhibidora Comercial BRIKET Master 5000",
     price: "$00,00",
     category: "freezer",
-    detail: "Esta heladera exhibidora Briket será la encargada de mantener la cadena de frío para preservar la calidad y la apariencia de los alimentos expuestos en tu comercio. Además, gracias a su puerta transparente, el cliente tendrá una visión general de lo exhibido, dándole una mejor experiencia de compra y evitando que se pierda la temperatura al evitar tener que abrirla y cerrarla varias veces. ",
+    detail:
+      "Esta heladera exhibidora Briket será la encargada de mantener la cadena de frío para preservar la calidad y la apariencia de los alimentos expuestos en tu comercio. Además, gracias a su puerta transparente, el cliente tendrá una visión general de lo exhibido, dándole una mejor experiencia de compra y evitando que se pierda la temperatura al evitar tener que abrirla y cerrarla varias veces. ",
     detail2: "Dimensiones: Ancho: 70cm Prof.: 62cm Alto: 208cm ",
     detail3: "Capacidad: 501L ",
     detail4: "Peso: 95kg ",
     detail5: "Niveles de temperatura: 0° a +5° C ",
     detail6: " ",
-    marca: "BRIKET",       
+    marca: "BRIKET",
     cantidad_puertas: "Triple vidrio",
     cantidad_estantes: "4 Estantes Removibles",
     motocompresor: "1/3 Hp",
-    
   },
   {
     id: 27,
@@ -617,12 +620,12 @@ const data = [
     detail5: "Niveles de temperatura: 4° a -10° C ",
     detail6: "Orientacion: Vertical ",
     marca: "BEST COLD",
-    modelo: "MT750",    
-    luz_interior: "Sí",    
+    modelo: "MT750",
+    luz_interior: "Sí",
     control_temperatura: "Sí",
     cervecera: "Sí",
     cantidad_puertas: "2",
-    tipo_puertas: "Batientes",    
+    tipo_puertas: "Batientes",
     motocompresor: "1/3 hp",
     codigo: " ",
   },
@@ -634,16 +637,16 @@ const data = [
     title: "Freezer Horizontal BRIKET Tapa Vidrio 3300",
     price: "$00,00",
     category: "freezer",
-    detail:"FREEZER VERTICAL BRIKET EH 3000 TVI.",
+    detail: "FREEZER VERTICAL BRIKET EH 3000 TVI.",
     detail2: "Exterior en chapa de acero prepintada blanco ",
     detail3: "Capacidad: 295 Litros ",
     detail4: "Dimensiones: Alto: 95cm Prof.: 61cm Ancho 115.5cm ",
     detail5: "Orientacion: Horizontal ",
     detail6: "Tapas de vidrio corredizo ",
     marca: "BRIKET",
-    modelo: "EH 3300",       
+    modelo: "EH 3300",
     cantidad_cajones: "2",
-    ruedas: "Sí",    
+    ruedas: "Sí",
     tipo_energia: "A",
     gas: "R134",
     motocompresor: "FF1-12HBK",
@@ -663,9 +666,9 @@ const data = [
     detail5: "Gas: R-134a ",
     detail6: " ",
     marca: "TEORA",
-    modelo: "FH550TV",    
+    modelo: "FH550TV",
     cantidad_puertas: "2",
-    cantidad_cajones: "2",        
+    cantidad_cajones: "2",
   },
   {
     id: 30,
@@ -682,10 +685,10 @@ const data = [
     detail5: "Luz Interior: Si ",
     detail6: " ",
     marca: "BEST COLD",
-    modelo: "2400-R",    
+    modelo: "2400-R",
     tipo_gabinete: "Exterior en Chapa",
-    termoformado: "Alto Impacto",    
-    luz_interior: "Si",    
+    termoformado: "Alto Impacto",
+    luz_interior: "Si",
     otro: "Ideal para Granja, Carniceria, Pescaderia",
   },
   {
@@ -695,7 +698,7 @@ const data = [
 
     title: "Vitrina Mostrador BESTCOLD Winnipeg 610L 1600WE",
     price: "$00,00",
-    category:"heladera",
+    category: "heladera",
     detail: "Vitrina Mostrador BESTCOLD Winnipeg 610L 1600WE ",
     detail2: "Capacidad: 240L ",
     detail3: "Dimensiones: Alto: 113cm Prof.: 78cm Ancho: 120cm ",
@@ -703,11 +706,10 @@ const data = [
     detail5: "Niveles de temperatura: 2 °C - 10 °C ",
     detail6: "Material: Acero ",
     marca: "BEST COLD",
-    modelo: "winnipeg 1200",        
-    luz_interior: "Sí",    
-    control_temperatura: "Sí",    
+    modelo: "winnipeg 1200",
+    luz_interior: "Sí",
+    control_temperatura: "Sí",
     cervecera: "Sí",
-    
   },
   {
     id: 32,
@@ -724,9 +726,9 @@ const data = [
     detail5: "Material: Acero ",
     detail6: "Niveles de temperatura: 2 °C - 10 °C ",
     marca: "BEST COLD",
-    modelo: "1300-RS",   
-      
-    codigo: "", 
+    modelo: "1300-RS",
+
+    codigo: "",
   },
   {
     id: 33,
@@ -744,13 +746,11 @@ const data = [
     detail6: "Motorcompresor: Embraco 1/4 HP ",
     marca: "BEST COLD",
     modelo: "Winnipeg Dark 1400WE",
-    
-    termoformado: "Alto impacto",    
+
+    termoformado: "Alto impacto",
     tipo_puertas: "Batientes Automáticas",
-    luz_interior: "Si",   
-    codigo: "", 
-   
-   
+    luz_interior: "Si",
+    codigo: "",
   },
   {
     id: 34,
@@ -767,10 +767,10 @@ const data = [
     detail5: "Mesa de trabajo: Acero Inoxidable ",
     detail6: "Laterales termoformados de alto impacto ",
     marca: "BEST COLD",
-    modelo: "2100E", 
-    
+    modelo: "2100E",
+
     termoformado: "Alto Impacto",
-    tipo_puertas: "Batientes",    
+    tipo_puertas: "Batientes",
     luz_interior: "Si, Tecnologia LED",
   },
   {
@@ -781,7 +781,8 @@ const data = [
     title: "Lavarropas Drean Next 8.12 ECO",
     price: "$00,00",
     category: "lavarropa",
-    detail:"Desde su lanzamiento al mercado en la década del 40, Drean permanece en la memoria de los argentinos como una marca de electrodomésticos confiables, modernos y accesibles. Su gama de productos confirma su compromiso de brindarte más tiempo libre y de contribuir a lograr un planeta más limpio. Trabaja solo: Únicamente necesita que se introduzcan los productos de limpieza y se elija el programa deseado. A diferencia de los semiautomáticos, no requiere que estés presente en todas las etapas del proceso, por lo que vas a tener prendas limpias y perfumadas sin esfuerzo.Eco-Friendly: El programa Eco combina ahorro de energía, tiempo y eficiencia para lograr una mejor limpieza con menos cantidad de agua. De esta forma, vas a hacer el lavado diario aportando al cuidado del planeta.",
+    detail:
+      "Desde su lanzamiento al mercado en la década del 40, Drean permanece en la memoria de los argentinos como una marca de electrodomésticos confiables, modernos y accesibles. Su gama de productos confirma su compromiso de brindarte más tiempo libre y de contribuir a lograr un planeta más limpio. Trabaja solo: Únicamente necesita que se introduzcan los productos de limpieza y se elija el programa deseado. A diferencia de los semiautomáticos, no requiere que estés presente en todas las etapas del proceso, por lo que vas a tener prendas limpias y perfumadas sin esfuerzo.Eco-Friendly: El programa Eco combina ahorro de energía, tiempo y eficiencia para lograr una mejor limpieza con menos cantidad de agua. De esta forma, vas a hacer el lavado diario aportando al cuidado del planeta.",
     detail2: "Velocidad Centrifugado: 1200 rpm ",
     detail3: "Dimensiones: Alto:	85cm Prof.:	55cm Ancho:	60cm ",
     detail4: "Peso: 71kg ",
@@ -792,12 +793,12 @@ const data = [
     modelo: "8.12 ECO",
 
     centrifugado: "Sí",
-    centrifugado_autoequilibrado: "Sí",        
+    centrifugado_autoequilibrado: "Sí",
     filtro: "Sí",
     tambores: "1 de Acero Inoxidable",
     tipo_lavarropas: "Automatico",
     carga: "Frontal",
-    tipo_energia: "A++",    
+    tipo_energia: "A++",
     lavasecarropas: "No",
     inverter: "No",
     smartphone: "No",
@@ -818,22 +819,23 @@ const data = [
     title: "Lavasecarropas Electrolux 8kg inverter EWD08B",
     price: "$00,00",
     category: "lavarropa",
-    detail: "Electrolux cuenta con diseños modernos que se adaptan a cada tipo de hogar y a cada necesidad. Ofrece excelentes opciones para quienes priorizan una tecnología durable y la innovación en el cuidado de las prendas. ",
+    detail:
+      "Electrolux cuenta con diseños modernos que se adaptan a cada tipo de hogar y a cada necesidad. Ofrece excelentes opciones para quienes priorizan una tecnología durable y la innovación en el cuidado de las prendas. ",
     detail2: "Inverter: Si ",
     detail3: "Dimensiones: Alto: 85cm Prof.: 57.5cm Ancho: 60cm ",
     detail4: "Capacidad: 8kg ",
     detail5: "Tambor: Acero Inoxidable ",
     detail6: "Velocidad de Centrifugado: 1200rpm ",
     marca: "ELECTROLUX",
-    modelo: "EWD08B",    
+    modelo: "EWD08B",
     lavasecarropas: "Sí",
-    capacidad_secado: "5 Kg",    
+    capacidad_secado: "5 Kg",
     carga: "Frotal",
-    tipo_energia: "A",    
+    tipo_energia: "A",
     centrifugado: "Si",
     centrifugado_autoequilibrado: "Si",
     peso: "62.2 kg",
-    filtro: "Si",    
+    filtro: "Si",
     display: "Si, tipo LED",
     tipo_bloqueo: "Bloqueo de Panel, Bloqueo de Seguridad de Puerta",
     otro: "Funcion Antiarrugas",
@@ -846,7 +848,8 @@ const data = [
     title: "Lavarropas Drean Concept Fuzzy Logic Tech V1",
     price: "$00,00",
     category: "lavarropa",
-    detail: "Desde su lanzamiento al mercado en la década del 40, Drean permanece en la memoria de los argentinos como una marca de electrodomésticos confiables, modernos y accesibles. Su gama de productos confirma su compromiso de brindarte más tiempo libre y de contribuir a lograr un planeta más limpio. ",
+    detail:
+      "Desde su lanzamiento al mercado en la década del 40, Drean permanece en la memoria de los argentinos como una marca de electrodomésticos confiables, modernos y accesibles. Su gama de productos confirma su compromiso de brindarte más tiempo libre y de contribuir a lograr un planeta más limpio. ",
     detail2: "Velocidad de Centrifugado: 500rpm ",
     detail3: "Dimensiones: Alto: 89cm Prof.: 54cm Ancho: 54cm ",
     detail4: "Capacidad: 5kg ",
@@ -856,12 +859,12 @@ const data = [
     modelo: "Fuzzy Logic Tech V1",
     lavasecarropas: "No",
     carga: "Superior",
-    tipo_energia: "B",    
-    inverter: "No",    
+    tipo_energia: "B",
+    inverter: "No",
     centrifugado: "Si",
-    centrifugado_autoequilibrado: "No",   
+    centrifugado_autoequilibrado: "No",
     peso: "33.6 kg",
-    cantidad_programas: "15",    
+    cantidad_programas: "15",
     niveles_temperatura: "Fría, Tibia, Caliente",
     filtro: "Si",
     tambor: "1, Polycron",
@@ -877,7 +880,8 @@ const data = [
     title: "Secarropas Koh i Noor Negro N-655-2 5.5KG",
     price: "$00,00",
     category: "secarropa",
-    detail: "Con tu Koh-i-noor N-655 podrás utilizar tu ropa cuando quieras, gracias a su tecnología de secado rápido y efectivo. ",
+    detail:
+      "Con tu Koh-i-noor N-655 podrás utilizar tu ropa cuando quieras, gracias a su tecnología de secado rápido y efectivo. ",
     detail2: "Secado: Centrifugo ",
     detail3: "Velocidad Centrifugado: 2800 rpm ",
     detail4: "Dimensiones: Alto: 63.5cm Diametro: 34.3cm ",
@@ -885,8 +889,8 @@ const data = [
     detail6: "Tambor: Acero Inoxidable ",
     marca: "KOH I NOOR",
 
-    modelo: "N-655",   
-    carga: "Superior",    
+    modelo: "N-655",
+    carga: "Superior",
     sistema_traba: "Maxima Seguridad TBS",
     tapa: "Abre sola cuando deja de Girar el Tambor",
     otro: "Manija para Transportar, Patas de muy buena sujecion",
@@ -900,15 +904,16 @@ const data = [
     title: "Secarropas Koh i Noor Acero A-665-2 6.5KG",
     price: "$00,00",
     category: "secarropa",
-    detail: "Con tu Koh-i-noor A-665/2 podrás utilizar tu ropa cuando quieras, gracias a su tecnología de secado rápido y efectivo. ",
+    detail:
+      "Con tu Koh-i-noor A-665/2 podrás utilizar tu ropa cuando quieras, gracias a su tecnología de secado rápido y efectivo. ",
     detail2: "Capacidad: 6.5kg ",
     detail3: "Dimensiones: Alto: 69.5cm Prof.: 34.3cm Ancho: 34.3cm ",
     detail4: "Tambor: Acero Inoxidable ",
     detail5: "Velocidad Centrifugado: 2800 rpm ",
     detail6: "Cargaa: Superior ",
     marca: "KOH I NOOR",
-    modelo: "A-665",   
-       
+    modelo: "A-665",
+
     sistema_traba: "Maxima Seguridad TBS",
     tapa: "Abre sola cuando deja de Girar el Tambor",
     otro: "Manija para Transportar, Patas de muy buena sujecion",
@@ -930,8 +935,6 @@ const data = [
     detail6: "Estilo: Enlozado con Manija de Hierro de Facil Limpieza ",
     marca: "VITTA",
     modelo: "Bella Bianca",
-  
-    
   },
   {
     id: 41,
@@ -949,7 +952,6 @@ const data = [
     detail6: "Estilo: Enlozado con Manija de Hierro de Facil Limpieza ",
     marca: "VITTA",
     modelo: "Bella Nera",
-    
   },
   {
     id: 42,
@@ -966,8 +968,7 @@ const data = [
     detail5: "Cantidad de Hornallas: 4 ",
     detail6: "Estilo: Enlozado con Manija de Hierro de Facil Limpieza ",
     marca: "VITTA",
-    modelo: "Bella Acero",   
-    
+    modelo: "Bella Acero",
   },
   {
     id: 43,
@@ -982,11 +983,10 @@ const data = [
     detail3: "Dimensiones: Alto: 86cm Prof: 58cm Ancho: 55cm ",
     detail4: "Piso: Ladrillo Refractario ",
     detail5: "Semi Industrial ",
-    detail6: "Estilo: Rejas de Fundicion, Acero Inoxidable Esmerilado con Pirometro en Puerta ",
+    detail6:
+      "Estilo: Rejas de Fundicion, Acero Inoxidable Esmerilado con Pirometro en Puerta ",
     marca: "VITTA",
-    modelo: "Bella Chef - Semi Industrial",   
-    
-    
+    modelo: "Bella Chef - Semi Industrial",
   },
   {
     id: 44,
@@ -996,7 +996,8 @@ const data = [
     title: "Cocina Electrolux Doble Horno Elec-Gas",
     price: "$00,00",
     category: "cocina",
-    detail: "Electrolux es una empresa global líder en electrodomésticos, que tiene como filosofía desarrollar productos, innovaciones y soluciones basadas en las necesidades reales de sus consumidores. Sus cocinas tienen características diferenciales que las convierten en productos exclusivos así como laterales de acero inoxidable, rejillas de fundición y tapa de vidrio templado. Todos los modelos garantizan una cocción pareja y envolvente, haciendo que las comidas diarias sean más crocantes y sabrosas. ",
+    detail:
+      "Electrolux es una empresa global líder en electrodomésticos, que tiene como filosofía desarrollar productos, innovaciones y soluciones basadas en las necesidades reales de sus consumidores. Sus cocinas tienen características diferenciales que las convierten en productos exclusivos así como laterales de acero inoxidable, rejillas de fundición y tapa de vidrio templado. Todos los modelos garantizan una cocción pareja y envolvente, haciendo que las comidas diarias sean más crocantes y sabrosas. ",
     detail2: "Cantidad de Hornallas: 4 ",
     detail3: "Dimensiones: Alto: 146.5cm Ancho: 56cm Prof.: 107.4cm ",
     detail4: "Peso: 46.5kg ",
@@ -1007,8 +1008,8 @@ const data = [
     grill: "No",
     temporizador: "Si",
     comando_tactil: "No",
-    horno_autolimpiante: "No",             
-    industrial: "No",    
+    horno_autolimpiante: "No",
+    industrial: "No",
     horno_doble: "Si",
     parrillas: "3",
     tipo_energia: "A",
@@ -1027,11 +1028,11 @@ const data = [
     detail3: "Dimensiones: Alto: 86cm Prof.: 55cm Ancho: 53cm ",
     detail4: "Grill: Inferior ",
     detail5: "Cantidad de Hornallas: 4 ",
-    detail6: "Estilo: Rejas de Fundicion, Exterior de Acero Inox. interior Enlozado ",
+    detail6:
+      "Estilo: Rejas de Fundicion, Exterior de Acero Inox. interior Enlozado ",
     marca: "MOTTA",
     modelo: "MO520PVN",
-     
-       
+
     parrillas: "2",
   },
   {
@@ -1047,11 +1048,12 @@ const data = [
     detail3: "Dimensiones: Alto: 86cm Prof.: 64cm Ancho: 59cm ",
     detail4: "Grill: Inferior ",
     detail5: "Cantidad de Hornallas: 4 ",
-    detail6: "Estilo: Rejas de Fundicion, Exterior de Acero Inox. interior Enlozado ",
+    detail6:
+      "Estilo: Rejas de Fundicion, Exterior de Acero Inox. interior Enlozado ",
     marca: "MOTTA",
     modelo: "Pro 600 Negra G-N",
-    
-    cantidad_hornallas: "4",    
+
+    cantidad_hornallas: "4",
     parrillas: "2",
   },
   {
@@ -1070,7 +1072,6 @@ const data = [
     detail6: "Consumo total: 20000 Kcal/H ",
     marca: "EL GAUCHITO",
     modelo: "550",
-    
   },
   {
     id: 48,
@@ -1089,7 +1090,6 @@ const data = [
     marca: "VITTA",
     modelo: "Forno Bianco",
     codigo: "",
-   
   },
   {
     id: 49,
@@ -1106,9 +1106,7 @@ const data = [
     detail5: "Potencia: 2000W ",
     detail6: "Anafe: Doble ",
     marca: "VITTA",
-    modelo: "Forno NERO",      
-    
-    
+    modelo: "Forno NERO",
   },
   {
     id: 50,
@@ -1124,8 +1122,7 @@ const data = [
     detail5: "Potencia: 2080W ",
     detail6: "Anafe: Doble ",
     marca: "VITTA",
-    modelo: "Forno NERO",     
-   
+    modelo: "Forno NERO",
   },
   {
     id: 51,
@@ -1143,7 +1140,6 @@ const data = [
     detail6: "Anafe: Doble ",
     marca: "VITTA",
     modelo: "Forno ROSSO",
- 
   },
   {
     id: 52,
@@ -1161,7 +1157,6 @@ const data = [
     detail6: "Anafe: Doble ",
     marca: "VITTA",
     modelo: "Forno ROSSO",
-   
   },
   {
     id: 53,
@@ -1179,7 +1174,6 @@ const data = [
     detail6: "Anafe: Doble ",
     marca: "VITTA",
     modelo: "HE4000- HE5000- HE6500",
-    
   },
   {
     id: 54,
@@ -1189,8 +1183,10 @@ const data = [
     title: "Microondas Samsung Blanco 20lts ME731KKD",
     price: "$00,00",
     category: "microonda",
-    detail: "No pierdas tiempo en la cocina. En simples pasos, podés disfrutar de tus comidas favoritas gracias a la tecnología y evolución de Samsung. El mismo cuenta con recetas preprogramadas para tu comodidad. Cocina fácilmente todo, desde arroz integral hasta pechuga de pollo deshuesada y filetes de salmón a la parrilla, con la garantía de que el resultado será comida fresca y sabrosa. ",
-    detail2: "Variedad de funciones y programas Para destacar, este microondas cuenta con 6 diferentes niveles de cocción y programas. Disfrutá todas tus comidas con mínimo esfuerzo y máximo sabor. ",
+    detail:
+      "No pierdas tiempo en la cocina. En simples pasos, podés disfrutar de tus comidas favoritas gracias a la tecnología y evolución de Samsung. El mismo cuenta con recetas preprogramadas para tu comodidad. Cocina fácilmente todo, desde arroz integral hasta pechuga de pollo deshuesada y filetes de salmón a la parrilla, con la garantía de que el resultado será comida fresca y sabrosa. ",
+    detail2:
+      "Variedad de funciones y programas Para destacar, este microondas cuenta con 6 diferentes niveles de cocción y programas. Disfrutá todas tus comidas con mínimo esfuerzo y máximo sabor. ",
     detail3: "Niveles de Potencia: 6 ",
     detail4: "Capacidad: 20L ",
     detail5: "Potencia: 800w ",
@@ -1207,7 +1203,8 @@ const data = [
     title: "Microondas Samsung Negro 23lts MG23F3K3TAK",
     price: "$00,00",
     category: "microonda",
-    detail: "El microondas Samsung MG23 cuenta con 20 modos de cocción preestablecidos, con los que vas a poder preparar comida fresca en minutos. Además, presenta simples funciones de uso, como descongelamiento, timer y traba para niños que bloquea el teclado, para evitar accidentes. Y el ajuste de Modo Eco ofrece un menor consumo de energía en espera, para ahorrar más. El microondas Samsung MG23 presenta un elegante diseño con el frente en vidrio negro, encerrado en un fino patrón a tono y manija plateada. Su interior de cerámica lisa es antibacteriano y resistente a los rayones. Además, es fácil de limpiar y no se decolora ni se raya con el tiempo.",
+    detail:
+      "El microondas Samsung MG23 cuenta con 20 modos de cocción preestablecidos, con los que vas a poder preparar comida fresca en minutos. Además, presenta simples funciones de uso, como descongelamiento, timer y traba para niños que bloquea el teclado, para evitar accidentes. Y el ajuste de Modo Eco ofrece un menor consumo de energía en espera, para ahorrar más. El microondas Samsung MG23 presenta un elegante diseño con el frente en vidrio negro, encerrado en un fino patrón a tono y manija plateada. Su interior de cerámica lisa es antibacteriano y resistente a los rayones. Además, es fácil de limpiar y no se decolora ni se raya con el tiempo.",
     detail2: "Descongelamiento: 4 niveles",
     detail3: "Niveles de Potencia: 6 ",
     detail4: "Capacidad: 23L ",
@@ -1225,14 +1222,15 @@ const data = [
     title: "Microondas Samsung Silver 23lts MG23F3K3TA",
     price: "$00,00",
     category: "microonda",
-    detail: "No pierdas tiempo en la cocina. En simples pasos, podés disfrutar de tus comidas favoritas gracias a la tecnología y evolución de Samsung. El mismo cuenta con recetas preprogramadas para tu comodidad. Cocina fácilmente todo, desde arroz integral hasta pechuga de pollo deshuesada y filetes de salmón a la parrilla, con la garantía de que el resultado será comida fresca y sabrosa. Variedad de funciones y programas. Su función de grill permite dorar los alimentos para que queden crocantes, ideal para pizzas, empanadas y tartas. Para destacar, este microondas cuenta con 6 diferentes niveles de cocción y programas. Disfrutá todas tus comidas con mínimo esfuerzo y máximo sabor. Diseño innovador y accesorios. La libertad es absoluta, ya que podrás llevarlo adonde desees cuando te mudes. Su display te permitirá ser más preciso al momento de seleccionar el tipo de comida, configurar el tiempo y la función para cocinar. Además, presenta un excelente sistema de seguridad con traba especial para las personas más pequeñas de la familia. Capacidad y eficiencia. Con un volumen de 23 litros vas a poder disfrutar comidas para compartir con tus amistades y familiares. Ofrece una potencia máxima de 800 watts que se puede regular en diferentes niveles según el tipo de alimento, por ejemplo, para evitar que se resequen algunos platos más delicados como la pasta. Con su fácil uso, podrás seleccionar y programar de manera práctica. Lo hace todo por vos. Solo debes colocar el peso de los alimentos y el microondas automáticamente programará el tiempo necesario para que el mismo se descongele. ",
+    detail:
+      "No pierdas tiempo en la cocina. En simples pasos, podés disfrutar de tus comidas favoritas gracias a la tecnología y evolución de Samsung. El mismo cuenta con recetas preprogramadas para tu comodidad. Cocina fácilmente todo, desde arroz integral hasta pechuga de pollo deshuesada y filetes de salmón a la parrilla, con la garantía de que el resultado será comida fresca y sabrosa. Variedad de funciones y programas. Su función de grill permite dorar los alimentos para que queden crocantes, ideal para pizzas, empanadas y tartas. Para destacar, este microondas cuenta con 6 diferentes niveles de cocción y programas. Disfrutá todas tus comidas con mínimo esfuerzo y máximo sabor. Diseño innovador y accesorios. La libertad es absoluta, ya que podrás llevarlo adonde desees cuando te mudes. Su display te permitirá ser más preciso al momento de seleccionar el tipo de comida, configurar el tiempo y la función para cocinar. Además, presenta un excelente sistema de seguridad con traba especial para las personas más pequeñas de la familia. Capacidad y eficiencia. Con un volumen de 23 litros vas a poder disfrutar comidas para compartir con tus amistades y familiares. Ofrece una potencia máxima de 800 watts que se puede regular en diferentes niveles según el tipo de alimento, por ejemplo, para evitar que se resequen algunos platos más delicados como la pasta. Con su fácil uso, podrás seleccionar y programar de manera práctica. Lo hace todo por vos. Solo debes colocar el peso de los alimentos y el microondas automáticamente programará el tiempo necesario para que el mismo se descongele. ",
     detail2: "Potencia: 800w ",
-    detail3: "Dimensiones: 489mm de ancho, 275mm de alto, 392mm de profundidad. ",
+    detail3:
+      "Dimensiones: 489mm de ancho, 275mm de alto, 392mm de profundidad. ",
     detail4: "Potencia de grill de 1050w ",
     detail5: "Con descongelado automático por peso. ",
     detail6: "Display digital. ",
     marca: "SAMSUNG",
-    
   },
   {
     id: 57,
@@ -1242,10 +1240,12 @@ const data = [
     title: "Microondas Samsung Silver 28 lts MG28F3K3T",
     price: "$00,00",
     category: "microonda",
-    detail: "Diseño innovador y accesorios. La libertad es absoluta, ya que podrás llevarlo adonde desees cuando te mudes. Su display te permitirá ser más preciso al momento de seleccionar el tipo de comida, configurar el tiempo y la función para cocinar. Además, presenta un excelente sistema de seguridad con traba especial para las personas más pequeñas de la familia. Capacidad y eficiencia. Con un volumen de 28 litros vas a poder disfrutar comidas para compartir con tus amistades y familiares. Ofrece una potencia máxima de 900 watts que se puede regular en diferentes niveles según el tipo de alimento, por ejemplo, para evitar que se resequen algunos platos más delicados como la pasta. Con su fácil uso, podrás seleccionar y programar de manera práctica.",   
+    detail:
+      "Diseño innovador y accesorios. La libertad es absoluta, ya que podrás llevarlo adonde desees cuando te mudes. Su display te permitirá ser más preciso al momento de seleccionar el tipo de comida, configurar el tiempo y la función para cocinar. Además, presenta un excelente sistema de seguridad con traba especial para las personas más pequeñas de la familia. Capacidad y eficiencia. Con un volumen de 28 litros vas a poder disfrutar comidas para compartir con tus amistades y familiares. Ofrece una potencia máxima de 900 watts que se puede regular en diferentes niveles según el tipo de alimento, por ejemplo, para evitar que se resequen algunos platos más delicados como la pasta. Con su fácil uso, podrás seleccionar y programar de manera práctica.",
     detail2: "Potencia de 900w ",
     detail3: "Potencia de grill de 1350w ",
-    detail4: "Dimensiones: 517mm de ancho, 297mm de alto, 444mm de profundidad. ",
+    detail4:
+      "Dimensiones: 517mm de ancho, 297mm de alto, 444mm de profundidad. ",
     detail5: "Con función autolimpiante. ",
     detail6: "Con descongelado automático por peso ",
     marca: "SAMSUNG",
@@ -1258,7 +1258,8 @@ const data = [
     title: "Licuadora 3 en 1 Star Trak Acero Vaso de Vidrio",
     price: "$00,00",
     category: "licuadora",
-    detail: "Licuadora STAR TRAK Jarra de Vidrio con 1000W Super Potentes. Pica Hielo, especial para Bartender, Incluye Accesorio de Molinillo de Cafe / Semillas. Practica Botonera de 5 velocidades Graduales con Luz Led & TURBO para una mejor Experiencia.",
+    detail:
+      "Licuadora STAR TRAK Jarra de Vidrio con 1000W Super Potentes. Pica Hielo, especial para Bartender, Incluye Accesorio de Molinillo de Cafe / Semillas. Practica Botonera de 5 velocidades Graduales con Luz Led & TURBO para una mejor Experiencia.",
     detail2: "Potencia: 1000w ",
     detail3: "Velocidades: 5 ",
     detail4: "Capacidad: 1.5L ",
@@ -1274,13 +1275,14 @@ const data = [
     title: "Licuadora Westinghouse BL0800LA0 Negra",
     price: "$00,00",
     category: "licuadora",
-    detail: "Un electrodoméstico infaltable en tu casa. La licuadora Westinghouse WH-BL0800LA0 te va a ayudar a obtener resultados increíbles en todo lo que prepares, ya sea que quieras disfrutar de una bebida bien fría, de salsas y sopas, o de postres deliciosos. ¡Tenela siempre a mano! ",
+    detail:
+      "Un electrodoméstico infaltable en tu casa. La licuadora Westinghouse WH-BL0800LA0 te va a ayudar a obtener resultados increíbles en todo lo que prepares, ya sea que quieras disfrutar de una bebida bien fría, de salsas y sopas, o de postres deliciosos. ¡Tenela siempre a mano! ",
     detail2: "Capacidad de 1.5 L. ",
     detail3: "Su potencia es de 800 W. ",
     detail4: "Con base antideslizante. ",
     detail5: "Funciona con 4 velocidades. ",
     detail6: "Cuchilla resistente de acero inoxidable. ",
-    marca: "WESTINGHOUSE",    
+    marca: "WESTINGHOUSE",
   },
   {
     id: 60,
@@ -1290,12 +1292,13 @@ const data = [
     title: "Licuadora Yelmo 700w 1.5 Vaso de Vidrio LC-1010",
     price: "$00,00",
     category: "licuadora",
-    detail: "Un electrodoméstico infaltable en tu casa. La licuadora Yelmo LC-1010 te va a ayudar a obtener resultados increíbles en todo lo que prepares, ya sea que quieras disfrutar de una bebida bien fría, de salsas y sopas, o de postres deliciosos. ¡Tenela siempre a mano!. Práctica y segura. Su función pulsar te permite poner en marcha el producto de forma intermitente según lo necesites o de acuerdo al contenido de la jarra. Todo lo que más te gusta. Es apta para moler hielo en segundos y preparar smoothies refrescantes en los días de calor. Además, podés hacer tus propios tragos de coctelería en casa sin necesidad de ir a un bar. Ahora el bartender ¡sos vos!",
+    detail:
+      "Un electrodoméstico infaltable en tu casa. La licuadora Yelmo LC-1010 te va a ayudar a obtener resultados increíbles en todo lo que prepares, ya sea que quieras disfrutar de una bebida bien fría, de salsas y sopas, o de postres deliciosos. ¡Tenela siempre a mano!. Práctica y segura. Su función pulsar te permite poner en marcha el producto de forma intermitente según lo necesites o de acuerdo al contenido de la jarra. Todo lo que más te gusta. Es apta para moler hielo en segundos y preparar smoothies refrescantes en los días de calor. Además, podés hacer tus propios tragos de coctelería en casa sin necesidad de ir a un bar. Ahora el bartender ¡sos vos!",
     detail2: "Jarra De Vidrio 1.5 Litros ",
     detail3: "Potente motor de 700 watts ",
     detail4: "2 Velocidades + pulsador (auto limpieza y batido espeso) ",
     detail5: "Porta cuchillas y cuchillas (6 hojas) de acero inoxidable ",
-    detail6: "Tapa con sistema anti derrame ",    
+    detail6: "Tapa con sistema anti derrame ",
     marca: "YELMO",
   },
   {
@@ -1305,10 +1308,11 @@ const data = [
 
     title: "Licuadora Liliana Delux Jarra AL180",
     price: "$00,00",
-    category: "licuadora",    
-    detail: "Con la licuadora portátil Liliana AL180 prepará tus licuados donde sea que estés, y tendrás colaciones o meriendas nutritivas, llenas de sabor en cualquier momento del día. Práctica y segura. La función turbo hace que los ingredientes se mezclen con mayor rapidez y de manera homogénea para lograr preparaciones con texturas insuperables. Todo lo que más te gusta. Es apta para moler hielo en segundos y preparar smoothies refrescantes en los días de calor. Además, podés hacer tus propios tragos de coctelería en casa sin necesidad de ir a un bar. Ahora el bartender ¡sos vos!. Siempre limpia. Su cuchilla removible asegura que el lavado sea impecable y evita la acumulación de residuos que podrían perjudicar el sabor de los alimentos.",
+    category: "licuadora",
+    detail:
+      "Con la licuadora portátil Liliana AL180 prepará tus licuados donde sea que estés, y tendrás colaciones o meriendas nutritivas, llenas de sabor en cualquier momento del día. Práctica y segura. La función turbo hace que los ingredientes se mezclen con mayor rapidez y de manera homogénea para lograr preparaciones con texturas insuperables. Todo lo que más te gusta. Es apta para moler hielo en segundos y preparar smoothies refrescantes en los días de calor. Además, podés hacer tus propios tragos de coctelería en casa sin necesidad de ir a un bar. Ahora el bartender ¡sos vos!. Siempre limpia. Su cuchilla removible asegura que el lavado sea impecable y evita la acumulación de residuos que podrían perjudicar el sabor de los alimentos.",
     detail2: "Capacidad de 1 L. ",
-    detail3: "Su potencia es de 600 W. ",    
+    detail3: "Su potencia es de 600 W. ",
     detail4: "Cuchilla resistente de acero inoxidable ",
     detail5: "Tapa dosificadora incorporada. ",
     detail6: "Funciona con 2 velocidades. ",
@@ -1322,7 +1326,8 @@ const data = [
     title: "Juguera Electrica Liliana Nutrijug 350 ML AAJ950",
     price: "$00,00",
     category: "licuadora",
-    detail:"¿Hay algo mejor que un jugo fresco en cualquier momento del día? Tus frutas y verduras preferidas aportan las vitaminas y minerales que tu cuerpo necesita, y con la juguera Liliana podrás hacerlo muy fácil. Sacale jugo a tu día. Para un mayor control en la elaboración de tus bebidas, tendrás la posibilidad de seleccionar entre las 2 velocidades que este electrodoméstico ofrece. Su recolector de pulpa te permitirá mantenerla separada y extraer todo el líquido. Así vas a aprovechar al máximo las frutas y verduras que elijas.",
+    detail:
+      "¿Hay algo mejor que un jugo fresco en cualquier momento del día? Tus frutas y verduras preferidas aportan las vitaminas y minerales que tu cuerpo necesita, y con la juguera Liliana podrás hacerlo muy fácil. Sacale jugo a tu día. Para un mayor control en la elaboración de tus bebidas, tendrás la posibilidad de seleccionar entre las 2 velocidades que este electrodoméstico ofrece. Su recolector de pulpa te permitirá mantenerla separada y extraer todo el líquido. Así vas a aprovechar al máximo las frutas y verduras que elijas.",
     detail2: "Con recolector de pulpa. ",
     detail3: "Cuenta con 2 velocidades. ",
     detail4: "Potencia de 500W. ",
@@ -1338,7 +1343,8 @@ const data = [
     title: "Multiprocesadora Liliana Simplix 700W AAM700",
     price: "$00,00",
     category: "multiprocesadora",
-    detail:"Marca argentina y con presencia en todo el país, es símbolo de innovación, ofreciendo productos adaptados al estilo de vida actual desde hace ya más de 60 años de trayectoria. Esta multiprocesadora Liliana se convertirá en tu aliada imprescindible a la hora de preparar tus comidas. Como un chef profesional. ¡Abrí el libro de recetas y poné manos a la obra! Lograrás tener resueltos tus almuerzos y cenas en pocos pasos y sin limitaciones. Batí y amasá los ingredientes de tus tortas y postres sin tener que ensuciarte las manos. Todo en uno. Por otro lado, se complementa con sus accesorios ya que incluye: amasador, batidor - emulsionador, cuchilla picadora, disco porta accesorios, eje porta accesorios, rallador, rebanador, tapa embutidor. Son fáciles de utilizar e intercambiar ya que encajan perfectamente gracias a su diseño.",
+    detail:
+      "Marca argentina y con presencia en todo el país, es símbolo de innovación, ofreciendo productos adaptados al estilo de vida actual desde hace ya más de 60 años de trayectoria. Esta multiprocesadora Liliana se convertirá en tu aliada imprescindible a la hora de preparar tus comidas. Como un chef profesional. ¡Abrí el libro de recetas y poné manos a la obra! Lograrás tener resueltos tus almuerzos y cenas en pocos pasos y sin limitaciones. Batí y amasá los ingredientes de tus tortas y postres sin tener que ensuciarte las manos. Todo en uno. Por otro lado, se complementa con sus accesorios ya que incluye: amasador, batidor - emulsionador, cuchilla picadora, disco porta accesorios, eje porta accesorios, rallador, rebanador, tapa embutidor. Son fáciles de utilizar e intercambiar ya que encajan perfectamente gracias a su diseño.",
     marca: "LILIANA",
   },
   {
@@ -1348,7 +1354,8 @@ const data = [
     title: "Procesadora B+D FP1002J-AR 750w c-Vaso licuadora",
     price: "$00,00",
     category: "multiprocesadora",
-    detail: "Multiprocesadora Black + Decker Fp1002J-ar 750 Watts. 3 Velocidades y jarra licuadora. Todo en uno. ¡Abrí el libro de recetas y poné manos a la obra! Lograrás tener resueltos tus almuerzos y cenas en pocos pasos y sin limitaciones. Amasá la mezcla de tus galletitas o panes caseros y viví la experiencia de tener una panadería en casa. Prepará diversas salsas dulces o saladas y dale el toque final a todas tus creaciones. ¡Obtenga una amplia variedad de alimentos, como bebidas de frutas, salsas, sopas y hasta la comida del bebé!",
+    detail:
+      "Multiprocesadora Black + Decker Fp1002J-ar 750 Watts. 3 Velocidades y jarra licuadora. Todo en uno. ¡Abrí el libro de recetas y poné manos a la obra! Lograrás tener resueltos tus almuerzos y cenas en pocos pasos y sin limitaciones. Amasá la mezcla de tus galletitas o panes caseros y viví la experiencia de tener una panadería en casa. Prepará diversas salsas dulces o saladas y dale el toque final a todas tus creaciones. ¡Obtenga una amplia variedad de alimentos, como bebidas de frutas, salsas, sopas y hasta la comida del bebé!",
     marca: "BLACK & DECKER",
   },
   {
@@ -1360,19 +1367,19 @@ const data = [
     price: "$00,00",
     category: "batidora",
     detail:
-    "Esta batidora industrial eurocook EC-BP1509B es perfecta para preparar grandes cantidades de mezclas en pocos minutos. Se destaca por su potencia y capacidad de procesar ingredientes. Te permitirá acelerar la producción y aumentar la eficiencia del trabajo, ¡más preparaciones en menos tiempo!",
+      "Esta batidora industrial eurocook EC-BP1509B es perfecta para preparar grandes cantidades de mezclas en pocos minutos. Se destaca por su potencia y capacidad de procesar ingredientes. Te permitirá acelerar la producción y aumentar la eficiencia del trabajo, ¡más preparaciones en menos tiempo!",
     marca: "EUROCOOK",
   },
   {
     id: 66,
 
-   img: "https://i.ibb.co/qmzsyH5/Batidora-Planetaria-Yelmo-Amarilla-8-Vel-BB-1103-A.webp",
+    img: "https://i.ibb.co/qmzsyH5/Batidora-Planetaria-Yelmo-Amarilla-8-Vel-BB-1103-A.webp",
 
     title: "Batidora Planetaria Yelmo Amarilla 8 Vel BB-1103A",
     price: "$00,00",
     category: "batidora",
     detail:
-    "Esta batidora industrial Yelmo BB-1103 es perfecta para preparar grandes cantidades de mezclas en pocos minutos. Se destaca por su potencia y capacidad de procesar ingredientes. Te permitirá acelerar la producción y aumentar la eficiencia del trabajo, ¡más preparaciones en menos tiempo!. La batidora Yelmo BB-1103 cuenta con soporte y bowl integrados que mantienen fijo el producto y facilitan su uso, ya que no es necesario estar pendiente de su funcionamiento. Ahorrá tiempo y ganá en resultados deliciosos. Además incluye 1 batidor de gancho, 1 batidor elíptico, 1 batidor plano recubierto, 1 tapa anti salpicaduras.",
+      "Esta batidora industrial Yelmo BB-1103 es perfecta para preparar grandes cantidades de mezclas en pocos minutos. Se destaca por su potencia y capacidad de procesar ingredientes. Te permitirá acelerar la producción y aumentar la eficiencia del trabajo, ¡más preparaciones en menos tiempo!. La batidora Yelmo BB-1103 cuenta con soporte y bowl integrados que mantienen fijo el producto y facilitan su uso, ya que no es necesario estar pendiente de su funcionamiento. Ahorrá tiempo y ganá en resultados deliciosos. Además incluye 1 batidor de gancho, 1 batidor elíptico, 1 batidor plano recubierto, 1 tapa anti salpicaduras.",
     marca: "YELMO",
   },
   {
@@ -1384,7 +1391,7 @@ const data = [
     price: "$00,00",
     category: "batidora",
     detail:
-    "La batidora planetaria hace unos movimientos rotatorios por todos los rincones del recipiente. Este movimiento, llamado orbital, ayuda a que la masa se reparta y se mezcle de forma mucho más homogénea. Gracias a su potencia te permite preparar fácilmente tartas, galletas, magdalenas, puré de papas y muchas cosas más. Su bowl de acero inoxidable será duradero y además fácil de limpiar. Además cuenta con varias velocidades y 3 tipos de ganchos batidores.",
+      "La batidora planetaria hace unos movimientos rotatorios por todos los rincones del recipiente. Este movimiento, llamado orbital, ayuda a que la masa se reparta y se mezcle de forma mucho más homogénea. Gracias a su potencia te permite preparar fácilmente tartas, galletas, magdalenas, puré de papas y muchas cosas más. Su bowl de acero inoxidable será duradero y además fácil de limpiar. Además cuenta con varias velocidades y 3 tipos de ganchos batidores.",
     marca: "WESTINGHOUSE",
   },
   {
@@ -1396,7 +1403,7 @@ const data = [
     price: "$00,00",
     category: "hornodepan",
     detail:
-    "Nada mejor que disfrutar del irresistible aroma a pan recién hecho por las mañanas y en tu casa. Con el horno de pan Liliana podrás tener los mejores desayunos caseros todos los días. Lográ el punto justo. Elaborá deliciosas preparaciones de forma simple con sus 12 programas preestablecidos que controlan la temperatura y el tiempo para que obtengas los mejores resultados. Seleccioná cualquiera de las 4 intensidades de tostado para disfrutar del pan como más te guste; podrás elegir entre una corteza más clara u oscura, según tus preferencias. Tus recetas más prácticas. Con su temporizador, podrás dejar programada la preparación la noche anterior, y disfrutarás del pan listo cuando te despiertes o en cualquier momento del día. A través de su ventana verás el funcionamiento interno de la máquina mientras amasa, mezcla y hornea. Es ideal para ver el progreso y controlar que todo el proceso se esté haciendo correctamente. Potenciá su uso. Conocé todas las funciones que tiene disponible el horno de pan: mezcla, amasa, leuda, hornea, hace mermelada. Vas a poder preparar diferentes variedades de pan, masas para pastas y demás panificaciones todo en un mismo electrodoméstico para disfrutar en compañía.",
+      "Nada mejor que disfrutar del irresistible aroma a pan recién hecho por las mañanas y en tu casa. Con el horno de pan Liliana podrás tener los mejores desayunos caseros todos los días. Lográ el punto justo. Elaborá deliciosas preparaciones de forma simple con sus 12 programas preestablecidos que controlan la temperatura y el tiempo para que obtengas los mejores resultados. Seleccioná cualquiera de las 4 intensidades de tostado para disfrutar del pan como más te guste; podrás elegir entre una corteza más clara u oscura, según tus preferencias. Tus recetas más prácticas. Con su temporizador, podrás dejar programada la preparación la noche anterior, y disfrutarás del pan listo cuando te despiertes o en cualquier momento del día. A través de su ventana verás el funcionamiento interno de la máquina mientras amasa, mezcla y hornea. Es ideal para ver el progreso y controlar que todo el proceso se esté haciendo correctamente. Potenciá su uso. Conocé todas las funciones que tiene disponible el horno de pan: mezcla, amasa, leuda, hornea, hace mermelada. Vas a poder preparar diferentes variedades de pan, masas para pastas y demás panificaciones todo en un mismo electrodoméstico para disfrutar en compañía.",
     marca: "LILIANA",
   },
   {
@@ -1408,7 +1415,7 @@ const data = [
     price: "$00,00",
     category: "freidora",
     detail:
-    "Cociná saludable con la Freidora de Aire Digital BLACK+DECKER®. Es perfecta para freír y hornear tus comidas favoritas en poco tiempo ya que cuenta con 1000 Watts de potencia. Puedes disfrutar tus deliciosos alimentos favoritos sin grasa y con el mismo sabor ya que sus 7 funciones de cocción automática brinda facilidad a la hora de cocinar. Usa 99.5% menos aceite y sigue disfrutando la textura crujiente y el sabor sin grasa adicional. Su pantalla táctil digital es fácil de usar y la cesta de freír puede contener hasta 2.1 litros de alimentos, haciendo fácil freír meriendas o un plato principal para varias personas. Con esta revolucionaria manera de cocinar, puedes disfrutar deliciosos alimentos fritos sin grasa y con el mismo sabor. Los ventiladores de convección de alta potencia hacen que el aire circule rápidamente alrededor de la comida creando un sabor frito crujiente.",
+      "Cociná saludable con la Freidora de Aire Digital BLACK+DECKER®. Es perfecta para freír y hornear tus comidas favoritas en poco tiempo ya que cuenta con 1000 Watts de potencia. Puedes disfrutar tus deliciosos alimentos favoritos sin grasa y con el mismo sabor ya que sus 7 funciones de cocción automática brinda facilidad a la hora de cocinar. Usa 99.5% menos aceite y sigue disfrutando la textura crujiente y el sabor sin grasa adicional. Su pantalla táctil digital es fácil de usar y la cesta de freír puede contener hasta 2.1 litros de alimentos, haciendo fácil freír meriendas o un plato principal para varias personas. Con esta revolucionaria manera de cocinar, puedes disfrutar deliciosos alimentos fritos sin grasa y con el mismo sabor. Los ventiladores de convección de alta potencia hacen que el aire circule rápidamente alrededor de la comida creando un sabor frito crujiente.",
     marca: "BLACK & DECKER",
   },
   {
@@ -2047,7 +2054,7 @@ const data = [
     detail:
       "Vea, lea, mire, transmita, escuche y aprenda. La Notebook Enova 14'' Celeron 4Gb + 64Gs Ssd Win10 Home ofrece una experiencia de videoconferencia asombrosa, un mayor ancho de banda con Intel® Wi-Fi 6 y una batería que dura toda la jornada escolar para un proceso educativo sin interrupciones.Conéctate y colabora fácilmente. Experimenta una colaboración fluida Los procesadores Intel® Celeron® simplifican el aprendizaje a distancia con Intel® Wi-Fi 6 para videoconferencias. Son ideales para entornos de aula virtual densos gracias a su capacidad para trabajar en condiciones de baja iluminación, el procesamiento de lenguaje natural y la cancelación de ruido de fondo.Tareas múltiples con eficacia. Crea, juega, haz tareas múltiples Los estudiantes y los docentes pueden disfrutar de un aprendizaje en el aula sin interrupciones, además de navegación rápida en Internet y en línea, tareas múltiples y cálculos en hojas de cómputo.",
   },
- 
+
   {
     id: 123,
 
@@ -3135,7 +3142,8 @@ const data = [
     img: "https://i.ibb.co/Scjm0C5/Moto-corven-energy-110.webp",
     title: "MOTO Corven ENERGY 110CC",
     price: "$00,00",
-    detail: "Cilindrada: 110CC. Tipo Motor: 4 Tiempos. Alimentación: Carburador. Arranque: Eléctrico y Patada. Transmisión: Manual. Freno Delantero: Disco. Freno Trasero: Tambor. Refrigeración: Aire. HP: 9",
+    detail:
+      "Cilindrada: 110CC. Tipo Motor: 4 Tiempos. Alimentación: Carburador. Arranque: Eléctrico y Patada. Transmisión: Manual. Freno Delantero: Disco. Freno Trasero: Tambor. Refrigeración: Aire. HP: 9",
     category: "motos",
     codigo: "",
   },
@@ -3144,7 +3152,8 @@ const data = [
     img: "https://i.ibb.co/zGq3bH9/Moto-Keller-110.webp",
     title: "MOTO Keller 100CC",
     price: "$00,00",
-    detail: "Peso: 86 kg. Llantas: Rayos. Transmisión: 4 velocidades. Capacidad de combustible: 4 litros. Suspensión delantera: Horquilla telescópica. Suspensión trasera: Espirales con amortiguadores de doble acción. Freno delantero: Tambor. Freno trasero: Tambor. Neumático delantero: 2,50 R17. Neumático trasero: 80 / 100 R14. Tipo de motor: Monocilíndrico, 4 tiempos, 2 válvulas, SOHC, refrigerado por aire. Alimentación: Carburador. Largo de moto: 1.915 mm. Ancho de moto: 665mm. Alto de moto: 1.080 mm. Freno delantero: Tambor. Freno Trasero: Tambor",
+    detail:
+      "Peso: 86 kg. Llantas: Rayos. Transmisión: 4 velocidades. Capacidad de combustible: 4 litros. Suspensión delantera: Horquilla telescópica. Suspensión trasera: Espirales con amortiguadores de doble acción. Freno delantero: Tambor. Freno trasero: Tambor. Neumático delantero: 2,50 R17. Neumático trasero: 80 / 100 R14. Tipo de motor: Monocilíndrico, 4 tiempos, 2 válvulas, SOHC, refrigerado por aire. Alimentación: Carburador. Largo de moto: 1.915 mm. Ancho de moto: 665mm. Alto de moto: 1.080 mm. Freno delantero: Tambor. Freno Trasero: Tambor",
     category: "motos",
     codigo: "",
   },
@@ -3153,7 +3162,8 @@ const data = [
     img: "https://i.ibb.co/GQZkD2J/Colch-n-1-plaza-de-espuma-Piero.webp",
     title: "Colchón 1 plaza de espuma piero",
     price: "$00,00",
-    detail: "Piero es una empresa lider en la región que promueve el confort y el descanso de las personas a partir de la producción de colchones y sommiers. Esta marca innova y optimiza sus procesos para mantener la calidad y excelencia de sus productos y servicios. Diseño moderno: Construido con espuma de poliuretano, el colchón tiene una larga y duradera vida. Este tipo de material hace que la posición que adopte el cuerpo sea ergonómica y permite que se reparta el peso sobre la superficie de manera balanceada.",
+    detail:
+      "Piero es una empresa lider en la región que promueve el confort y el descanso de las personas a partir de la producción de colchones y sommiers. Esta marca innova y optimiza sus procesos para mantener la calidad y excelencia de sus productos y servicios. Diseño moderno: Construido con espuma de poliuretano, el colchón tiene una larga y duradera vida. Este tipo de material hace que la posición que adopte el cuerpo sea ergonómica y permite que se reparta el peso sobre la superficie de manera balanceada.",
     category: "colchones",
     codigo: "",
   },
@@ -3162,7 +3172,8 @@ const data = [
     img: "https://i.ibb.co/ydg7J7M/Colch-n-2-plazas-de-espuma-Piero.webp",
     title: "Colchón 2 plazas de espuma Piero",
     price: "$00,00",
-    detail: "Piero es una empresa lider en la región que promueve el confort y el descanso de las personas a partir de la producción de colchones y sommiers. Esta marca innova y optimiza sus procesos para mantener la calidad y excelencia de sus productos y servicios. Diseño moderno: Construido con espuma de poliuretano, el colchón tiene una larga y duradera vida. Este tipo de material hace que la posición que adopte el cuerpo sea ergonómica y permite que se reparta el peso sobre la superficie de manera balanceada.",
+    detail:
+      "Piero es una empresa lider en la región que promueve el confort y el descanso de las personas a partir de la producción de colchones y sommiers. Esta marca innova y optimiza sus procesos para mantener la calidad y excelencia de sus productos y servicios. Diseño moderno: Construido con espuma de poliuretano, el colchón tiene una larga y duradera vida. Este tipo de material hace que la posición que adopte el cuerpo sea ergonómica y permite que se reparta el peso sobre la superficie de manera balanceada.",
     category: "colchones",
     codigo: "",
   },
@@ -3175,7 +3186,6 @@ const data = [
     category: "audio",
     codigo: "",
   },
-
 ];
 
 export default function getItems() {

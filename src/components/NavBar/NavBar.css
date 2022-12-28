@@ -9,17 +9,6 @@ a.navbar-brand {
     margin-left: 2rem;
 }
 
-nav {
-    background: rgb(113, 194, 31);
-    background: linear-gradient(90deg, rgba(113, 194, 31, 1) 0%, rgba(249, 177, 18, 1) 35%, rgba(249, 246, 18, 1) 100%);
-   
-
-}
-
-.ul-color{
-    background: rgb(113, 194, 31);
-    background: linear-gradient(90deg, rgba(113, 194, 31, 1) 0%, rgba(249, 177, 18, 1) 35%, rgba(249, 246, 18, 1) 100%);
-}
 
 span {
 
