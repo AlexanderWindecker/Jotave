@@ -12,7 +12,7 @@ function NavBar() {
           <div className="container d-flex justify-content-around">
             <Link className="navbar-brand" to="/">
               <img
-                src="https://i.ibb.co/bvM0jYg/Logo-Blanco.png"
+                src="https://i.ibb.co/brV3x78/LogoNg.png"
                 alt=""
                 className="logoNavbar"
               />

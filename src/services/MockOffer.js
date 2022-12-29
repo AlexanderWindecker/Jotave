@@ -2,7 +2,7 @@ export const data = [
   {
     id: 28,
     img: "https://i.ibb.co/rvtHx6V/Freezer-Horizontal-BRIKET-Tapa-Vidrio-3300.webp",
-    title: "Freezer Horizontal BRIKET Tapa Vidrio 3300",
+    title: "Freezer Horizontal BRIKET Tapa Vidrio",
     price: "$00,00",
     category: "freezer",
     detail:"FREEZER VERTICAL BRIKET EH 3000 TVI.",
@@ -22,7 +22,7 @@ export const data = [
   {
     id: 230,
     img: "https://i.ibb.co/hVBwWRQ/Bicicleta-lamborghini-shimano-r29-m47l-azul-negro.webp",
-    title: "Bicicleta lamborhini shimano r29 m47l azul-negro",
+    title: "Bicicleta lamborhini shimano r29 azul-negro",
     price: "$00,00",
     detail: "Cambios: Shimano de 21 velocidades. Frenos: Disco Mecánico. Llantas Doble Pared: Aluminio de 36 agujeros. Cubiertas: Wanda 29 x 2.1 mm. Camara : Valvula de auto. Descarrilador : SHIMANO. Piñon: 7 velocidades con cubrerayos. Pie de apoyo : Regulable. Leva Freno: A disco en las dos ruedas. Asiento: TIPO MTB",
     category: "bicicletas",
@@ -66,7 +66,7 @@ export const data = [
   {
     id: 15,
     img: "https://i.ibb.co/dbY7CSx/Heladera-Briket-476-L-BK2-F-2121-Gris.webp",
-    title: "Heladera Briket 476L BK2F 2121 Gris",
+    title: "Heladera Briket 476L Gris",
     price: "$00,00",
     category: "heladera",
     detail: " HELADERA FAMILIAR CON FREEZER BRIKET 1810 356 LTS INVERTER",
@@ -142,7 +142,7 @@ export const data = [
   {
     id: 13,
     img: "https://i.ibb.co/yWrWZLk/Climatizador-Kanji-LRG04-11-CR-Frio-Calor.webp",
-    title: "Climatizador Kanji LRG04-11CR Frio Calor",
+    title: "Climatizador Kanji Frio Calor",
     price: "$00,00",
     category: "aire",
     marca: "KANJI",

@@ -13,9 +13,9 @@
 
 .card-count {
   margin: 10px 15px;
-  min-height: 500px;
+  min-height: 400px;
   width: 15rem;
-  height: 500px;
+  height: 400px;
   border-radius: 4px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   background-color: #fff;

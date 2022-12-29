@@ -89,15 +89,11 @@ icon:hover {
 }
 
 .image {
-  padding-top: 15px;
+ 
   width: 100%;
 }
 
-.image img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 
 .description {
   margin-bottom: 25px;

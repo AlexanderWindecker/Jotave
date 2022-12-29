@@ -19,7 +19,7 @@ export const data = [
 
     img: "https://i.ibb.co/F6FjFQL/Pileta-mor-2000-l-2-11-x-1-64-x-0-58-1922.webp",
 
-    title: "Pileta mor 2000 l 2.11 x 1.64 x 0.58 1922",
+    title: "Pileta mor 2000 l 2.11 x 1.64 x 0.58",
     price: "$00,00",
     detail:
       "Los productos de la marca brasilera Mor son reconocidos por ser innovadores de calidad y estar enfocados a sus usuarios. Con esta pileta, podrás disfrutar del verano y pasar placenteramente los días de calor. Para todo tipo de espacios. Por su forma rectangular y su tamaño amplio y cómodo de 1.15 m de largo y 1.06 m de ancho, los meses de calor serán tus preferidos del año para compartir momentos únicos junto a quienes más querés. Comodidad y cuidado. Con su válvula de desagüe, vas a poder sacar el agua de una manera mucho más rápida y simple cuando desees limpiarla o vaciarla.",
@@ -29,7 +29,7 @@ export const data = [
   {
     id: 242,
     img: "https://i.ibb.co/wC9wd69/Pileta-mor-1000-l-1-89-x-1-26-x-0-42-1921.webp",
-    title: "Pileta mor 1000 l 1.89 x 1.26 x 0.42 1921",
+    title: "Pileta mor 1000 l 1.89 x 1.26 x 0.42",
     price: "$00,00",
     detail: "Los productos de la marca brasilera Mor son reconocidos por ser innovadores de calidad y estar enfocados a sus usuarios. Con esta pileta, podrás disfrutar del verano y pasar placenteramente los días de calor. Para todo tipo de espacios. Por su forma rectangular y su tamaño amplio y cómodo de 1.15 m de largo y 1.06 m de ancho, los meses de calor serán tus preferidos del año para compartir momentos únicos junto a quienes más querés. Comodidad y cuidado. Con su válvula de desagüe, vas a poder sacar el agua de una manera mucho más rápida y simple cuando desees limpiarla o vaciarla.",
     category: "piletas",
@@ -38,7 +38,7 @@ export const data = [
   {
     id: 30,
     img: "https://i.ibb.co/0CSfs3k/Batea-Comercial-Best-Cold-Standard-Recta-2400-R.webp",
-    title: "Batea Comercial BestCold Standard Recta 2400-R",
+    title: "Batea Comercial BestCold Standard Recta",
     price: "$00,00",
     category: "heladeras y freezer",
     marca: "BEST COLD",
@@ -55,7 +55,7 @@ export const data = [
   {
     id: 54,
     img: "https://i.ibb.co/gV6bqnz/Microondas-Samsung-Blanco-20lts-ME731-KKD.webp",
-    title: "Microondas Samsung Blanco 20lts ME731KKD",
+    title: "Microondas Samsung Blanco 20L",
     price: "$00,00",
     category: "pequeños cocina",
     marca: "SAMSUNG",
@@ -73,7 +73,7 @@ export const data = [
   {
     id: 59,
     img: "https://i.ibb.co/pZDMwLF/Licuadora-Westinghouse-BL0800-LA0-Negra.webp",
-    title: "Licuadora Westinghouse BL0800LA0 Negra",
+    title: "Licuadora Westinghouse Negra",
     price: "$00,00",
     category: "pequeños cocina",
     marca: "WESTINGHOUSE",
@@ -82,7 +82,7 @@ export const data = [
   {
     id: 71,
     img: "https://i.ibb.co/fpMDmSH/Balanza-Comercial-Kretz-Novel-Eco-2-30kg-AUN30-P.webp",
-    title: "Balanza Comercial Kretz Novel Eco 2 30kg AUN30P",
+    title: "Balanza Comercial Kretz Novel Eco 2 30kg",
     price: "$00,00",
     category: "equipamiento",
     marca: "KRETZ",
@@ -109,7 +109,7 @@ export const data = [
   {
     id: 273,
     img: "https://i.ibb.co/0nmWXLx/Parlante-CROWN-MUSTANG-Negro-bluetooth-sbl-6500bt.webp",
-    title: "Parlante CROWN MUSTANG Negro bluetooth sbl-6500bt",
+    title: "Parlante CROWN MUSTANG Negro BT",
     price: "$00,00",
     detail: "Descripción: Crown Mustang SBL-6500BT ofrece un sonido natural, con una gran claridad y precisión, que se dispersa de manera uniforme. Un parlante que asegura potencia y calidad por igual en la reproducción de contenidos multimedia. Versátil y funcional. Disfrutar de todos los sonidos- graves, medios y agudos- con alta fidelidad y una excelente calidad es posible con este parlante de tipo woofer, subwoofer, tweeter, incluso cuando subas el volumen. Olvidate del amplificador. Al ser activo solo necesitarás conectarlo a la fuente de sonido y el mismo equipo se encargará de amplificar y reproducir: ganarás practicidad y espacio, ya que además requiere menos cableado que uno pasivo. Es la solución más conveniente si querés producir música en tu casa o en un estudio, y también para DJs.",
     category: "audio",

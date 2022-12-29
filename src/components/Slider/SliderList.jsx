@@ -19,7 +19,7 @@ export default function SliderList({ data }) {
       </div>
       <Swiper
         slidesPerView={1}
-        spaceBetween={4}
+        spaceBetween={1}
         slidesPerGroup={1}
         loop={true}
         loopFillGroupWithBlank={true}
@@ -29,15 +29,19 @@ export default function SliderList({ data }) {
         breakpoints={{
           640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 5,
           },
           768: {
             slidesPerView: 2,
             spaceBetween: 10,
           },
           1024: {
-            slidesPerView: 4,
-            spaceBetween: 10,
+            slidesPerView: 5,
+            spaceBetween: 5,
+          },
+          1200: {
+            slidesPerView: 5,
+            spaceBetween: 5,
           },
         }}
         navigation={true}
