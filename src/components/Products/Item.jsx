@@ -12,12 +12,10 @@ export default function Item(props) {
       <div className="card-img ">
         <img className="img " src={img} alt={title} />
       </div>
-      <div className="border-bottom border-2 mt-4"></div>
-      <div className="card-detail mt-2">
+      <div className="card-detail">
         <Link className="nav-link " to={urlDetalle}>
           <h3 className=" nav-item fs-5 text-center letra-titulo">{title} </h3>
         </Link>
-        
       </div>
     </div>
   );

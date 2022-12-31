@@ -12,8 +12,7 @@
 }
 
 .card-count {
-  margin: 10px 15px;
-  min-height: 400px;
+  margin: 10px 15px;  
   width: 15rem;
   height: 400px;
   border-radius: 4px;
@@ -29,13 +28,8 @@
  
 }
 
-.button_info {
-  background-color: orange;
-  border: none;
-  margin: 20px auto;
-  width: 112px;
-  height: 36px;
-  
+.card-detail{
+  border-top: 2px solid rgb(131, 130, 130);
 }
 
 .div-linea {
