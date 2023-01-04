@@ -36,21 +36,21 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/imagen">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Tv´s</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/audio">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Audio</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/monitores">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Monitores</span>
                     </i>
                   </Link>
@@ -69,21 +69,21 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/aire">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Aire Acondicionado</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/ventilacion">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Ventiladores</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/calefaccion">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Calefactores</span>
                     </i>
                   </Link>
@@ -102,14 +102,14 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/heladera">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Heladeras</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/freezer">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Freezer</span>
                     </i>
                   </Link>
@@ -128,7 +128,7 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/termotanques">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Termotanques</span>
                     </i>
                   </Link>
@@ -146,14 +146,14 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/lavarropa">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Lavarropas</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/secarropa">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Secarropas</span>
                     </i>
                   </Link>
@@ -171,21 +171,21 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/cocinas">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Cocinas</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/hornos">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Hornos</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/microonda">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Microondas</span>
                     </i>
                   </Link>
@@ -203,7 +203,7 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/aspiradora">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Aspiradoras</span>
                     </i>
                   </Link>
@@ -222,14 +222,14 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/batidora">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Batidora</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/Licuadora">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Licuadora</span>
                     </i>
                   </Link>
@@ -239,28 +239,28 @@ function ItemListContainer() {
                     className="dropdown-item"
                     to="/categoria/multiprocesadora"
                   >
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Multiprocesadora</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/freidora">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Freidora</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/hornodepan">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Horno de Pan</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/otros">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Otros</span>
                     </i>
                   </Link>
@@ -279,14 +279,14 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/motorola">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Motorola</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/samsung">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Samsung</span>
                     </i>
                   </Link>
@@ -304,21 +304,21 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/notebook">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Notebook</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/gabinete">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Gabinetes</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/pc">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>PC</span>
                     </i>
                   </Link>
@@ -337,35 +337,35 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/bicicletas">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Bicicletas</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/hidrolavadora">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Hidrolavadoras</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/piletas">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Piletas</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/cortadoras">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Cortadoras de Pasto</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/herramienta">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Herramientas</span>
                     </i>
                   </Link>
@@ -387,7 +387,7 @@ function ItemListContainer() {
                     className="dropdown-item"
                     to="/categoria/mueblesdecocina"
                   >
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Muebles de Cocina</span>
                     </i>
                   </Link>
@@ -397,21 +397,21 @@ function ItemListContainer() {
                     className="dropdown-item"
                     to="/categoria/mueblesdeinterior"
                   >
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Muebles de Interior</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/parrillas">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Parrillas</span>
                     </i>
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/colchones">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Colchones</span>
                     </i>
                   </Link>
@@ -429,7 +429,7 @@ function ItemListContainer() {
               <ul className="dropdown-menu submenu">
                 <li>
                   <Link className="dropdown-item" to="/categoria/moto">
-                    <i className="bi bi-caret-right-fill">
+                    <i className="bi bi-caret-right-fill text-start">
                       <span>Motos</span>
                     </i>
                   </Link>

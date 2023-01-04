@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <>
       <footer className="text-center text-lg-start bg-white text-muted div-footer">
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div className="container text-center text-md-start mt-5">
+        <section className="d-flex justify-content-center p-4 border-bottom">
+          <div className="container text-center  mt-5">
             <p>Comunicate con nosotros a traves de nuestras redes:</p>
           </div>
-          <div className="container text-center text-md-start mt-5 ">
+          <div className="container mt-5 ">
             <a
               href="https://www.instagram.com/grupojotave/"
               className="me-4 link-secondary"
