@@ -2946,7 +2946,7 @@ export default function getItems() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(data);
-    }, 2000);
+    }, 500);
   });
 }
 
@@ -2959,7 +2959,7 @@ export function getItemsSingle(idItem) {
     setTimeout(() => {
       if (itemFind) resolve(itemFind);
       else reject(new Error("Item no encontrado"));
-    }, 2000);
+    }, 500);
   });
 }
 
@@ -2972,6 +2972,6 @@ export function getItemsByCategory(cat) {
     setTimeout(() => {
       if (itemFind) resolve(itemFind);
       else reject(new Error("Item no encontrado"));
-    }, 2000);
+    }, 500);
   });
 }

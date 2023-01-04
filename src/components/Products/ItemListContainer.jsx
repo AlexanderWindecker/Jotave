@@ -20,18 +20,18 @@ function ItemListContainer() {
 
   return (
     <>
-      <div className="d-flex  ">
-        <div className="p-2  p-0 mt-5 nav-vertical ">
-          <ul className=" flex-column nav-vertical m-0 p-1">
+      <div className="d-flex col-12 ">
+        <div className="p-0 mt-5 nav-vertical ">
+          <ul className="flex-column nav-vertical p-0 m-0">
             <h2 className="text-center">Categorias</h2>
-            
+
             <li className="nav-link dropend">
               <Link
-                className="nav-link dropend"                
+                className="nav-link dropend"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span> Tv´s, Audio y Video &raquo;</span>
+                <span><i class="bi bi-tv"></i> Tv´s, Audio y Video &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -59,11 +59,11 @@ function ItemListContainer() {
             </li>
             <li className="nav-link dropend">
               <Link
-                 className="nav-link dropend"                
-                 data-bs-toggle="dropdown"
-                 aria-expanded="false"
+                className="nav-link dropend"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
-                <span>Climatización &raquo;</span>
+                <span><i class="bi bi-thermometer-low"></i> Climatización &raquo;</span>
               </Link>
 
               <ul className="dropdown-menu submenu">
@@ -92,11 +92,11 @@ function ItemListContainer() {
             </li>
             <li className="nav-link dropend">
               <Link
-                className="nav-link dropdown-toogle"                
+                className="nav-link dropdown-toogle"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Heladeras y Freezer &raquo;</span>
+                <span><i class="bi bi-snow"></i> Heladeras y Freezer &raquo;</span>
               </Link>
 
               <ul className="dropdown-menu submenu">
@@ -123,7 +123,7 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Termotanques y Calefones &raquo;</span>
+                <span><i class="bi bi-droplet"></i> Termotanques y Calefones &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -132,7 +132,7 @@ function ItemListContainer() {
                       <span>Termotanques</span>
                     </i>
                   </Link>
-                </li>                
+                </li>
               </ul>
             </li>
             <li className="nav-link dropend">
@@ -141,7 +141,7 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Lavado &raquo;</span>
+                <span><i class="bi bi-sun"></i> Lavado &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -157,7 +157,7 @@ function ItemListContainer() {
                       <span>Secarropas</span>
                     </i>
                   </Link>
-                </li>                
+                </li>
               </ul>
             </li>
             <li className="nav-link dropend">
@@ -166,7 +166,7 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Cocinas y Hornos &raquo;</span>
+                <span><i class="bi bi-fire"></i> Cocinas y Hornos &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -198,11 +198,11 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Pequeños Hogar &raquo;</span>
+                <span><i class="bi bi-plug"></i> Pequeños Hogar &raquo;</span>
               </Link>
-              <ul className="dropdown-menu submenu">                
+              <ul className="dropdown-menu submenu">
                 <li>
-                  <Link className="dropdown-item" to="/categoria/aspiradoras">
+                  <Link className="dropdown-item" to="/categoria/aspiradora">
                     <i className="bi bi-caret-right-fill">
                       <span>Aspiradoras</span>
                     </i>
@@ -217,7 +217,7 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Pequeños Cocina &raquo;</span>
+                <span><i class="bi bi-window"></i> Pequeños Cocina &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -226,7 +226,7 @@ function ItemListContainer() {
                       <span>Batidora</span>
                     </i>
                   </Link>
-                </li>                              
+                </li>
                 <li>
                   <Link className="dropdown-item" to="/categoria/Licuadora">
                     <i className="bi bi-caret-right-fill">
@@ -245,10 +245,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/categoria/freidora"
-                  >
+                  <Link className="dropdown-item" to="/categoria/freidora">
                     <i className="bi bi-caret-right-fill">
                       <span>Freidora</span>
                     </i>
@@ -277,7 +274,7 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Celulares &raquo;</span>
+                <span><i class="bi bi-phone "></i> Celulares &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -295,14 +292,14 @@ function ItemListContainer() {
                   </Link>
                 </li>
               </ul>
-            </li>           
+            </li>
             <li className="nav-link dropend">
               <Link
                 className="nav-link dropdown-toogle"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Informática &raquo;</span>
+                <span><i class="bi bi-pc-display"></i> Informática &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -313,10 +310,7 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/categoria/gabinete"
-                  >
+                  <Link className="dropdown-item" to="/categoria/gabinete">
                     <i className="bi bi-caret-right-fill">
                       <span>Gabinetes</span>
                     </i>
@@ -338,7 +332,7 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Jardín &raquo;</span>
+                <span><i class="bi bi-flower2"></i> Jardín &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -370,15 +364,12 @@ function ItemListContainer() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/categoria/herramienta"
-                  >
+                  <Link className="dropdown-item" to="/categoria/herramienta">
                     <i className="bi bi-caret-right-fill">
                       <span>Herramientas</span>
                     </i>
                   </Link>
-                </li>                
+                </li>
               </ul>
             </li>
 
@@ -388,7 +379,7 @@ function ItemListContainer() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>Muebles &raquo;</span>
+                <span><i className="bi bi-house"></i> Muebles &raquo;</span>
               </Link>
               <ul className="dropdown-menu submenu">
                 <li>
@@ -418,17 +409,39 @@ function ItemListContainer() {
                     </i>
                   </Link>
                 </li>
+                <li>
+                  <Link className="dropdown-item" to="/categoria/colchones">
+                    <i className="bi bi-caret-right-fill">
+                      <span>Colchones</span>
+                    </i>
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-link dropend">
+              <Link
+                className="nav-link dropdown-toogle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span><i className="bi bi-bicycle"></i> Motos &raquo;</span>
+              </Link>
+              <ul className="dropdown-menu submenu">
+                <li>
+                  <Link className="dropdown-item" to="/categoria/moto">
+                    <i className="bi bi-caret-right-fill">
+                      <span>Motos</span>
+                    </i>
+                  </Link>
+                </li>
               </ul>
             </li>
           </ul>
         </div>
-        
-          <div className="container-fluid m-0">
 
-            <ItemList data={data} />
-          </div>
-          
-        
+        <div className="container-fluid m-0">
+          <ItemList data={data} />
+        </div>
       </div>
     </>
   );

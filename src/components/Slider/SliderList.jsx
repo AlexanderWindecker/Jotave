@@ -65,8 +65,7 @@ export default function SliderList({ data }) {
             </SwiperSlide>
           );
         })}
-      </Swiper>
-      <span className="mb-5 bg-primary"></span>
+      </Swiper>      
     </>
   );
 }

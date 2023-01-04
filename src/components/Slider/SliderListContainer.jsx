@@ -11,7 +11,7 @@ function SliderListContainer() {
 
   return (
     <div>
-      <div className="">
+      <div>
         
         <div>
           <SliderList data={data} />

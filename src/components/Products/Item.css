@@ -17,8 +17,11 @@
   height: 50px;
 }
 
+.nav-vertical{
+  width: 300px;
+}
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 563px) {
   
 .card-count{
   display: flex;

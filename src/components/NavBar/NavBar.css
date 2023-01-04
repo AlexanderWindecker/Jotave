@@ -22,15 +22,20 @@ span {
 
 }
 
+.styleUl{
+ width: 180px;
+}
+
 .dropdown-menu li {
     position: relative;
 }
-
+ 
 .dropdown-menu .submenu {
     display: none;
     position: absolute;
     left: 100%;
     top: 20px;
+  
 }
 
 .dropdown-menu>li:hover>.submenu {
