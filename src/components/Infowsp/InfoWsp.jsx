@@ -6,7 +6,7 @@ import "./Infowsp.css"
 
 function InfoWsp() {
   return (
-    <div className="container div-info ">
+    <div className="container-fluid div-info ">
       <div className="d-flex justify-content-center">
         <a href="https://wa.me/5491168557663?text=Hola,%20%C2%BFPuedes%20informarme%20sobre%20un%20producto?" target="_blank" rel="noreferrer">
         <img

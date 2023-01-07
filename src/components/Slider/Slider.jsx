@@ -14,7 +14,7 @@ export default function Slider(props) {
       </div>
       <div className="card-detail m-2">
         <Link className="nav-link" to={urlDetalle}>
-          <h3 className="nav-item fs-5 text-center letra-titulo">{title} </h3>
+          <h3 className="nav-item fs-5 text-center letra-titulo">{title}</h3>
         </Link>
       </div>
     </div>

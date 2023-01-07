@@ -35,14 +35,14 @@ function Carousel() {
           <div className="carousel-item active ">
             
 
-            <img src="https://i.ibb.co/kBm4JtG/Banner1.webp" className="d-block w-100"  alt="..."></img>
+            <img src="https://i.ibb.co/VV3qJdk/Banner4.webp" className="d-block w-100"  alt="..."></img>
           </div>
           <div className="carousel-item">
           
-            <img src="https://i.ibb.co/cNXmLQD/Banner2.webp" className="d-block w-100"  alt="..."></img>
+            <img src="https://i.ibb.co/zR2L40B/Banner5.webp" className="d-block w-100"  alt="..."></img>
           </div>
           <div className="carousel-item">          
-          <img src="https://i.ibb.co/6gMhH4s/Banner3.webp" className="d-block w-100"  alt="..."></img>
+          <img src="https://i.ibb.co/7tsHbv1/Banner7.webp" className="d-block w-100"  alt="..."></img>
 
           </div>
         </div>
